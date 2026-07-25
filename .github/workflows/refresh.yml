@@ -1,0 +1,61 @@
+name: Refresh job radar
+
+# Searches every job board, republishes the dashboard data, and emails an
+# alert when a new posting meets the alert rules in engine/profile.py.
+on:
+  schedule:
+    # 10:30 UTC = 07:30 Atlantic / 06:30 Eastern, every day
+    - cron: "30 10 * * *"
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "engine/**"
+      - ".github/workflows/refresh.yml"
+
+permissions:
+  contents: write             # needed to commit the refreshed snapshot
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Search every job board
+        run: python engine/scraper.py
+
+      - name: Email alert for new qualifying positions
+        env:
+          MAIL_SERVER: ${{ secrets.MAIL_SERVER }}
+          MAIL_PORT: ${{ secrets.MAIL_PORT }}
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: python engine/notify.py
+
+      - name: Publish the refreshed snapshot
+        run: |
+          git config user.name  "job-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --staged --quiet; then
+            echo "No change in the job data - nothing to publish."
+          else
+            git commit -m "Daily refresh: $(python -c "import json;d=json.load(open('docs/data/jobs.json'));s=d['stats'];print(f\"{s['total']} matches, {s['new']} new, {s['canada']} in Canada\")")"
+            git push
+          fi
