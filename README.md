@@ -168,15 +168,32 @@ prints "Mail credentials not set" and skips the email.
 The daily GitHub Action commits a fresh `docs/data/jobs.json`, and GitHub Pages
 serves `docs/` as a static site. No server, no cost.
 
-**Enable it once:** repo → **Settings** → **Pages** → *Source:* **Deploy from a
-branch** → branch **`main`**, folder **`/docs`** → **Save**.
+### Three one-time steps
 
-A minute later the dashboard is live at
-`https://agtech223.github.io/Job-Dashboard/`.
+**1. Turn on Pages** — repo → **Settings** → **Pages** → *Source:* **Deploy from
+a branch** → branch **`main`**, folder **`/docs`** → **Save**. A minute later the
+dashboard is live at `https://agtech223.github.io/Job-Dashboard/`.
 
-The schedule lives in `.github/workflows/refresh.yml` (`cron: "30 10 * * *"` =
-07:30 Atlantic). You can also run it on demand from the **Actions** tab →
-*Refresh job radar* → **Run workflow**.
+**2. Add the daily workflow.** `.github/workflows/refresh.yml` exists locally but
+GitHub refuses to accept workflow files from a token without the *Workflows*
+permission. Either:
+
+- **Give the token the permission** — github.com/settings/tokens → your
+  fine-grained token → **Repository permissions** → set **Workflows** to
+  *Read and write* (and **Pages** to *Read and write* if you also want step 1
+  automated) → Save. Then run **`PUSH-TO-GITHUB.bat`**.
+- **Or paste it in the browser** — repo → **Add file** → **Create new file** →
+  name it `.github/workflows/refresh.yml` → paste the contents of your local
+  copy → Commit.
+
+**3. Add the mail secrets** so the alerts can send — see
+[Email alerts](#email-alerts) above.
+
+The schedule is `cron: "30 10 * * *"` (07:30 Atlantic). You can also run it on
+demand from the **Actions** tab → *Refresh job radar* → **Run workflow**.
+
+`PUSH-TO-GITHUB.bat` commits and pushes any later changes using the token in
+`gh.txt.txt` — that file is git-ignored and never leaves your machine.
 
 ---
 
