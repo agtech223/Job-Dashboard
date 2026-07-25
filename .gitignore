@@ -1,0 +1,38 @@
+# ---------------------------------------------------------------
+# SECRETS -- never commit these
+# ---------------------------------------------------------------
+gh.txt
+gh.txt.txt
+*token*.txt
+*.pem
+.env
+.env.*
+
+# ---------------------------------------------------------------
+# PERSONAL DOCUMENTS
+# The CV carries a personal phone number, private email addresses and
+# the contact details of six referees. This repository is public, so
+# the PDF stays on your machine -- engine/profile.py already holds
+# everything the matcher needs from it.
+# ---------------------------------------------------------------
+*.pdf
+
+# ---------------------------------------------------------------
+# Machine-local runtime files
+# (the published snapshot lives in docs/data and IS committed)
+# ---------------------------------------------------------------
+engine/data/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---------------------------------------------------------------
+# Editors / OS / tooling
+# ---------------------------------------------------------------
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
