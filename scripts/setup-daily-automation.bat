@@ -13,6 +13,10 @@ echo   so new positions are already waiting when you open it.
 echo.
 echo   No window will appear when it runs.
 echo.
+echo   NOTE: you only need this if you want the search to run on THIS
+echo   computer. The GitHub Action already refreshes the live site
+echo   every morning whether this machine is on or not.
+echo.
 set /p ANSWER=  Set this up now? (Y/N):
 if /i not "%ANSWER%"=="Y" goto :cancelled
 
@@ -28,7 +32,7 @@ if not defined PYW (
 )
 
 schtasks /Create /TN "Academic Job Radar - Daily Refresh" ^
-  /TR "\"%PYW%\" \"%~dp0engine\scraper.py\"" ^
+  /TR "\"%PYW%\" \"%~dp0..\engine\scraper.py\"" ^
   /SC DAILY /ST 07:30 /F >nul 2>&1
 
 if errorlevel 1 (

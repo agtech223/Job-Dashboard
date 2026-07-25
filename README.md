@@ -26,12 +26,19 @@ against a specific CV — with Canada and tenure-track faculty lines first.
 first run, does a search, and opens the dashboard with a working
 *Refresh from the web* button.
 
+That is the only file at the top level. Everything else lives in `scripts/`:
+
 | File | What it does |
 |---|---|
-| `START-DASHBOARD.bat` | Opens the dashboard locally (this is the one you want) |
-| `REFRESH-NOW.bat` | Runs a search from the command line |
-| `SETUP-DAILY-AUTOMATION.bat` | Also schedules a local daily search at 07:30 |
-| `REMOVE-DAILY-AUTOMATION.bat` | Removes that schedule |
+| `START-DASHBOARD.bat` | **Opens the dashboard locally — this is the one you want** |
+| `scripts/refresh-now.bat` | Runs a search (and the email alert) without opening the UI |
+| `scripts/setup-daily-automation.bat` | Schedules a daily search *on this PC* at 07:30 |
+| `scripts/remove-daily-automation.bat` | Removes that schedule |
+| `scripts/push-to-github.bat` | Commits and publishes your changes to the live site |
+
+You do not need the local schedule unless you want searches to run on this
+machine — the GitHub Action already refreshes the live site every morning
+whether the computer is on or not.
 
 The hosted copy and the local copy are the **same page**. Served by
 `engine/server.py` it talks to the live engine and can refresh on demand;
@@ -174,26 +181,15 @@ serves `docs/` as a static site. No server, no cost.
 a branch** → branch **`main`**, folder **`/docs`** → **Save**. A minute later the
 dashboard is live at `https://agtech223.github.io/Job-Dashboard/`.
 
-**2. Add the daily workflow.** `.github/workflows/refresh.yml` exists locally but
-GitHub refuses to accept workflow files from a token without the *Workflows*
-permission. Either:
-
-- **Give the token the permission** — github.com/settings/tokens → your
-  fine-grained token → **Repository permissions** → set **Workflows** to
-  *Read and write* (and **Pages** to *Read and write* if you also want step 1
-  automated) → Save. Then run **`PUSH-TO-GITHUB.bat`**.
-- **Or paste it in the browser** — repo → **Add file** → **Create new file** →
-  name it `.github/workflows/refresh.yml` → paste the contents of your local
-  copy → Commit.
-
-**3. Add the mail secrets** so the alerts can send — see
+**2. Add the mail secrets** so the alerts can send — see
 [Email alerts](#email-alerts) above.
 
-The schedule is `cron: "30 10 * * *"` (07:30 Atlantic). You can also run it on
-demand from the **Actions** tab → *Refresh job radar* → **Run workflow**.
+The daily workflow (`.github/workflows/refresh.yml`) is already installed and
+runs on `cron: "30 10 * * *"` — 07:30 Atlantic. You can also run it on demand
+from the **Actions** tab → *Refresh job radar* → **Run workflow**.
 
-`PUSH-TO-GITHUB.bat` commits and pushes any later changes using the token in
-`gh.txt.txt` — that file is git-ignored and never leaves your machine.
+`scripts/push-to-github.bat` commits and publishes any later changes using the
+token in `gh.txt.txt` — that file is git-ignored and never leaves your machine.
 
 ---
 
@@ -215,8 +211,9 @@ demand from the **Actions** tab → *Refresh job radar* → **Run workflow**.
 │   ├── scraper.py                  runs every source in parallel
 │   ├── notify.py                   email alerts
 │   └── server.py                   local server + live refresh API
-├── requirements.txt
-└── *.bat                           Windows launchers
+├── scripts/                        refresh · schedule · publish helpers
+├── START-DASHBOARD.bat             the one you double-click
+└── requirements.txt
 ```
 
 `engine/data/` (local run logs, saved/applied marks) and the CV PDF are
