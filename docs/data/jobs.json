@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-25T09:06:31.377732+00:00",
+ "generated_at": "2026-07-25T09:34:59.092830+00:00",
  "candidate": {
   "name": "Hassan Afzaal, PhD",
   "headline": "Agricultural Engineer | AI, Computer Vision & Precision Agriculture",
@@ -23,30 +23,31 @@
   "floor": 22
  },
  "stats": {
-  "total": 241,
-  "new": 0,
-  "raw_fetched": 3483,
-  "rejected_non_ag": 2607,
+  "total": 291,
+  "new": 46,
+  "raw_fetched": 3659,
+  "rejected_non_ag": 2756,
   "queries_run": 328,
   "queries_failed": 0,
-  "strong": 14,
-  "good": 79,
+  "strong": 15,
+  "good": 89,
   "countries": 13,
-  "carried_over": 4,
+  "carried_over": 8,
   "canada": 3,
   "canada_faculty": 2,
-  "tenure_track": 16,
-  "faculty": 51,
+  "tenure_track": 17,
+  "faculty": 53,
   "per_source": {
    "Nature Careers": 383,
    "Times Higher Education": 420,
    "Chronicle of Higher Ed": 806,
-   "Inside Higher Ed": 985,
+   "Inside Higher Ed": 914,
+   "HigherEdJobs": 151,
    "jobs.ac.uk": 275,
-   "EURAXESS": 100,
+   "EURAXESS": 200,
    "jobRxiv": 82,
    "CAUT (Canada)": 132,
-   "University portal (Canada)": 300
+   "University portal (Canada)": 296
   }
  },
  "jobs": [
@@ -98,7 +99,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:49:27.832300+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Endowed Chair (Assistant/Associate Professor) in Indigenous Forestry",
@@ -141,7 +142,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Associate",
@@ -186,7 +187,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:49:27.832300+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant Professor in Artificial Intelligence for Agriculture",
@@ -239,13 +240,12 @@
    "priority": 2,
    "id": "bcdf4d3ae01ae112",
    "age_days": 10,
-   "carried_over": true,
-   "is_new": false,
-   "first_seen": "2026-07-25T06:55:35.345291+00:00",
-   "last_seen": "2026-07-25T08:00:13.166863+00:00",
    "also_on": [
     "Chronicle of Higher Ed"
-   ]
+   ],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant Professor: Digital Technology, Machine Learning and AI in Agriculture Communications ...",
@@ -297,7 +297,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Professor & Head & Endowed Chair - Agricultural and Biological Engineering",
@@ -348,7 +348,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Senior Lecturer or Associate Professor in Precision Agriculture",
@@ -397,22 +397,22 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant Professor in Sustainable Agriculture and Food Systems",
    "org": "University of Maryland Eastern Shore",
-   "location": "",
-   "url": "https://jobs.chronicle.com/job/38017277/assistant-professor-in-sustainable-agriculture-and-food-systems/",
-   "posted": "2026-07-21T14:49:00+00:00",
-   "summary": "$80,000 - $90,000 : University of Maryland Eastern Shore: Candidate will teach and conduct research in the areas of Sustainable Agriculture and Food Systems. Princess Anne, Maryland",
-   "salary": "$80,000 - $90,000",
-   "source": "Chronicle of Higher Ed",
-   "score": 76.7,
+   "location": "Princess Anne, MD",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179505083",
+   "posted": "2026-07-21T15:01:41+00:00",
+   "summary": "Plant and Soil Science. University of Maryland Eastern Shore (Princess Anne, MD)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 77.0,
    "role": "Tenure-Track Faculty",
    "synergy": false,
    "is_agricultural": true,
-   "ag_strength": 0.906,
+   "ag_strength": 0.913,
    "tech_strength": 0.0,
    "ag_areas": [
     "Agriculture, Crop & Soil Science",
@@ -421,7 +421,8 @@
    "tech_areas": [],
    "matched": {
     "Agriculture, Crop & Soil Science": [
-     "Agriculture"
+     "Agriculture",
+     "Soil"
     ],
     "Food Systems & Security": [
      "Food system",
@@ -431,6 +432,7 @@
    "match_terms": [
     "Agriculture",
     "Food system",
+    "Soil",
     "Sustainable agriculture"
    ],
    "areas": [
@@ -443,12 +445,15 @@
    "is_tenure_track": true,
    "is_priority_country": false,
    "priority": 2,
-   "id": "954b3ec89c1489ac",
+   "id": "10eb95b32afa6d12",
    "age_days": 3,
-   "also_on": [],
-   "first_seen": "2026-07-25T06:55:35.345291+00:00",
-   "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "also_on": [
+    "Chronicle of Higher Ed",
+    "HigherEdJobs"
+   ],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant/Associate Professor of Practice - Extension Controlled Environment Agriculture Specialist",
@@ -497,7 +502,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Lecturer in Agricultural Technology",
@@ -546,7 +551,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Full-Time Lecturer, BioResource and Agricultural Engineering",
@@ -592,11 +597,10 @@
    "priority": 2,
    "id": "f5a065e5190f9c57",
    "age_days": 20,
-   "carried_over": true,
-   "is_new": false,
+   "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
-   "last_seen": "2026-07-25T08:00:13.166863+00:00",
-   "also_on": []
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant Professor - Crop Physiology",
@@ -647,7 +651,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant/Associate Professor of Practice - Extension Forestry Specialist",
@@ -696,7 +700,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Agronomic Entomologist: Open-Rank Extension Professor of Entomology, Field Crops Pest...",
@@ -743,7 +747,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Instructor or Open Rank Extension Educator - Water & Cropping Systems (Burt Co.)",
@@ -788,7 +792,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant Professor of Soil Science",
@@ -830,10 +834,12 @@
    "priority": 2,
    "id": "2ab581cdbc09fc32",
    "age_days": 16,
-   "also_on": [],
+   "also_on": [
+    "HigherEdJobs"
+   ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Instructor or Open Rank Extension Educator - Water & Cropping Systems (Platte Co.)",
@@ -878,7 +884,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Instructor or Open Rank Extension Educator - Water & Cropping Systems (Adams Co.)",
@@ -923,7 +929,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant Professor - Row Crop Entomologist",
@@ -968,7 +974,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Department Head and Tenured Professor - Food Science & Technology",
@@ -1017,7 +1023,50 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Assistant Professor, Agricultural Science",
+   "org": "Cal Poly, San Luis Obispo",
+   "location": "San Luis Obispo, CA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179508989",
+   "posted": "2026-07-24T14:47:50+00:00",
+   "summary": "Other Agriculture Faculty. Cal Poly, San Luis Obispo (San Luis Obispo, CA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 65.0,
+   "role": "Tenure-Track Faculty",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.727,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture"
+    ]
+   },
+   "match_terms": [
+    "Agriculture"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": true,
+   "is_tenure_track": true,
+   "is_priority_country": false,
+   "priority": 2,
+   "id": "5b140e8467150365",
+   "age_days": 0,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant Professor of Agricultural Communication",
@@ -1060,7 +1109,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Faculty Position (Assistant Professor) in Dairy Production Medicine, Academic Clinician Track",
@@ -1103,7 +1152,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Assistant Professor of Agribusiness and Agricultural Economics",
@@ -1146,7 +1195,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Clinical or Tenure Track Assistant/Associate Professor of Farm Animal Medicine and Surgery",
@@ -1186,10 +1235,11 @@
    "priority": 2,
    "id": "d576b45d453d0e8e",
    "age_days": 30,
-   "also_on": [],
-   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "carried_over": true,
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "last_seen": "2026-07-25T09:06:31.377732+00:00",
+   "also_on": []
   },
   {
    "title": "Agriculture Business Instructor, Full-time Tenure Track (BC)",
@@ -1234,7 +1284,52 @@
    ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Associate/Full Professor and Extension Swine Specialist – Farm Credit Services of America Endowed Chair in Swine Production",
+   "org": "South Dakota State University",
+   "location": "Brookings, SD",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179504443",
+   "posted": "2026-07-20T15:21:11+00:00",
+   "summary": "Other Agriculture Faculty. South Dakota State University (Brookings, SD)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 64.7,
+   "role": "Professor / Senior Faculty",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": true,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 2,
+   "id": "49b2b64dcba09557",
+   "age_days": 4,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant/Associate Professor of Practice - Extension Farm Succession Specialist",
@@ -1279,7 +1374,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant/Associate Professor – Forage Agronomy",
@@ -1324,7 +1419,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Associate/Full Professor and Extension Swine Specialist – Farm Credit Services of America Endowed",
@@ -1367,7 +1462,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Full Professor of Crop Breeding and Genomics",
@@ -1410,7 +1505,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant/Associate/Full-Professor - Animal Waste Management and Farm Animal Environmental Hous...",
@@ -1453,7 +1548,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Teaching Assistant/Associate Professor of Agricultural and Resource Economics, Spring 2026",
@@ -1496,7 +1591,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Teaching Assistant/Associate Professor of Agricultural and Resource Economics, Spring 2026",
@@ -1539,7 +1634,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Asst/Assoc Professor - Agricultural Banking and Finance",
@@ -1582,7 +1677,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant/Associate/Full-Professor - Animal Waste Management and Farm Animal Environmental Housing",
@@ -1625,7 +1720,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant/Associate Professor – Soil, Water, and Ecosystem Sciences; Nutrient Management Specialist",
@@ -1668,7 +1763,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant or Associate Professor of Urban Landscape Entomology",
@@ -1711,7 +1806,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant/Associate Professor – Forage Breeding/Genetics",
@@ -1754,7 +1849,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Faculty Member in Agroecology",
@@ -1796,10 +1891,12 @@
    "priority": 2,
    "id": "744e9838537ec136",
    "age_days": 4,
-   "also_on": [],
+   "also_on": [
+    "HigherEdJobs"
+   ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "(Full-time) Agriculture Instructor (Temporary, One-Year)",
@@ -1842,7 +1939,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "(Part-time) Agriculture Instructor",
@@ -1882,10 +1979,12 @@
    "priority": 2,
    "id": "491140804607cd65",
    "age_days": 7,
-   "also_on": [],
+   "also_on": [
+    "HigherEdJobs"
+   ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Instructor in Agricultural Production or Agriculture, Initial Focus: Vet Tech (Part-Time Pool)",
@@ -1930,7 +2029,7 @@
    ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Lecturer - Agricultural and Resource Economics - College of Natural Resources",
@@ -1973,7 +2072,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Part-Time Agriculture Instructor",
@@ -2016,7 +2115,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Instructor of Agriculture",
@@ -2059,7 +2158,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Agriculture or Agricultural Production, Initial Focus: Veterinary Technology Instructor",
@@ -2104,7 +2203,7 @@
    ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Agriculture Business Instructor, Early College - One Year Full-Time Temp (2025-26)",
@@ -2147,7 +2246,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Instructor in Agricultural Production or Agriculture (Part-Time Pool)",
@@ -2192,7 +2291,7 @@
    ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Lecturer/Senior Lecturer of Agricultural Sciences, Lecture Title Series",
@@ -2235,7 +2334,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Professor/Associate Professor/Assistant Professor in Food Science",
@@ -2278,7 +2377,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Klingbeil Endowed Department Head and Professor",
@@ -2324,11 +2423,10 @@
    "priority": 2,
    "id": "11fc1288f1824398",
    "age_days": 3,
-   "carried_over": true,
-   "is_new": false,
+   "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
-   "last_seen": "2026-07-25T08:00:13.166863+00:00",
-   "also_on": []
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Dean, College of Agriculture",
@@ -2373,7 +2471,7 @@
    ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Department Head and Professor - Food Science & Technology",
@@ -2416,7 +2514,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Fellow in Soil Imaging and Computed Tomography",
@@ -2466,7 +2564,59 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Postdoctoral Research Associate Crop Systems Modeling And Data Analytics",
+   "org": "Iowa State University",
+   "location": "Ames, IA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179503382",
+   "posted": "2026-07-17T19:15:34+00:00",
+   "summary": "Plant and Soil Science. Iowa State University (Ames, IA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 75.4,
+   "role": "Postdoctoral",
+   "synergy": true,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.623,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [
+    "Data Science & Modelling"
+   ],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Crops",
+     "Soil"
+    ],
+    "Data Science & Modelling": [
+     "Data analytics"
+    ]
+   },
+   "match_terms": [
+    "Crops",
+    "Data analytics",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science",
+    "Data Science & Modelling"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "4df0f73090f982f0",
+   "age_days": 7,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Researcher in Data Science and Digitalization in Smart Farming",
@@ -2524,7 +2674,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Researcher in Data Science and Digitalization in Smart Farming",
@@ -2576,11 +2726,11 @@
    "is_priority_country": false,
    "priority": 3,
    "id": "ee668484152baf71",
-   "age_days": 21,
+   "age_days": 22,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Senior Research Technician (Agricultural Research)",
@@ -2630,7 +2780,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "SusMaT-RC - Postdoc Position: Bio-based Materials for Sustainable Agriculture",
@@ -2681,7 +2831,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Associate (Horticulture and Plant Physiology)",
@@ -2732,7 +2882,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Technical Officer - Controlled Environment, GRDC Root Phenotyping",
@@ -2782,7 +2932,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Fellow in Soil Biogeochemistry",
@@ -2830,7 +2980,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Associate/Research Fellow (Ecology/Biogeochemistry/Earth Science/Soil Science/Environmental Science/Hydrology/Computer Science)",
@@ -2878,7 +3028,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Fellow / Engineer (Food Engineering) - AZN5",
@@ -2921,7 +3071,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Technician (Agricultural Engineering)",
@@ -2970,7 +3120,60 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Part-Time Agricultural Assistant I - Greenhouse & Plant Growth Chambers",
+   "org": "Iowa State University",
+   "location": "Ames, IA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179498577",
+   "posted": "2026-07-14T09:19:34+00:00",
+   "summary": "Farming and Agriculture. Iowa State University (Ames, IA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 59.8,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.941,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science",
+    "Controlled Environment"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ],
+    "Controlled Environment": [
+     "Greenhouse",
+     "Growth chamber"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming",
+    "Greenhouse",
+    "Growth chamber"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science",
+    "Controlled Environment"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "ffd4a1ff042901f9",
+   "age_days": 11,
+   "also_on": [],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Postdoctoral Research Associate on Genome Editing in Horticultural Crops",
@@ -3019,7 +3222,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Student Employee-School of Agricultural Sciences- Greenhouse & Garden Student Worker (Work Stud...",
@@ -3068,7 +3271,97 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Project Scientist Series in Botany and Plant Sciences (Open Search)",
+   "org": "University of California, Riverside",
+   "location": "Riverside, CA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179506436",
+   "posted": "2026-07-22T15:31:56+00:00",
+   "summary": "Plant and Soil Science. University of California, Riverside (Riverside, CA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 58.6,
+   "role": "Research Scientist",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Plant science",
+     "Soil"
+    ]
+   },
+   "match_terms": [
+    "Plant science",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "c8def846fc6cb15d",
+   "age_days": 2,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Project Scientist Series in Microbiology and Plant Pathology (Open Search)",
+   "org": "University of California, Riverside",
+   "location": "Riverside, CA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179488668",
+   "posted": "2026-07-02T17:31:12+00:00",
+   "summary": "Plant and Soil Science. University of California, Riverside (Riverside, CA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 58.6,
+   "role": "Research Scientist",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Plant pathology",
+     "Soil"
+    ]
+   },
+   "match_terms": [
+    "Plant pathology",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "081863101b92f011",
+   "age_days": 22,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "z-Part-Time Adjunct Faculty Pool- Agricultural Technology",
@@ -3117,7 +3410,52 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Postdoctoral Research Position In Agronomy, Soils, And Environment",
+   "org": "Iowa State University",
+   "location": "Ames, IA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179508907",
+   "posted": "2026-07-24T14:33:27+00:00",
+   "summary": "Plant and Soil Science. Iowa State University (Ames, IA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 57.5,
+   "role": "Postdoctoral",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agronomy",
+     "Soil"
+    ]
+   },
+   "match_terms": [
+    "Agronomy",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "bd9e1eb93e37dbab",
+   "age_days": 0,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Post Doctoral Research Associate",
@@ -3163,11 +3501,55 @@
    "priority": 3,
    "id": "c1e9853adfb1dede",
    "age_days": 2,
-   "carried_over": true,
-   "is_new": false,
+   "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
-   "last_seen": "2026-07-25T08:00:13.166863+00:00",
-   "also_on": []
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Postdoctoral Scholar Series in Botany and Plant Sciences (Open Search)",
+   "org": "University of California, Riverside",
+   "location": "Riverside, CA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179506434",
+   "posted": "2026-07-22T15:31:43+00:00",
+   "summary": "Plant and Soil Science. University of California, Riverside (Riverside, CA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 57.5,
+   "role": "Postdoctoral",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Plant science",
+     "Soil"
+    ]
+   },
+   "match_terms": [
+    "Plant science",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "6b4f59a908752e9e",
+   "age_days": 2,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "CBS - Postdoctoral Researcher in Fertilizer Formulation, Plant Nutrition and Agronomic Evaluation",
@@ -3214,7 +3596,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Two-year postdoc in soil microbial ecology",
@@ -3259,7 +3641,52 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Postdoctoral Scholar Series in Microbiology and Plant Pathology (Open Search)",
+   "org": "University of California, Riverside",
+   "location": "Riverside, CA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179488387",
+   "posted": "2026-07-02T15:45:59+00:00",
+   "summary": "Plant and Soil Science. University of California, Riverside (Riverside, CA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 57.5,
+   "role": "Postdoctoral",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Plant pathology",
+     "Soil"
+    ]
+   },
+   "match_terms": [
+    "Plant pathology",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "d53eca9fff3e4b54",
+   "age_days": 22,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "AgBS - Postdoctoral Position in Agronomy and Soil Microbiology",
@@ -3306,7 +3733,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Post Doctoral Fellow",
@@ -3355,7 +3782,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Post-Doctoral Associate - Switchgrass and Turfgrass Disease Management",
@@ -3400,7 +3827,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Postdoctoral Research Scholar - BAE",
@@ -3449,7 +3876,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Associate (Plant Biology and Bioinformatics)",
@@ -3498,7 +3925,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Fellow in Soil Microbiology",
@@ -3543,7 +3970,7 @@
    ],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Associate: Agrarian Change in the Himalayas",
@@ -3586,7 +4013,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Associate in Soil Holobionts",
@@ -3629,7 +4056,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Associate: Atmospheric Chemistry Modelling of Soil Microbial Processes",
@@ -3672,7 +4099,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "SUSMAT - Post-Doctoral Fellow Positions in Development of Multifunctional Hydrogels for Agricultural",
@@ -3717,7 +4144,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "AgBS - Postdoctoral Researcher in Advanced Fertilizers and Sustainable Nutrient Delivery Systems",
@@ -3762,7 +4189,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Two-year postdoc in soil microbial ecology",
@@ -3805,7 +4232,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "AGBS - Postdoctoral Researcher in Agricultural Microbial Biotechnology",
@@ -3850,7 +4277,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Postdoc in Soil Ecotoxicology - Fate and Effects of contaminants in Soil Ecosystems",
@@ -3893,7 +4320,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "AGBS - Postdoc in Molecular Soil Biology and Ecology",
@@ -3938,7 +4365,7 @@
    ],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "MSN - Postdoctoral Position in Functional Materials for Fertilizer Development & Customization",
@@ -3977,13 +4404,13 @@
    "is_priority_country": false,
    "priority": 3,
    "id": "e638bf95eecd5114",
-   "age_days": 23,
+   "age_days": 24,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Postdoc in Soil Ecotoxicology – Fate and Effects of contaminants in Soil Ecosystems",
@@ -4026,7 +4453,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Post Doctoral Research Associate- Soil and Water Conservation",
@@ -4069,7 +4496,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Assoc Urban Ag & Controlled Env Ag",
@@ -4118,7 +4545,58 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Part-Time Staff: Greenhouse Assistant",
+   "org": "Metropolitan Community College - Kansas City",
+   "location": "Maple Woods, MO",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179496763",
+   "posted": "2026-07-12T15:35:18+00:00",
+   "summary": "Farming and Agriculture. Metropolitan Community College - Kansas City (Maple Woods, MO)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 56.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.858,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science",
+    "Controlled Environment"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ],
+    "Controlled Environment": [
+     "Greenhouse"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming",
+    "Greenhouse"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science",
+    "Controlled Environment"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "492228d458ec7057",
+   "age_days": 12,
+   "also_on": [],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "PhD fellowship in greenhouse gases, forest soils and biogeochemistry",
@@ -4172,7 +4650,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Field/Greenhouse Assistant",
@@ -4223,7 +4701,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Lab/Greenhouse Assistant - Raymer",
@@ -4274,7 +4752,58 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Risk Analyst for the Secure Food System Team (# 374831)",
+   "org": "University of Minnesota",
+   "location": "Twin Cities, MN",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179503416",
+   "posted": "2026-07-17T19:19:09+00:00",
+   "summary": "Farming and Agriculture. University of Minnesota (Twin Cities, MN)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 53.8,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.81,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science",
+    "Food Systems & Security"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ],
+    "Food Systems & Security": [
+     "Food system"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming",
+    "Food system"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science",
+    "Food Systems & Security"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "4f5b61bfdf2075b8",
+   "age_days": 7,
+   "also_on": [],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Federal Work Study - Soil & Water Lab",
@@ -4323,7 +4852,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Postdoctoral Researcher (m/f/d) in the field of “Reactive Nitrogen, Food Security and Sustaina...",
@@ -4366,7 +4895,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Integrated PhD fellowship in sustainable food systems",
@@ -4422,7 +4951,917 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Manager – Davis Dairy Plant",
+   "org": "South Dakota State University",
+   "location": "Brookings, SD",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179495825",
+   "posted": "2026-07-10T20:44:56+00:00",
+   "summary": "Farming and Agriculture. South Dakota State University (Brookings, SD)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 49.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.782,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Dairy",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Dairy",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "ffc4d54064893539",
+   "age_days": 14,
+   "also_on": [],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Dairy Plant Operator",
+   "org": "Kansas State University",
+   "location": "Manhattan, KS",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179492108",
+   "posted": "2026-07-07T19:31:51+00:00",
+   "summary": "Farming and Agriculture. Kansas State University (Manhattan, KS)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 49.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.782,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Dairy",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Dairy",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "0108dff759d84bbe",
+   "age_days": 17,
+   "also_on": [],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Manager, Dairy Teaching Research Center",
+   "org": "University of New Hampshire",
+   "location": "Durham, NH",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179488465",
+   "posted": "2026-07-02T16:00:33+00:00",
+   "summary": "Farming and Agriculture. University of New Hampshire (Durham, NH)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 49.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.782,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Dairy",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Dairy",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "6077bcc8ae25bc40",
+   "age_days": 22,
+   "also_on": [],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "PT - Farm Technician",
+   "org": "Arizona Western College",
+   "location": "Yuma, AZ",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179506483",
+   "posted": "2026-07-22T15:45:09+00:00",
+   "summary": "Farming and Agriculture. Arizona Western College (Yuma, AZ)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "94b284752ba6e0ab",
+   "age_days": 2,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Farm/Ranch Hand 633618",
+   "org": "Oklahoma State University",
+   "location": "Stillwater, OK",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179503888",
+   "posted": "2026-07-18T19:30:40+00:00",
+   "summary": "Farming and Agriculture. Oklahoma State University (Stillwater, OK)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "a962ad082d4a20e0",
+   "age_days": 6,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Farm Attendant (Yuma, AZ)",
+   "org": "The University of Arizona",
+   "location": "Yuma, AZ",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179503649",
+   "posted": "2026-07-18T01:01:55+00:00",
+   "summary": "Farming and Agriculture. The University of Arizona (Yuma, AZ)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "ce53ecc7fd38f652",
+   "age_days": 7,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Agricultural Specialist II - Beef",
+   "org": "Iowa State University",
+   "location": "Ames, IA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179503084",
+   "posted": "2026-07-17T16:31:29+00:00",
+   "summary": "Farming and Agriculture. Iowa State University (Ames, IA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "2d01991ffddf5c78",
+   "age_days": 7,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Farm Laborer (Farm Laborer)",
+   "org": "University of California, Davis",
+   "location": "Davis, CA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179501102",
+   "posted": "2026-07-16T01:32:18+00:00",
+   "summary": "Farming and Agriculture. University of California, Davis (Davis, CA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "8680eece6d1dbc55",
+   "age_days": 9,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Temporary Agricultural Worker (Cornell AES); Ithaca, New York",
+   "org": "Cornell University",
+   "location": "Ithaca, NY",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179497538",
+   "posted": "2026-07-13T16:22:12+00:00",
+   "summary": "Farming and Agriculture. Cornell University (Ithaca, NY)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "054b1efbacf13337",
+   "age_days": 11,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Kenyon Farm Production Manager",
+   "org": "Kenyon College",
+   "location": "Gambier, OH",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179497227",
+   "posted": "2026-07-13T15:11:53+00:00",
+   "summary": "Farming and Agriculture. Kenyon College (Gambier, OH)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "0f6ba75d239ed1a0",
+   "age_days": 11,
+   "also_on": [
+    "Inside Higher Ed"
+   ],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Farm Production Lead (Farmer 2)",
+   "org": "Central Washington University",
+   "location": "Ellensburg, WA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179496480",
+   "posted": "2026-07-12T00:20:20+00:00",
+   "summary": "Farming and Agriculture. Central Washington University (Ellensburg, WA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "662a4bdfce4abfca",
+   "age_days": 13,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Extension Agent for Agriculture and Natural Resources - Jefferson County",
+   "org": "University of Kentucky",
+   "location": "Louisville, KY",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179495285",
+   "posted": "2026-07-10T16:28:13+00:00",
+   "summary": "Farming and Agriculture. University of Kentucky (Louisville, KY)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "307ffc8210325383",
+   "age_days": 14,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "CALS- Regional Farm to School Coordinator- Cornell Cooperative Extension (CCE)",
+   "org": "Cornell University",
+   "location": "Ithaca, NY",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179493844",
+   "posted": "2026-07-09T12:21:45+00:00",
+   "summary": "Farming and Agriculture. Cornell University (Ithaca, NY)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "0a004f64bbdd5e43",
+   "age_days": 15,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Agricultural Tech II Research",
+   "org": "Kansas State University",
+   "location": "Manhattan, KS",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179490371",
+   "posted": "2026-07-06T12:30:39+00:00",
+   "summary": "Farming and Agriculture. Kansas State University (Manhattan, KS)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "d01bf7f9512bd578",
+   "age_days": 18,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Operations Manager Lancer Farms",
+   "org": "College of Lake County",
+   "location": "Grayslake, IL",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179488427",
+   "posted": "2026-07-02T15:50:18+00:00",
+   "summary": "Farming and Agriculture. College of Lake County (Grayslake, IL)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "808961fbdf7411d1",
+   "age_days": 22,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Farm Manager",
+   "org": "Abilene Christian University",
+   "location": "Abilene, TX",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179487932",
+   "posted": "2026-07-02T11:47:10+00:00",
+   "summary": "Farming and Agriculture. Abilene Christian University (Abilene, TX)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "1b26a7c104347815",
+   "age_days": 22,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Agriculture Technician",
+   "org": "Auburn University",
+   "location": "Shorter, AL",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179483407",
+   "posted": "2026-06-26T20:31:13+00:00",
+   "summary": "Farming and Agriculture. Auburn University (Shorter, AL)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "164790a7ef82aef5",
+   "age_days": 28,
+   "also_on": [
+    "Chronicle of Higher Ed"
+   ],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Assistant Manager Farm Ranch",
+   "org": "New Mexico State University",
+   "location": "Las Cruces, NM",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179482554",
+   "posted": "2026-06-26T09:12:21+00:00",
+   "summary": "Farming and Agriculture. New Mexico State University (Las Cruces, NM)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "b656253924195eec",
+   "age_days": 29,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "NMDA Agriculture Specialist Associate",
+   "org": "New Mexico State University",
+   "location": "Las Cruces, NM",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179482552",
+   "posted": "2026-06-26T09:12:08+00:00",
+   "summary": "Farming and Agriculture. New Mexico State University (Las Cruces, NM)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "908f79fb3de01355",
+   "age_days": 29,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Farm Worker",
+   "org": "Tennessee State University",
+   "location": "Nashville, TN",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179481460",
+   "posted": "2026-06-25T12:51:38+00:00",
+   "summary": "Farming and Agriculture. Tennessee State University (Nashville, TN)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "0df97dbea66bae2e",
+   "age_days": 29,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Hourly Pooled - Plant Sciences Research Aide, Forage Agronomy",
@@ -4469,7 +5908,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant Extension Agent - Farm & Consumer Food Safety",
@@ -4516,54 +5955,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
-  },
-  {
-   "title": "Bowen Farm Tobacco Research Student Assistant",
-   "org": "The University of Georgia",
-   "location": "",
-   "url": "https://careers.insidehighered.com/job/3494981/bowen-farm-tobacco-research-student-assistant/",
-   "posted": "2026-04-23T09:00:00+00:00",
-   "summary": "The University of Georgia: Posting Number:G/R01244PWorking Title:Bowen Farm Tobacco Research Student AssistantDepartment:CAES-Crop & Soil Sci CoastalAbout the University of Geor Tifton Area",
-   "salary": "",
-   "source": "Inside Higher Ed",
-   "score": 48.2,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.765,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Crops",
-     "Farming",
-     "Soil"
-    ]
-   },
-   "match_terms": [
-    "Crops",
-    "Farming",
-    "Soil"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "priority": 3,
-   "id": "7928ae0907845010",
-   "age_days": 93,
-   "also_on": [],
-   "first_seen": "2026-07-25T07:04:30.728065+00:00",
-   "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Turfgrass Lab/Field Assistant, Griffin",
@@ -4610,7 +6002,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Turfgrass Lab/Field Assistant - Walt",
@@ -4657,7 +6049,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Turfgrass Field/Lab Assist - Waltz",
@@ -4704,7 +6096,99 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Bowen Farm Tobacco Research Student Assistant",
+   "org": "The University of Georgia",
+   "location": "",
+   "url": "https://careers.insidehighered.com/job/3494981/bowen-farm-tobacco-research-student-assistant/",
+   "posted": "2026-04-23T09:00:00+00:00",
+   "summary": "The University of Georgia: Posting Number:G/R01244PWorking Title:Bowen Farm Tobacco Research Student AssistantDepartment:CAES-Crop & Soil Sci CoastalAbout the University of Geor Tifton Area",
+   "salary": "",
+   "source": "Inside Higher Ed",
+   "score": 48.2,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Crops",
+     "Farming",
+     "Soil"
+    ]
+   },
+   "match_terms": [
+    "Crops",
+    "Farming",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "7928ae0907845010",
+   "age_days": 93,
+   "also_on": [],
+   "first_seen": "2026-07-25T07:04:30.728065+00:00",
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Extension Agent, Ag - Livestock and Forages (Assistant, Associate or Full Agent)",
+   "org": "NC State University",
+   "location": "",
+   "url": "https://careers.insidehighered.com/job/3530346/extension-agent-ag-livestock-and-forages-assistant-associate-or-full-agent-/",
+   "posted": "2026-07-18T09:00:00+00:00",
+   "summary": "NC State University: Posting Number:PG190879CEPosition Number:NC-00002411-0726Position Type:NC Cooperative ExtensionJob City & State:Lexington, NCDepartment :Davidson Coun Lexington, NC",
+   "salary": "",
+   "source": "Inside Higher Ed",
+   "score": 47.4,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Forage",
+     "Livestock"
+    ]
+   },
+   "match_terms": [
+    "Forage",
+    "Livestock"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "d8d2837aaf5f02c4",
+   "age_days": 7,
+   "also_on": [],
+   "first_seen": "2026-07-25T07:04:30.728065+00:00",
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Agent, Ag, Field Crops and Dairy (Assistant, Associate or Full Agent)",
@@ -4749,17 +6233,17 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
-   "title": "Extension Agent, Ag - Livestock and Forages (Assistant, Associate or Full Agent)",
-   "org": "NC State University",
-   "location": "",
-   "url": "https://careers.insidehighered.com/job/3529681/extension-agent-ag-livestock-and-forages-assistant-associate-or-full-agent-/",
-   "posted": "2026-07-17T09:00:00+00:00",
-   "summary": "NC State University: Posting Number:PG190875CEPosition Number:NC-00002258-0726Position Type:NC Cooperative ExtensionJob City & State:Dobson, NCDepartment :Surry County Ext Dobson, NC",
+   "title": "Extension Assistant, Department of Plant Sciences: UTIA",
+   "org": "University of Tennessee, Knoxville",
+   "location": "Knoxville, TN",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179491003",
+   "posted": "2026-07-06T19:07:54+00:00",
+   "summary": "Plant and Soil Science. University of Tennessee, Knoxville (Knoxville, TN)",
    "salary": "",
-   "source": "Inside Higher Ed",
+   "source": "HigherEdJobs",
    "score": 47.4,
    "role": "Other Academic",
    "synergy": false,
@@ -4772,13 +6256,13 @@
    "tech_areas": [],
    "matched": {
     "Agriculture, Crop & Soil Science": [
-     "Forage",
-     "Livestock"
+     "Plant science",
+     "Soil"
     ]
    },
    "match_terms": [
-    "Forage",
-    "Livestock"
+    "Plant science",
+    "Soil"
    ],
    "areas": [
     "Agriculture, Crop & Soil Science"
@@ -4789,12 +6273,12 @@
    "is_tenure_track": false,
    "is_priority_country": false,
    "priority": 3,
-   "id": "86ae13d0fad20432",
-   "age_days": 8,
+   "id": "57c02b4ff51371c9",
+   "age_days": 18,
    "also_on": [],
-   "first_seen": "2026-07-25T08:29:56.276643+00:00",
-   "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Livestock and Natural Resources Advisor (26-14)",
@@ -4839,7 +6323,97 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Specialist Series in Microbiology and Plant Pathology (Open Search)",
+   "org": "University of California, Riverside",
+   "location": "Riverside, CA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179488670",
+   "posted": "2026-07-02T17:31:19+00:00",
+   "summary": "Plant and Soil Science. University of California, Riverside (Riverside, CA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 47.4,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Plant pathology",
+     "Soil"
+    ]
+   },
+   "match_terms": [
+    "Plant pathology",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "24af63963aec8578",
+   "age_days": 22,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Professional Researcher Series in Microbiology and Plant Pathology (Open Search)",
+   "org": "University of California, Riverside",
+   "location": "Riverside, CA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179488389",
+   "posted": "2026-07-02T15:46:12+00:00",
+   "summary": "Plant and Soil Science. University of California, Riverside (Riverside, CA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 47.4,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Plant pathology",
+     "Soil"
+    ]
+   },
+   "match_terms": [
+    "Plant pathology",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "4ad24393355b23e6",
+   "age_days": 22,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Livestock Operations Specialist (Class 'A' license required)",
@@ -4884,7 +6458,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Talent Recruitment Announcement at the College of Plant Science & Technology",
@@ -4929,7 +6503,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Educator - Bear Lake County: Livestock, Agriculture and 4-H Youth Development",
@@ -4974,7 +6548,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Assistant - Horticulture (CEFS)",
@@ -5019,7 +6593,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Crop & Soil Sciences- Student Assistant 2-Grey",
@@ -5064,7 +6638,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Farm Operations Professional I - Chavez (1)",
@@ -5109,52 +6683,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
-  },
-  {
-   "title": "Agricultural Specialist",
-   "org": "The University of Georgia",
-   "location": "",
-   "url": "https://careers.insidehighered.com/job/3493664/agricultural-specialist/",
-   "posted": "2026-04-22T09:00:00+00:00",
-   "summary": "The University of Georgia: Posting Number:S12856PWorking Title:Agricultural SpecialistDepartment:CAES-Animal & Dairy ScienceAbout the University of Georgia:Chartered by the stat Athens Area",
-   "salary": "",
-   "source": "Inside Higher Ed",
-   "score": 47.4,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.747,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Agriculture",
-     "Dairy"
-    ]
-   },
-   "match_terms": [
-    "Agriculture",
-    "Dairy"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "priority": 3,
-   "id": "97ee35fe789d1d21",
-   "age_days": 94,
-   "also_on": [],
-   "first_seen": "2026-07-25T08:29:56.276643+00:00",
-   "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Pesticide Safety Education Program (PSEP)",
@@ -5199,7 +6728,53 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Agricultural Specialist",
+   "org": "The University of Georgia",
+   "location": "",
+   "url": "https://careers.insidehighered.com/job/3493664/agricultural-specialist/",
+   "posted": "2026-04-22T09:00:00+00:00",
+   "summary": "The University of Georgia: Posting Number:S12856PWorking Title:Agricultural SpecialistDepartment:CAES-Animal & Dairy ScienceAbout the University of Georgia:Chartered by the stat Athens Area",
+   "salary": "",
+   "source": "Inside Higher Ed",
+   "score": 47.4,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Dairy"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Dairy"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "97ee35fe789d1d21",
+   "age_days": 94,
+   "carried_over": true,
+   "is_new": false,
+   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "last_seen": "2026-07-25T09:06:31.377732+00:00",
+   "also_on": []
   },
   {
    "title": "26-27 AY Teaching Associate (TA) - Plant Science",
@@ -5244,7 +6819,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Agricultural Assistant II",
@@ -5287,7 +6862,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "OPS - Agricultural Assistant",
@@ -5330,7 +6905,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Educator, Agriculture Natural Resources- Fulton County",
@@ -5373,7 +6948,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Weekend Horticultural Assistant",
@@ -5416,7 +6991,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:12:45.545332+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Coordinator - Landscape Horticulture",
@@ -5459,50 +7034,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
-  },
-  {
-   "title": "Student Farm Assistant",
-   "org": "The University of Georgia",
-   "location": "",
-   "url": "https://careers.insidehighered.com/job/3530256/student-farm-assistant/",
-   "posted": "2026-07-18T09:00:00+00:00",
-   "summary": "The University of Georgia: Posting Number:G/R34009PWorking Title:Student Farm AssistantDepartment:VetMed-Population HealthAbout the University of Georgia:Chartered by the state Athens Area",
-   "salary": "",
-   "source": "Inside Higher Ed",
-   "score": 46.5,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.727,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Farming"
-    ]
-   },
-   "match_terms": [
-    "Farming"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "priority": 3,
-   "id": "f95ee09cedeff875",
-   "age_days": 7,
-   "also_on": [],
-   "first_seen": "2026-07-25T08:29:56.276643+00:00",
-   "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Horticulturist (9723C), UC Botanical Garden #87447",
@@ -5545,7 +7077,51 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Student Farm Assistant",
+   "org": "The University of Georgia",
+   "location": "",
+   "url": "https://careers.insidehighered.com/job/3530256/student-farm-assistant/",
+   "posted": "2026-07-18T09:00:00+00:00",
+   "summary": "The University of Georgia: Posting Number:G/R34009PWorking Title:Student Farm AssistantDepartment:VetMed-Population HealthAbout the University of Georgia:Chartered by the state Athens Area",
+   "salary": "",
+   "source": "Inside Higher Ed",
+   "score": 46.5,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.727,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "f95ee09cedeff875",
+   "age_days": 7,
+   "carried_over": true,
+   "is_new": false,
+   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "last_seen": "2026-07-25T09:06:31.377732+00:00",
+   "also_on": []
   },
   {
    "title": "Extension Agent, Community & Rural Development, and Local Food Coordinator (Assistant, Associat...",
@@ -5588,7 +7164,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Agent I–II – Environmental Horticulture",
@@ -5631,7 +7207,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Program Assistant/Associate-Agriculture",
@@ -5674,7 +7250,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Area Agent - Field Crops (Assistant, Associate, or Full Agent)",
@@ -5717,7 +7293,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Student Employee-Agriculture Engineering Technology--Assistant",
@@ -5760,7 +7336,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Student Employee- School of Agricultural Sciences- Student Workers",
@@ -5803,7 +7379,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Agricultural Assistant III",
@@ -5846,50 +7422,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
-  },
-  {
-   "title": "Kenyon Farm Production Manager",
-   "org": "Kenyon College",
-   "location": "",
-   "url": "https://careers.insidehighered.com/job/3528989/kenyon-farm-production-manager/",
-   "posted": "2026-07-15T09:00:00+00:00",
-   "summary": "Kenyon College: Job no: 493343 Work type: Exempt Staff Location: Gambier, OH Categories: Kenyon College is conducting a search for a qualified candidate to fill the Gambier, OH",
-   "salary": "",
-   "source": "Inside Higher Ed",
-   "score": 46.5,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.727,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Farming"
-    ]
-   },
-   "match_terms": [
-    "Farming"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "priority": 3,
-   "id": "d1f91003bab7ef16",
-   "age_days": 10,
-   "also_on": [],
-   "first_seen": "2026-07-25T08:29:56.276643+00:00",
-   "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Hundley Whaley Director and Field Specialist in Agronomy",
@@ -5932,7 +7465,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Greenhouse Educational Assistant (PT)",
@@ -5975,7 +7508,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Horticulturists I, II, and III",
@@ -6018,7 +7551,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Crop Transformation Pipeline Manager - Plant Biology Institute",
@@ -6061,7 +7594,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Agent II, Agriculture",
@@ -6104,7 +7637,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Student Employee- School of Agricultural Sciences- Rodeo Office Student Worker (Work Study Elig...",
@@ -6147,7 +7680,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Project Forward Classroom Assistant, Agriculture and Facilities",
@@ -6190,7 +7723,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Conservation Cropping Outreach Specialist",
@@ -6233,7 +7766,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Conservation Cropping Outreach Specialist - Northeast WI",
@@ -6276,7 +7809,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Agricultural Specialist and Manager",
@@ -6319,7 +7852,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Soil Fertility Outreach Specialist",
@@ -6362,7 +7895,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Ohio State Student Farm Production Coordinator",
@@ -6405,7 +7938,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Part-Time Farm Worker",
@@ -6445,10 +7978,11 @@
    "priority": 3,
    "id": "205e35c5b630bf83",
    "age_days": 22,
-   "also_on": [],
-   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "carried_over": true,
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "last_seen": "2026-07-25T09:06:31.377732+00:00",
+   "also_on": []
   },
   {
    "title": "Director of Information Technology, College of Agriculture and Life Sciences",
@@ -6491,7 +8025,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "[POOL] PT Faculty, Agriculture",
@@ -6534,7 +8068,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Recruitment Announcement for High-Level Talent at the Center for Agricultural Microbiology",
@@ -6577,7 +8111,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Agricultural Technician",
@@ -6617,53 +8151,11 @@
    "priority": 3,
    "id": "94c1196528f029dc",
    "age_days": 27,
-   "also_on": [],
+   "carried_over": true,
+   "is_new": false,
    "first_seen": "2026-07-25T08:29:56.276643+00:00",
-   "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
-  },
-  {
-   "title": "Agriculture Technician",
-   "org": "Auburn University",
-   "location": "",
-   "url": "https://jobs.chronicle.com/job/38007373/agriculture-technician/",
-   "posted": "2026-06-26T05:00:00+00:00",
-   "summary": "Competitive Salary: Auburn University: Job Description Overview This position is located in Shorter, AL. The E. V. Smith Research Center located in Shorter, AL is seeking candidates... Shorter, Alabama, United States",
-   "salary": "",
-   "source": "Chronicle of Higher Ed",
-   "score": 46.5,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.727,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Agriculture"
-    ]
-   },
-   "match_terms": [
-    "Agriculture"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "priority": 3,
-   "id": "333bc7986b150416",
-   "age_days": 29,
-   "also_on": [],
-   "first_seen": "2026-07-25T07:04:30.728065+00:00",
-   "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:06:31.377732+00:00",
+   "also_on": []
   },
   {
    "title": "Farm Safety and Health Outreach Specialist",
@@ -6706,7 +8198,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "RESEARCH SPECIALIST II - Cornett Research Farm",
@@ -6749,7 +8241,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Senior Director of Development, College of Agriculture",
@@ -6792,7 +8284,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Extension Specialist I/Agent II, Agricultural Engineer",
@@ -6835,7 +8327,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "UTS - Temporary Horticulture Specialist at NC State",
@@ -6878,7 +8370,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Agriculture Technician I/II/III/IV",
@@ -6921,7 +8413,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business – Taney County, MO",
@@ -6964,7 +8456,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Senior Horticulturist/Horticulturist",
@@ -7009,7 +8501,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Student Employee-School of Agricultural Sciences-Rodeo",
@@ -7052,7 +8544,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Director of University Farm Operations",
@@ -7095,7 +8587,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Assistant/Associate, Crop Experiments & Sensing",
@@ -7138,7 +8630,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Community Food & Agricultural Systems Coordinator",
@@ -7181,7 +8673,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Program Assistant, Agriculture & Natural Resources",
@@ -7224,7 +8716,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Field Specialist in Agronomy – Vernon County, MO",
@@ -7267,7 +8759,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business – Putnam County, MO",
@@ -7310,7 +8802,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Troup County Extension Agriculture and Natural Resources (ANR) Agent",
@@ -7353,7 +8845,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Greene County Agriculture and Natural Resources Agent",
@@ -7396,7 +8888,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Elbert County Agriculture and Natural Resources Agent",
@@ -7439,7 +8931,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Fike Agronomy Field Lab Intern",
@@ -7482,7 +8974,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Elbert County Agriculture and Natural Resources Agent",
@@ -7525,7 +9017,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Horticulture Student Assistant -4 Deltsidis",
@@ -7568,7 +9060,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Agroecology Lab Coordinator",
@@ -7611,7 +9103,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Farm Laborer 2",
@@ -7651,10 +9143,11 @@
    "priority": 3,
    "id": "9fea866358ca34d3",
    "age_days": 81,
-   "also_on": [],
-   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "carried_over": true,
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "last_seen": "2026-07-25T09:06:31.377732+00:00",
+   "also_on": []
   },
   {
    "title": "SUAREC | Vice Chancellor for Research (Agriculture)",
@@ -7697,7 +9190,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Grand Farm Support Technician",
@@ -7740,7 +9233,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Undergraduate Researcher in Soil Science",
@@ -7783,7 +9276,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Forest Soil Fieldwork Temporary Technician",
@@ -7826,7 +9319,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Wayne County Agriculture & Natural Resources Agent",
@@ -7869,7 +9362,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Equine and Farm Animal Attendant (weekends, afterhours)",
@@ -7909,10 +9402,11 @@
    "priority": 3,
    "id": "a69299e2aa6d600c",
    "age_days": 99,
-   "also_on": [],
-   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "carried_over": true,
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "last_seen": "2026-07-25T09:06:31.377732+00:00",
+   "also_on": []
   },
   {
    "title": "Student Research Assistant - Plant and Soil Sciences",
@@ -7955,7 +9449,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Agriculture Center Manager",
@@ -7998,7 +9492,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Postdoctoral Fellow",
@@ -8043,7 +9537,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Crop Science, Agriculture - Part-time Adjunct Pool",
@@ -8090,7 +9584,52 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Adjunct/Per Course Faculty - Environmental Plant Science (Fall 2026)",
+   "org": "Missouri State University",
+   "location": "Springfield, MO",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179503273",
+   "posted": "2026-07-17T18:04:36+00:00",
+   "summary": "Plant and Soil Science. Missouri State University (Springfield, MO)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 45.1,
+   "role": "Adjunct / Faculty Pool",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Plant science",
+     "Soil"
+    ]
+   },
+   "match_terms": [
+    "Plant science",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "8fba340e7e0901b5",
+   "age_days": 7,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Instructor of Horticulture and Entrepreneurial Agriculture - Adjunct Pool",
@@ -8135,7 +9674,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Adjunct Instructor – Agribusiness, Agronomy, Animal Science, and Farm Operations",
@@ -8180,7 +9719,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Ornamental Horticulture Instructor, Early College (Agriculture) - Part-time Adjunct Pool",
@@ -8225,7 +9764,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Coordinator, District Irrigation",
@@ -8268,7 +9807,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Irrigation Specialist",
@@ -8311,7 +9850,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Irrigation Technicians",
@@ -8354,7 +9893,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Assistant Manager Irrigation Systems, Facilities and Campus Services",
@@ -8399,7 +9938,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Irrigation Technician",
@@ -8442,7 +9981,50 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Part Time Instructor - Agricultural Sciences - Dual Credit Brenham ISD",
+   "org": "Blinn College",
+   "location": "Brenham, TX",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179507293",
+   "posted": "2026-07-23T12:21:18+00:00",
+   "summary": "Other Agriculture Faculty. Blinn College (Brenham, TX)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 44.2,
+   "role": "Adjunct / Faculty Pool",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.727,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture"
+    ]
+   },
+   "match_terms": [
+    "Agriculture"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "ca15073d0b4f4956",
+   "age_days": 1,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Part-Time Instructor Pool - Landscape Drafting, Environmental Horticulture",
@@ -8485,7 +10067,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Part-Time Instructor Pool - Environmental Horticulture",
@@ -8528,7 +10110,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Part-Time Instructor Pool - Ecological Restoration, Environmental Horticulture",
@@ -8571,7 +10153,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Part-time Faculty Pool: Agriculture",
@@ -8611,10 +10193,12 @@
    "priority": 3,
    "id": "f69e4f7171e528b1",
    "age_days": 14,
-   "also_on": [],
+   "also_on": [
+    "HigherEdJobs"
+   ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Adjunct Instructor - Agriculture Equipment Technology",
@@ -8657,7 +10241,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "z-Part-Time Faculty Pool - Agriculture",
@@ -8700,7 +10284,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "z-Part-Time Adjunct Faculty Pool- Agricultural Management",
@@ -8743,7 +10327,50 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Agricultural Production Associate (Part-time) Instructor Pool 2026 - 2027",
+   "org": "MiraCosta College",
+   "location": "Oceanside, CA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179489104",
+   "posted": "2026-07-03T13:45:33+00:00",
+   "summary": "Other Agriculture Faculty. MiraCosta College (Oceanside, CA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 44.2,
+   "role": "Adjunct / Faculty Pool",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.727,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture"
+    ]
+   },
+   "match_terms": [
+    "Agriculture"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "95560c7bf3bee67b",
+   "age_days": 21,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Part-time Faculty, Dept. of Agriculture",
@@ -8783,10 +10410,12 @@
    "priority": 3,
    "id": "796d97aacea7b082",
    "age_days": 30,
-   "also_on": [],
+   "also_on": [
+    "HigherEdJobs"
+   ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Animal Science, Agriculture - Part-time Adjunct Pool",
@@ -8829,7 +10458,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Agriculture Production Instructor, Part-time Adjunct Pool",
@@ -8872,7 +10501,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Mechanized Agriculture Instructor- Part-time Adjunct Pool",
@@ -8915,7 +10544,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Agriculture Business Instructor, Early College - Part-time Adjunct Pool",
@@ -8958,7 +10587,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Adjunct Instructor - Horticulture",
@@ -9001,7 +10630,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Adjunct Faculty - Agriculture",
@@ -9044,7 +10673,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "26-27 AY Temporary Faculty Pool (Lecturer) - Viticulture",
@@ -9087,7 +10716,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "26-27 AY Temporary Faculty Pool (Lecturer) - Agricultural Business",
@@ -9130,7 +10759,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "26-27 AY Temporary Faculty Pool - Agricultural Education",
@@ -9173,7 +10802,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "PhD Studentship: Controlling Greenhouse Gas Emissions by Targeting G-quadruplex DNA/RNA Structures in Plant-associated Bacteria",
@@ -9221,7 +10850,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Postdoctoral Research Scholar",
@@ -9266,7 +10895,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Post-Doctoral Associate - Pickering Lab",
@@ -9311,7 +10940,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "PhD Studentship: Nutrient Dynamics in Cover Crops and Their Implications for Sugar Beet Nutrition, Soil Health, and Climate Resilience",
@@ -9360,7 +10989,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "SD-26106-PHD POSITION ON ASSESSMENT AND MONITORING OF SOIL HEALTH AT CONTAMINATED SITES USING GEO...",
@@ -9405,7 +11034,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "PhD Studentship: Design and Structural Dynamics of Offshore Aquaculture Systems, PhD (Funded)",
@@ -9448,7 +11077,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Specialist Sr.",
@@ -9497,7 +11126,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Assistant",
@@ -9542,7 +11171,682 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Gamebird Production Manager",
+   "org": "East Texas A&M University",
+   "location": "Commerce, TX",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179509341",
+   "posted": "2026-07-24T17:46:31+00:00",
+   "summary": "Farming and Agriculture. East Texas A&M University (Commerce, TX)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "9352a36098851e60",
+   "age_days": 0,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "ECRC Ranch Operations Technician",
+   "org": "Colorado State University",
+   "location": "Akron, CO",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179509220",
+   "posted": "2026-07-24T16:40:00+00:00",
+   "summary": "Farming and Agriculture. Colorado State University (Akron, CO)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "8821ed233a7b7737",
+   "age_days": 0,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Assistant Director",
+   "org": "Washington State University",
+   "location": "Pullman, WA",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179508663",
+   "posted": "2026-07-24T13:46:05+00:00",
+   "summary": "Farming and Agriculture. Washington State University (Pullman, WA)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "bcd23b62942aa438",
+   "age_days": 0,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Regional Educator - 4-H - Osgood, IN",
+   "org": "Purdue University",
+   "location": "West Lafayette, IN",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179507559",
+   "posted": "2026-07-23T13:33:25+00:00",
+   "summary": "Farming and Agriculture. Purdue University (West Lafayette, IN)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "5a534217009bdd1f",
+   "age_days": 1,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Barn Assistant",
+   "org": "Auburn University",
+   "location": "Auburn, AL",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179506803",
+   "posted": "2026-07-22T20:02:27+00:00",
+   "summary": "Farming and Agriculture. Auburn University (Auburn, AL)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "e282eff7296a85b5",
+   "age_days": 2,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Applehouse Picking/Sorting, Landscape Arboretum, Chaska (# 374847)",
+   "org": "University of Minnesota",
+   "location": "Minneapolis, MN",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179504176",
+   "posted": "2026-07-20T12:45:46+00:00",
+   "summary": "Farming and Agriculture. University of Minnesota (Minneapolis, MN)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "c9c6d1b6d4b04e17",
+   "age_days": 4,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Relief Milker - Animal Care Technician II",
+   "org": "University of Wisconsin - Madison",
+   "location": "Arlington, WI",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179502149",
+   "posted": "2026-07-16T20:15:46+00:00",
+   "summary": "Farming and Agriculture. University of Wisconsin - Madison (Arlington, WI)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "e596f5155d3a97fa",
+   "age_days": 8,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "CREC Seedstocks Specialist for Plant Operations",
+   "org": "North Dakota State University",
+   "location": "Carrington, ND",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179498900",
+   "posted": "2026-07-14T14:02:09+00:00",
+   "summary": "Farming and Agriculture. North Dakota State University (Carrington, ND)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "6ca2cd4616ed4dd5",
+   "age_days": 10,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Assistant Beef Unit Manager",
+   "org": "Purdue University",
+   "location": "West Lafayette, IN",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179494213",
+   "posted": "2026-07-09T16:15:39+00:00",
+   "summary": "Farming and Agriculture. Purdue University (West Lafayette, IN)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "361ff5664676dbcd",
+   "age_days": 15,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Program Leader Ag and Natural Resources",
+   "org": "Kentucky State University",
+   "location": "Frankfort, KY",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179492586",
+   "posted": "2026-07-08T04:01:00+00:00",
+   "summary": "Farming and Agriculture. Kentucky State University (Frankfort, KY)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "7438ee815f9c61cb",
+   "age_days": 17,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Large Animal Barn Crew",
+   "org": "Colorado State University",
+   "location": "Fort Collins, CO",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179491273",
+   "posted": "2026-07-07T09:00:44+00:00",
+   "summary": "Farming and Agriculture. Colorado State University (Fort Collins, CO)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "269b58df709eb38e",
+   "age_days": 18,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Temp Equine Center Grounds Assistant",
+   "org": "Otterbein University",
+   "location": "Westerville, OH",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179489323",
+   "posted": "2026-07-03T21:00:59+00:00",
+   "summary": "Farming and Agriculture. Otterbein University (Westerville, OH)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "5c4b71121d19cbd3",
+   "age_days": 21,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Stable Assistant",
+   "org": "Otterbein University",
+   "location": "Westerville, OH",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179489322",
+   "posted": "2026-07-03T21:00:52+00:00",
+   "summary": "Farming and Agriculture. Otterbein University (Westerville, OH)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "11f01a07a1a463f1",
+   "age_days": 21,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Temporary Animal Caretaker",
+   "org": "Ross University School of Veterinary Medicine",
+   "location": "Basseterre, Saint Kitts and Nevis",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179485792",
+   "posted": "2026-06-30T16:01:44+00:00",
+   "summary": "Farming and Agriculture. Ross University School of Veterinary Medicine (Basseterre, Saint Kitts and Nevis)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "f3f2022303ae5dee",
+   "age_days": 24,
+   "also_on": [],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
+  },
+  {
+   "title": "Auto Mechanic II",
+   "org": "University of Kentucky",
+   "location": "Lexington, KY",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179485432",
+   "posted": "2026-06-30T13:04:32+00:00",
+   "summary": "Farming and Agriculture. University of Kentucky (Lexington, KY)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 35.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.478,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "priority": 3,
+   "id": "2f1def1662386040",
+   "age_days": 24,
+   "also_on": [],
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "is_new": true,
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Assistant",
@@ -9582,10 +11886,11 @@
    "priority": 3,
    "id": "91295817d1c62185",
    "age_days": 2,
-   "also_on": [],
-   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "carried_over": true,
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "last_seen": "2026-07-25T09:06:31.377732+00:00",
+   "also_on": []
   },
   {
    "title": "Peanut Breeding Program Project Assistant",
@@ -9630,7 +11935,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "CSS Temp Research ParaPro- Branch",
@@ -9675,7 +11980,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Tutor/Senior Tutor - NWAFU - JEI",
@@ -9720,7 +12025,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Professional-CSS (Brown), Tifton",
@@ -9765,7 +12070,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Commodity Marketing Coordinator",
@@ -9810,7 +12115,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Program Manager I, IAMP",
@@ -9855,7 +12160,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Student Assistant- Monfort",
@@ -9900,7 +12205,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Laboratory Assistant - Habteselassie",
@@ -9945,7 +12250,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Lab/Field Assistant",
@@ -9990,7 +12295,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Laboratory Assistant - Huang",
@@ -10035,7 +12340,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Field/Summer Assistant 7 - Basinger",
@@ -10080,7 +12385,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Graduate Assistant - Jespersen",
@@ -10125,7 +12430,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Lab/Summer Field Assistant",
@@ -10170,7 +12475,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Student Assistant (1) - J. Thompson",
@@ -10215,7 +12520,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Lab/Research Assistant (5) - Devos Lab",
@@ -10260,7 +12565,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Research Assistant - Vines",
@@ -10305,7 +12610,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Field/Summer Assistant - Vines",
@@ -10350,7 +12655,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "C&SS Student Assistant Tubbs 1",
@@ -10395,7 +12700,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Lab/Field Assistant (EARTH)",
@@ -10440,7 +12745,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Ph.D. Graduate Research Assistant - Huang",
@@ -10485,7 +12790,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Field Assistant - Pritchard",
@@ -10530,7 +12835,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Field/Summer Assistant - Raymer",
@@ -10575,7 +12880,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Field/Lab Assistant - Mergoum",
@@ -10620,7 +12925,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Research Technician",
@@ -10665,7 +12970,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Student Assistant - Mailhot",
@@ -10710,7 +13015,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Variety Testing Assistant - Mailhot",
@@ -10755,7 +13060,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Temporary Lab/Research - Leclerc",
@@ -10800,7 +13105,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "GA Pnt Brdg Prgm Student 2 - Branch",
@@ -10845,7 +13150,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   },
   {
    "title": "Research Technician - Grass Genomes (Devos Lab)",
@@ -10890,7 +13195,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-07-25T09:06:31.377732+00:00"
+   "last_seen": "2026-07-25T09:34:59.092830+00:00"
   }
  ]
 }
