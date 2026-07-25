@@ -145,16 +145,32 @@ def _html(jobs: list[dict]) -> str:
 
 
 # --------------------------------------------------------------------------
+def env(name: str, default: str = "") -> str:
+    """
+    Environment lookup that treats blank as absent.
+
+    An unset GitHub Actions secret is injected as an EMPTY STRING, not as a
+    missing variable -- so os.environ.get(name, default) hands back "" and any
+    int() on it explodes. Everything here goes through this helper.
+    """
+    return (os.environ.get(name) or "").strip() or default
+
+
 def send(jobs: list[dict]) -> bool:
-    server = os.environ.get("MAIL_SERVER", "smtp.gmail.com")
-    port = int(os.environ.get("MAIL_PORT", "465"))
-    user = os.environ.get("MAIL_USERNAME", "")
-    password = os.environ.get("MAIL_PASSWORD", "")
-    to = os.environ.get("MAIL_TO", "")
+    server = env("MAIL_SERVER", "smtp.gmail.com")
+    try:
+        port = int(env("MAIL_PORT", "465"))
+    except ValueError:
+        print(f"  MAIL_PORT is not a number -- falling back to 465")
+        port = 465
+    user = env("MAIL_USERNAME")
+    password = env("MAIL_PASSWORD")
+    to = env("MAIL_TO")
 
     if not (user and password and to):
-        print("  Mail credentials not set (MAIL_USERNAME / MAIL_PASSWORD / MAIL_TO)"
-              " -- skipping the email, everything else still ran.")
+        missing = [n for n in ("MAIL_USERNAME", "MAIL_PASSWORD", "MAIL_TO") if not env(n)]
+        print(f"  Mail not configured (missing: {', '.join(missing)})"
+              " -- skipping the email. Everything else still ran.")
         return False
 
     n = len(jobs)
@@ -201,7 +217,15 @@ def main() -> int:
     for j in fresh:
         print(f"    {j['score']:5.1f}  {j['title'][:60]}  ({j.get('org','')[:30]})")
 
-    sent = send(fresh)
+    # A mail problem must never sink the run -- publishing the refreshed job
+    # data matters more than the notification, and the next run retries.
+    try:
+        sent = send(fresh)
+    except Exception as exc:
+        print(f"  Could not send the email ({type(exc).__name__}: {exc}).")
+        print("  The job data is still published; the next run will retry.")
+        return 0
+
     if sent:
         now = datetime.now(timezone.utc).isoformat()
         for j in fresh:
