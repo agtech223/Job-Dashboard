@@ -61,6 +61,28 @@ BROAD_QUERIES = [
     "food security", "environmental engineering", "agri-food", "digital agriculture",
 ]
 
+# Canadian government career sites return only ~20 items per query, so they get
+# a short, high-signal list aimed at the science and engineering streams that
+# match the CV (NRC research officer, provincial agrologist / specialist roles).
+GOV_QUERIES = [
+    "",                       # everything currently open -- the safety net
+    "agriculture",
+    "agronomy",
+    "crop",
+    "soil",
+    "plant",
+    "food",
+    "research scientist",
+    "research officer",
+    "remote sensing",
+    "geomatics",
+    "machine learning",
+    "engineer",
+    "environment",
+    "forestry",
+    "water",
+]
+
 # ---------------------------------------------------------------------------
 # 2. WHAT COUNTS AS A MATCH
 #
@@ -303,6 +325,8 @@ PRIORITY_TIERS = [
 # ---------------------------------------------------------------------------
 # A posting triggers one email the first time it satisfies ALL of these.
 # Agriculture is implied -- non-agricultural postings never get this far.
+GOVERNMENT_SOURCES = ("NRC (federal)", "Nova Scotia (provincial)")
+
 ALERT_COUNTRIES = ("Canada",)      # () for anywhere in the world
 ALERT_MIN_SCORE = 60               # match score out of 100
 ALERT_REQUIRE_FACULTY = False      # True = only professor/lecturer/chair lines

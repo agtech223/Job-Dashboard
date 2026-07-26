@@ -22,7 +22,7 @@ from urllib.parse import urlparse
 import feedparser
 import requests
 
-from profile import BROAD_QUERIES, SEARCH_QUERIES
+from profile import BROAD_QUERIES, GOV_QUERIES, SEARCH_QUERIES
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
@@ -461,6 +461,115 @@ def workday(label: str, tenant: str, wd: str, site: str, offset: int):
 
 
 # --------------------------------------------------------------------------
+# 8. CANADIAN GOVERNMENT  --  SuccessFactors career sites
+#
+#    Public-sector employers running SAP SuccessFactors expose a standard
+#    RSS endpoint at /services/rss/job/. It honours a keyword filter and
+#    returns up to 20 items, so it is queried once per search term exactly
+#    like the academic boards.
+#
+#    Federal departments that recruit through GC Jobs (AAFC, CFIA, NRCan,
+#    ECCC and most others) are NOT here: jobs.gc.ca is a JavaScript
+#    application with no feed, no form and no public API, so it cannot be
+#    scraped dependably. Use its own Job Alert instead -- see the README
+#    section "Canadian government jobs".
+# --------------------------------------------------------------------------
+GOV_SF_SITES = [
+    ("NRC (federal)", "recruitment-recrutement.nrc-cnrc.gc.ca", "en_US"),
+    ("Nova Scotia (provincial)", "jobs.novascotia.ca", "en_US"),
+]
+
+# These feeds are bilingual -- every federal posting appears twice, once per
+# official language. Keep the English copy.
+_FR_STRONG = ("ingénieur", "chercheur", "conseillère", "conseiller ou",
+              "informaticien", "gestionnaire", "adjointe", "technicienne",
+              "principal(e)", "chargé", "responsable de", "ou agente",
+              "spécialiste", "recherche et développement", "agente")
+_FR_WEAK = (" ou ", " et ", " de la ", " des ", " du ", " aux ", " pour ")
+_ACCENTS = "éèêëàâçùûôîï"
+
+
+def _looks_french(title: str) -> bool:
+    t = " " + title.lower() + " "
+    if any(m in t for m in _FR_STRONG):
+        return True
+    weak = sum(1 for m in _FR_WEAK if m in t)
+    return weak >= 2 or (weak >= 1 and any(c in t for c in _ACCENTS))
+
+
+# SuccessFactors emits a placeholder item when a keyword matches nothing.
+_EMPTY_MARKERS = ("no jobs currently available", "aucun emploi",
+                  "check out our", "consultez")
+
+
+def _sf_location(title: str):
+    """'Job Name (WATERVILLE, NS, CA, B0P 1V0)' -> (clean title, location)."""
+    m = re.search(r"\(([^()]{3,90})\)\s*$", title)
+    if not m:
+        return title, ""
+    inner = m.group(1).strip()
+    if not re.search(r",\s*[A-Z]{2}\b", inner):
+        return title, ""                       # e.g. "(Relief Roster)"
+    inner = re.sub(r",\s*[A-Z]\d[A-Z]\s*\d[A-Z]\d\s*$", "", inner)   # postal code
+    return title[: m.start()].strip(), inner.strip()
+
+
+def successfactors_site(label: str, host: str, locale: str):
+    """
+    Pull one public-sector site across every GOV_QUERIES term and merge.
+
+    The RSS summary on these feeds is employment-equity boilerplate, so it
+    carries no evidence of what the job is actually about. What DOES carry
+    evidence is which of our search terms the site's own full-text search
+    matched the posting on -- so those terms are recorded on the record and
+    the agriculture gate judges the posting on them.
+    """
+    merged: dict[str, dict] = {}
+
+    for keyword in GOV_QUERIES:
+        url = f"https://{host}/services/rss/job/?locale={locale}"
+        if keyword:
+            url += f"&keywords=({_quote(keyword)})"
+        body = _get(url)
+        if not body:
+            continue
+        for e in feedparser.parse(body).entries:
+            raw = _clean(e.get("title", ""))
+            link = e.get("link", "")
+            if not raw or not link:
+                continue
+            low = raw.lower()
+            if any(m in low for m in _EMPTY_MARKERS):
+                continue
+            if _looks_french(raw):
+                continue
+
+            title, location = _sf_location(raw)
+            rec = merged.get(link)
+            if rec is None:
+                rec = merged[link] = {
+                    "title": title,
+                    "org": label.split(" (")[0],
+                    "location": location or "Canada",
+                    "url": link,
+                    "posted": _iso(e),
+                    "summary": _clean(e.get("summary", ""))[:400],
+                    "salary": "",
+                    "source": label,
+                    "_terms": set(),
+                }
+            if keyword:
+                rec["_terms"].add(keyword)
+
+    for rec in merged.values():
+        terms = sorted(rec.pop("_terms"))
+        if terms:
+            rec["summary"] = (f"Matched the {rec['source']} job search for: "
+                              f"{', '.join(terms)}. " + rec["summary"])
+        yield rec
+
+
+# --------------------------------------------------------------------------
 # TASK LIST  --  every unit of work the scraper will run in parallel
 # --------------------------------------------------------------------------
 def build_tasks():
@@ -498,10 +607,21 @@ def build_tasks():
                           lambda l=label, t=tenant, w=wd, s=site, o=off:
                           list(workday(l, t, w, s, o))))
 
+    # one task per site -- it walks every GOV_QUERIES term itself so the
+    # matched terms can be merged onto a single record per posting
+    for label, host, locale in GOV_SF_SITES:
+        tasks.append((f"{label}: all queries",
+                      lambda l=label, h=host, lo=locale:
+                      list(successfactors_site(l, h, lo))))
+
     return tasks
 
 
-SOURCE_NAMES = ["CAUT (Canada)", "University portal (Canada)", "Nature Careers",
-                "Times Higher Education", "Chronicle of Higher Ed",
-                "Inside Higher Ed", "HigherEdJobs", "jobs.ac.uk", "EURAXESS",
-                "jobRxiv"]
+SOURCE_NAMES = ["CAUT (Canada)", "University portal (Canada)",
+                "NRC (federal)", "Nova Scotia (provincial)",
+                "Nature Careers", "Times Higher Education",
+                "Chronicle of Higher Ed", "Inside Higher Ed", "HigherEdJobs",
+                "jobs.ac.uk", "EURAXESS", "jobRxiv"]
+
+# Sources that are Canadian public-sector employers
+GOVERNMENT_SOURCES = {label for label, _, _ in GOV_SF_SITES}

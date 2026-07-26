@@ -53,6 +53,8 @@ instead of a refresh button.
 |---|---|
 | **CAUT / AcademicWork.ca** | **Canada — the Canadian academic job board** |
 | **University portals (Workday)** | **Canada — McGill, UBC, direct from the employer** |
+| **NRC** | **Canada — National Research Council, federal** |
+| **Nova Scotia** | **Canada — provincial public service** |
 | jobs.ac.uk | UK + international |
 | Nature Careers | Global, high-prestige research posts |
 | Times Higher Education (unijobs) | Global |
@@ -71,6 +73,75 @@ completely.
 To add another Canadian university, find its careers URL of the shape
 `https://<tenant>.<wdN>.myworkdayjobs.com/en-US/<site>` and add a line to
 `WORKDAY_SITES` in `engine/sources.py`.
+
+---
+
+## Canadian government jobs
+
+The **Government** view in the dashboard collects public-sector postings.
+
+### What the radar pulls automatically
+
+| Employer | How |
+|---|---|
+| **NRC** — National Research Council | SuccessFactors RSS |
+| **Nova Scotia** — provincial public service | SuccessFactors RSS |
+
+Both are queried across sixteen agriculture and science terms per run. Their
+RSS summaries are employment-equity boilerplate with no description in them, so
+the radar records **which of its search terms the employer's own full-text
+search matched** and judges the posting on those. That is how NRC's *Computer
+Specialist – Biostatistics* in **Saskatoon** — their crop-research centre —
+surfaces at 60/100 despite a title that never says "agriculture".
+
+### What cannot be automated, and what to do instead
+
+**AAFC, CFIA, Natural Resources Canada, ECCC and most federal departments
+recruit through GC Jobs (jobs.gc.ca), which cannot be scraped.** It is a
+JavaScript application behind a session — no feed, no search form in the HTML,
+no public API. I probed every entry point; none returns job data. Anything that
+appeared to work would break silently within weeks, which is worse than not
+having it.
+
+**You were right that the account is the reliable route.** GC Jobs has a proper
+Job Alert system, and it is the correct tool for federal postings. **I can't
+create the account for you** — it needs your identity and credentials, and
+creating accounts on your behalf is not something I'll do. It takes about three
+minutes:
+
+1. Go to **https://emploisfp-psjobs.cfp-psc.gc.ca** → *Create an account* (GC Key
+   or Sign-In Partner).
+2. Open **Job Alerts** → *Create a new job alert*.
+3. Suggested criteria for your profile:
+   - **Keywords:** `agriculture`, `agronomy`, `crop`, `soil`, `precision agriculture`,
+     `remote sensing`, `geomatics`, `machine learning`, `research scientist`
+   - **Job category:** *Scientific and Professional* (and *Engineering*)
+   - **Classification:** `RES` (Research Scientist), `AG` (Agriculture),
+     `EG` / `ENG` (Engineering), `PC` (Physical Sciences), `BI` (Biological Sciences)
+   - **Location:** all of Canada, or the provinces you would move to
+   - **Frequency:** daily
+4. Do the same at **CFIA** and **AAFC** if you want department-specific alerts —
+   both link out to GC Jobs.
+
+Those alerts land in your inbox directly. The radar covers everything else.
+
+### Provinces that cannot be scraped
+
+**Alberta, Saskatchewan, Ontario, Manitoba, British Columbia, New Brunswick and
+Quebec** all render their job lists in JavaScript — the served HTML contains no
+postings. Reading them would need a headless browser on every run, which is too
+slow and too brittle for a daily job. Nova Scotia is included because it happens
+to expose a real feed.
+
+If another province moves to SuccessFactors, adding it is one line in
+`GOV_SF_SITES` (`engine/sources.py`) plus its label in `GOVERNMENT_SOURCES`
+(`engine/profile.py`). Test the host first:
+
+```
+https://<host>/services/rss/job/?locale=en_US
+```
+
+If that returns RSS items, it will work.
 
 ---
 

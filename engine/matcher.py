@@ -21,6 +21,7 @@ import re
 from datetime import datetime, timezone
 
 from profile import (ACADEMIC_SIGNALS, AG_GROUPS, AG_MIN_BODY_TERMS,
+                     GOVERNMENT_SOURCES,
                      AG_SATURATION, BREADTH_TARGET, FACULTY_ROLES,
                      KEYWORD_GROUPS, NEGATIVE_BODY, NEGATIVE_TITLE,
                      PRIORITY_COUNTRIES, REQUIRE_AGRICULTURE, ROLE_FIT,
@@ -639,6 +640,7 @@ def score_job(job: dict) -> dict:
     job["is_faculty"] = role in FACULTY_ROLES
     job["is_tenure_track"] = role == "Tenure-Track Faculty"
     job["is_priority_country"] = job["country"] in PRIORITY_COUNTRIES
+    job["is_government"] = job.get("source", "") in GOVERNMENT_SOURCES
     job["priority"] = (0 if job["is_priority_country"] and job["is_faculty"] else
                        1 if job["is_priority_country"] else
                        2 if job["is_faculty"] else 3)

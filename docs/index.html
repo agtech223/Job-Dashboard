@@ -33,6 +33,7 @@
   <g id="i-filter"><path d="M3 5h18"/><path d="M6.5 12h11"/><path d="M10 19h4"/></g>
   <g id="i-inbox"><path d="M4 13h4l2 3h4l2-3h4"/><path d="M4.5 13L6 5.5A2 2 0 018 4h8a2 2 0 012 1.5L19.5 13V18a2 2 0 01-2 2h-11a2 2 0 01-2-2z"/></g>
   <g id="i-clock"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.2l3.2 2"/></g>
+  <g id="i-building"><path d="M3 21h18"/><path d="M5 21V5.5A1.5 1.5 0 016.5 4h7A1.5 1.5 0 0115 5.5V21"/><path d="M15 10h2.5A1.5 1.5 0 0119 11.5V21"/><path d="M8.5 8h3M8.5 12h3M8.5 16h3"/></g>
 </defs>
 </svg>
 
@@ -224,6 +225,7 @@ svg.ic.fill{fill:currentColor;stroke:none}
 .seg.on.ca{color:var(--maple)}
 .seg.on.fa{color:var(--violet)}
 .seg.on.ag{color:var(--leaf-ink)}
+.seg.on.gov{color:var(--warning)}
 .seg.on .n{background:var(--surface-3)}
 
 /* progress */
@@ -392,6 +394,7 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
 .tag.ca{background:rgba(224,90,90,.13);border-color:rgba(224,90,90,.4);color:var(--maple);font-weight:640}
 .tag.faculty{background:rgba(144,133,233,.14);border-color:rgba(144,133,233,.4);color:var(--violet);font-weight:640}
 .tag.niche{background:var(--leaf-soft);border-color:rgba(25,158,112,.4);color:var(--leaf-ink);font-weight:620}
+.tag.gov{background:rgba(250,178,25,.14);border-color:rgba(250,178,25,.42);color:var(--warning);font-weight:620}
 .tag.new{background:rgba(12,163,12,.14);border-color:rgba(12,163,12,.4);color:var(--good);font-weight:660}
 .tier-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
 
@@ -517,6 +520,7 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
       <button class="seg fa" data-view="faculty"><svg class="ic" viewBox="0 0 24 24"><use href="#i-cap"/></svg>Faculty lines<span class="n" id="vFaculty">0</span></button>
       <button class="seg fa" data-view="tenure"><svg class="ic" viewBox="0 0 24 24"><use href="#i-target"/></svg>Tenure-track<span class="n" id="vTenure">0</span></button>
       <button class="seg ag" data-view="niche"><svg class="ic" viewBox="0 0 24 24"><use href="#i-cpu"/></svg>Ag × Tech<span class="n" id="vNiche">0</span></button>
+      <button class="seg gov" data-view="gov"><svg class="ic" viewBox="0 0 24 24"><use href="#i-building"/></svg>Government<span class="n" id="vGov">0</span></button>
       <button class="seg" data-view="new"><svg class="ic" viewBox="0 0 24 24"><use href="#i-clock"/></svg>New<span class="n" id="vNew">0</span></button>
       <button class="seg" data-view="starred"><svg class="ic" viewBox="0 0 24 24"><use href="#i-star"/></svg>Saved<span class="n" id="vStar">0</span></button>
     </div>
@@ -630,8 +634,8 @@ const S = {
   data:null, jobs:[], view:[], page:1, perPage:25,
   starred:new Set(), applied:new Set(),
   filters:{ q:'', role:'', region:'', country:'', area:'', source:'', score:40,
-            canada:false, tenure:false, faculty:false, niche:false, new:false,
-            starred:false, hideApplied:false },
+            canada:false, tenure:false, faculty:false, niche:false, gov:false,
+            new:false, starred:false, hideApplied:false },
   sort:'priority', active:'all', polling:null
 };
 const $ = s => document.querySelector(s);
@@ -768,12 +772,13 @@ const VIEWS = {
   faculty: f => f.faculty = true,
   tenure:  f => f.tenure = true,
   niche:   f => f.niche = true,
+  gov:     f => f.gov = true,
   new:     f => f.new = true,
   starred: f => f.starred = true
 };
 function setView(v){
   S.active = v;
-  ['canada','faculty','tenure','niche','new','starred'].forEach(k => S.filters[k]=false);
+  ['canada','faculty','tenure','niche','gov','new','starred'].forEach(k => S.filters[k]=false);
   (VIEWS[v]||VIEWS.all)(S.filters);
   document.querySelectorAll('.seg').forEach(b => b.classList.toggle('on', b.dataset.view===v));
   render();
@@ -795,6 +800,7 @@ function computeView(){
     if(f.tenure && !j.is_tenure_track) return false;
     if(f.faculty && !isFaculty(j.role)) return false;
     if(f.niche && !j.synergy) return false;
+    if(f.gov && !j.is_government) return false;
     if(f.new && !j.is_new) return false;
     if(f.starred && !S.starred.has(j.id)) return false;
     if(f.hideApplied && S.applied.has(j.id)) return false;
@@ -829,6 +835,7 @@ function renderCounts(){
   $('#vFaculty').textContent = j.filter(x=>isFaculty(x.role)).length;
   $('#vTenure').textContent  = j.filter(x=>x.is_tenure_track).length;
   $('#vNiche').textContent   = j.filter(x=>x.synergy).length;
+  $('#vGov').textContent     = j.filter(x=>x.is_government).length;
   $('#vNew').textContent     = j.filter(x=>x.is_new).length;
   $('#vStar').textContent    = S.starred.size;
   $('#cApplied').textContent = S.applied.size;
@@ -1002,6 +1009,7 @@ function card(j){
         ${j.is_faculty?`<span class="tag faculty">${ico('i-cap')}Faculty line</span>`:''}
         ${j.is_priority_country?`<span class="tag ca">${ico('i-maple')}Canada</span>`:''}
         ${j.synergy?`<span class="tag niche">${ico('i-cpu')}Ag × Tech</span>`:''}
+        ${j.is_government?`<span class="tag gov">${ico('i-building')}Government</span>`:''}
         ${j.is_new?`<span class="tag new">NEW</span>`:''}
         ${j.country&&j.country!=='Unspecified'&&!j.is_priority_country?`<span class="tag">${ico('i-globe')}${esc(j.country)}</span>`:''}
         <span class="tag">${esc(j.source)}${also?` +${also}`:''}</span>
@@ -1077,7 +1085,7 @@ $('#loadMore').onclick=()=>{S.page++; renderJobs();};
 $('#resetBtn').onclick=resetFilters;
 function resetFilters(){
   S.filters={q:'',role:'',region:'',country:'',area:'',source:'',score:0,
-    canada:false,tenure:false,faculty:false,niche:false,new:false,starred:false,hideApplied:false};
+    canada:false,tenure:false,faculty:false,niche:false,gov:false,new:false,starred:false,hideApplied:false};
   ['#q','#fRole','#fRegion','#fCountry','#fArea','#fSource'].forEach(s=>$(s).value='');
   $('#fScore').value=0; $('#scoreOut').textContent='0';
   document.querySelectorAll('[data-toggle]').forEach(b=>b.classList.remove('on'));
