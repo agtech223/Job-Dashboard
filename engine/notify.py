@@ -164,7 +164,10 @@ def send(jobs: list[dict]) -> bool:
         print(f"  MAIL_PORT is not a number -- falling back to 465")
         port = 465
     user = env("MAIL_USERNAME")
-    password = env("MAIL_PASSWORD")
+    # Google shows app passwords in four groups of four ("abcd efgh ijkl mnop").
+    # Pasting it verbatim is the obvious thing to do, so strip the spaces here
+    # rather than making that a silent authentication failure.
+    password = env("MAIL_PASSWORD").replace(" ", "").replace(" ", "")
     to = env("MAIL_TO")
 
     if not (user and password and to):
