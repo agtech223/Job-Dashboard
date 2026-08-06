@@ -21,7 +21,6 @@
   <g id="i-chevron"><path d="M6 9.5l6 6 6-6"/></g>
   <g id="i-x"><path d="M18 6L6 18M6 6l12 12"/></g>
   <g id="i-sliders"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h9M17 18h3"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="15" cy="18" r="2"/></g>
-  <g id="i-maple"><path d="M12 2l1.7 3.9 2.8-1.1-1 3.1 3.4-.5-2.2 2.5 3.8 1.3-3.8 1.3 2.2 2.5-3.4-.5 1 3.1-2.8-1.1L12 22l-1.7-4.5-2.8 1.1 1-3.1-3.4.5 2.2-2.5L3.5 12l3.8-1.3-2.2-2.5 3.4.5-1-3.1 2.8 1.1z"/></g>
   <g id="i-target"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.6"/><circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none"/></g>
   <g id="i-cap"><path d="M12 4L2 9l10 5 10-5-10-5z"/><path d="M6 11.2V17c0 1.6 2.7 2.9 6 2.9s6-1.3 6-2.9v-5.8"/><path d="M22 9v5.4"/></g>
   <g id="i-building"><path d="M3 21h18"/><path d="M5 21V5.5A1.5 1.5 0 016.5 4h7A1.5 1.5 0 0115 5.5V21"/><path d="M15 10h2.5A1.5 1.5 0 0119 11.5V21"/><path d="M8.5 8h3M8.5 12h3M8.5 16h3"/></g>
@@ -236,8 +235,8 @@ button{cursor:pointer;background:none;border:none}
   display:flex;align-items:flex-start;gap:12px}
 /* Each tile owns a hue so the row reads at a glance. Every ink was checked
    against its wash at >= 4.9:1 (needs 3:1 as a graphic). The Canada chip
-   layers the real flag over a maple icon; if the flag image cannot load,
-   its onerror removes it and the maple shows through. */
+   shows the real flag on its own; if the image cannot load its onerror
+   removes it, leaving the tinted chip. */
 .card-ic{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;
   background:var(--accent-weak);color:var(--accent);flex-shrink:0;margin-top:2px;
   position:relative;box-shadow:inset 0 0 0 1px rgba(20,22,20,.05)}
@@ -246,8 +245,8 @@ button{cursor:pointer;background:none;border:none}
 .card-ic.tic-tt{background:var(--tile-tt-bg);color:var(--tile-tt-ink)}
 .card-ic.tic-gov{background:var(--tile-gov-bg);color:var(--tile-gov-ink)}
 .card-ic.tic-new{background:var(--good-weak);color:var(--good)}
-.card-ic .tile-flag{position:absolute;inset:0;margin:auto;width:24px;height:18px;
-  object-fit:cover;border-radius:3.5px;box-shadow:0 0 0 1px rgba(20,22,20,.14)}
+.card-ic .tile-flag{width:24px;height:18px;object-fit:cover;border-radius:3.5px;
+  box-shadow:0 0 0 1px rgba(20,22,20,.14)}
 .card b{display:block;font-size:24px;font-weight:670;letter-spacing:-.03em;line-height:1.1}
 .card span{display:block;font-size:12.5px;color:var(--text-2);margin-top:3px}
 .card.accent b{color:var(--accent)}
@@ -264,8 +263,10 @@ button{cursor:pointer;background:none;border:none}
 .rrow{display:grid;grid-template-columns:96px 1fr 30px;align-items:center;gap:10px;font-size:12.5px}
 .rlabel{color:var(--text-2);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .rrow.pin .rlabel{color:var(--accent);font-weight:620}
-.rtrack{height:7px;border-radius:4px;background:var(--surface-2);overflow:hidden}
-.rfill{height:100%;border-radius:4px;background:var(--accent);min-width:2px;transition:width .5s ease}
+/* Both are spans: without display:block the fill stays inline and its
+   width/height are ignored, which left the bars invisible. */
+.rtrack{display:block;height:7px;border-radius:4px;background:var(--surface-2);overflow:hidden}
+.rfill{display:block;height:100%;border-radius:4px;background:var(--accent);min-width:2px;transition:width .5s ease}
 .rval{font-size:12px;color:var(--text);text-align:right}
 .sparkline{width:100%;height:72px;display:block;overflow:visible}
 .spark-axis{display:flex;justify-content:space-between;font-size:11px;color:var(--text-3);margin-top:6px}
@@ -355,10 +356,13 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
   font-size:14.5px;font-weight:660;letter-spacing:-.02em}
 .score.strong .ring-fill{stroke:var(--good)}
 .score.strong b{color:var(--good)}
-/* The country flag fills the space under the ring. Decorative — the country
-   is named in the card text — so it is aria-hidden with a title tooltip. */
-.score .flag{display:block;width:27px;height:20px;margin:9px auto 0;
-  object-fit:cover;border-radius:3.5px;
+/* Each list row is a fixed gutter plus the card, so the flag sits OUTSIDE
+   the card on its left, roughly level with the score ring. Decorative — the
+   country is named in the card text — so it is aria-hidden with a tooltip.
+   The gutter keeps its width when a country has no flag, so cards align. */
+.job-row{display:grid;grid-template-columns:30px minmax(0,1fr);gap:12px;align-items:start}
+.flag-slot{display:block;padding-top:26px}
+.flag-slot .flag{display:block;width:28px;height:21px;object-fit:cover;border-radius:3.5px;
   box-shadow:0 0 0 1px rgba(20,22,20,.16),0 1px 2px rgba(20,22,20,.12)}
 
 .job h2{font-size:16px;font-weight:620;letter-spacing:-.015em;line-height:1.35;display:inline}
@@ -427,6 +431,9 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
   .hero-in h1{font-size:28px}
   .job{grid-template-columns:48px minmax(0,1fr);gap:14px}
   .score{width:48px;height:48px}
+  .job-row{grid-template-columns:24px minmax(0,1fr);gap:8px}
+  .flag-slot{padding-top:22px}
+  .flag-slot .flag{width:24px;height:18px}
   .actions{grid-column:1/-1;justify-content:flex-end}
   .status{display:none}
 }
@@ -815,7 +822,7 @@ function renderTabCounts() {
 function renderIntro() {
   const jobs = state.jobs;
   const tiles = [
-    { icon: "i-maple", chip: "tic-ca", flag: "ca",
+    { icon: "", chip: "tic-ca", flag: true,
       value: jobs.filter(job => job.is_priority_country).length,
       label: "In Canada", accent: true },
     { icon: "i-target", chip: "tic-tt",
@@ -846,8 +853,8 @@ function renderIntro() {
     "Academic and government job boards, checked every day and ranked against your CV.";
   $("#summary").innerHTML = tiles.map(tile => `
     <div class="card${tile.accent ? " accent" : ""}">
-      <span class="card-ic ${tile.chip}">${icon(tile.icon)}${
-        tile.flag ? flagHtml("Canada", "tile-flag") : ""}</span>
+      <span class="card-ic ${tile.chip}">${
+        tile.flag ? flagHtml("Canada", "tile-flag") : icon(tile.icon)}</span>
       <div><b class="num">${tile.value}</b><span>${tile.label}</span></div>
     </div>`).join("");
   animateCount($("#heroCount"), jobs.length);
@@ -963,9 +970,14 @@ function renderList() {
                     state.sort === "priority" && shown > 0;
   const start = spotlight ? 1 : 0;
   const slice = state.visible.slice(start, start + state.page * state.perPage);
+  const row = (job, top) => `
+    <div class="job-row">
+      <span class="flag-slot">${flagHtml(job.country, "flag")}</span>
+      ${jobCard(job, top)}
+    </div>`;
   list.innerHTML =
-    (spotlight ? jobCard(state.visible[0], true) : "") +
-    slice.map(job => jobCard(job)).join("");
+    (spotlight ? row(state.visible[0], true) : "") +
+    slice.map(job => row(job, false)).join("");
   const remaining = shown - start - slice.length;
   $("#loadMore").hidden = remaining <= 0;
   $("#loadMore").textContent = `Show more (${remaining} left)`;
@@ -999,7 +1011,6 @@ function jobCard(job, spotlight = false) {
 
   return `
   <article class="job${spotlight ? " spotlight" : ""}${isApplied ? " is-applied" : ""}" data-id="${job.id}">
-    <div>
     <div class="score${strongMatch ? " strong" : ""}" title="CV match ${Math.round(job.score)} out of 100">
       <svg class="ring" viewBox="0 0 48 48" aria-hidden="true">
         <circle class="ring-track" cx="24" cy="24" r="20.5"/>
@@ -1009,8 +1020,6 @@ function jobCard(job, spotlight = false) {
       </svg>
       <b class="num">${Math.round(job.score)}</b>
       <span class="sr">CV match ${Math.round(job.score)} out of 100</span>
-    </div>
-    ${flagHtml(job.country, "flag")}
     </div>
 
     <div>
