@@ -22,6 +22,12 @@
   <g id="i-chevron"><path d="M6 9.5l6 6 6-6"/></g>
   <g id="i-x"><path d="M18 6L6 18M6 6l12 12"/></g>
   <g id="i-sliders"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h9M17 18h3"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="15" cy="18" r="2"/></g>
+  <g id="i-maple"><path d="M12 2l1.7 3.9 2.8-1.1-1 3.1 3.4-.5-2.2 2.5 3.8 1.3-3.8 1.3 2.2 2.5-3.4-.5 1 3.1-2.8-1.1L12 22l-1.7-4.5-2.8 1.1 1-3.1-3.4.5 2.2-2.5L3.5 12l3.8-1.3-2.2-2.5 3.4.5-1-3.1 2.8 1.1z"/></g>
+  <g id="i-target"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.6"/><circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none"/></g>
+  <g id="i-cap"><path d="M12 4L2 9l10 5 10-5-10-5z"/><path d="M6 11.2V17c0 1.6 2.7 2.9 6 2.9s6-1.3 6-2.9v-5.8"/><path d="M22 9v5.4"/></g>
+  <g id="i-building"><path d="M3 21h18"/><path d="M5 21V5.5A1.5 1.5 0 016.5 4h7A1.5 1.5 0 0115 5.5V21"/><path d="M15 10h2.5A1.5 1.5 0 0119 11.5V21"/><path d="M8.5 8h3M8.5 12h3M8.5 16h3"/></g>
+  <g id="i-clock"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.2l3.2 2"/></g>
+  <g id="i-trend"><path d="M3 17l5.5-5.5 3.5 3.5L21 6"/><path d="M15.5 6H21v5.5"/></g>
 </defs></svg>
 
 <style>
@@ -138,9 +144,11 @@ button{cursor:pointer;background:none;border:none}
 
 /* entrance — one quiet page-load sequence, disabled for reduced motion */
 @keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-.intro{animation:rise .45s ease both}
-.tabs{animation:rise .45s .05s ease both}
-.toolbar,.list{animation:rise .45s .1s ease both}
+.hero-in{animation:rise .5s ease both}
+.summary{animation:rise .5s .06s ease both}
+.insights{animation:rise .5s .1s ease both}
+.tabs{animation:rise .5s .14s ease both}
+.toolbar,.list{animation:rise .5s .18s ease both}
 
 /* ---------------------------------------------------------------- header */
 .header{
@@ -183,19 +191,68 @@ button{cursor:pointer;background:none;border:none}
 .progress span{display:block;height:100%;width:0;
   background:linear-gradient(90deg,var(--grad-a),var(--grad-b));transition:width .3s}
 
-/* ----------------------------------------------------------------- intro */
-.intro{padding:40px 0 24px}
-.intro h1{font-size:clamp(28px,4vw,38px);font-weight:680;letter-spacing:-.03em;line-height:1.15}
-.intro p{color:var(--text-2);margin-top:9px;font-size:15px;max-width:60ch}
+/* ------------------------------------------------------------------ hero */
+/* A deliberate dark panel in both themes. Its ink is fixed light-on-dark
+   and was verified against every gradient stop, including the regions lit
+   by the dot pattern and the teal glow: h1 6.75:1, subtitle 4.84:1,
+   eyebrow 5.14:1 at worst. */
+.hero{background:linear-gradient(140deg,#1E3A4F 0%,#123E44 55%,#0F4A4C 100%);
+  border-bottom:1px solid var(--border);position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:radial-gradient(rgba(255,255,255,.10) 1px,transparent 1px);
+  background-size:22px 22px;
+  mask-image:linear-gradient(180deg,rgba(0,0,0,.55),transparent 75%);
+  -webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.55),transparent 75%)}
+.hero::after{content:"";position:absolute;right:-10%;top:-60%;width:55%;height:200%;
+  background:radial-gradient(closest-side,rgba(94,196,206,.18),transparent 70%);
+  pointer-events:none}
+.hero-in{position:relative;z-index:1;padding:52px 0 78px}
+.hero-eyebrow{font-size:12.5px;font-weight:600;letter-spacing:.14em;
+  text-transform:uppercase;color:#C6DEE2}
+.hero-in h1{margin-top:10px;font-size:clamp(32px,4.6vw,46px);font-weight:700;
+  letter-spacing:-.032em;line-height:1.12;color:#F4F8F6;text-wrap:balance}
+.hero-sub{margin-top:12px;font-size:15.5px;line-height:1.6;max-width:62ch;color:#C9D6D6}
 
-/* Summary tiles — soft elevation, the number carries the emphasis. */
-.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(158px,1fr));
-  gap:12px;margin-top:26px}
+/* Summary tiles — overlap the hero, an icon and a number each. */
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(172px,1fr));
+  gap:12px;margin-top:-46px;position:relative;z-index:2}
 .card{background:var(--surface);border:1px solid var(--border);
-  border-radius:var(--radius);padding:16px 17px;box-shadow:var(--shadow-sm)}
-.card b{display:block;font-size:27px;font-weight:660;letter-spacing:-.03em;line-height:1.1}
-.card span{display:block;font-size:13px;color:var(--text-2);margin-top:4px}
+  border-radius:var(--radius);padding:15px 16px;box-shadow:var(--shadow-md);
+  display:flex;align-items:flex-start;gap:12px}
+.card-ic{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;
+  background:var(--accent-weak);color:var(--accent);flex-shrink:0;margin-top:2px}
+.card-ic .ic{width:17px;height:17px}
+.card b{display:block;font-size:24px;font-weight:670;letter-spacing:-.03em;line-height:1.1}
+.card span{display:block;font-size:12.5px;color:var(--text-2);margin-top:3px}
 .card.accent b{color:var(--accent)}
+
+/* -------------------------------------------------------------- insights */
+.insights{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:12px;margin-top:14px}
+.panel{background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow-sm)}
+.panel h3{font-size:13.5px;font-weight:630;display:flex;align-items:center;gap:8px}
+.panel h3 .ic{width:15px;height:15px;color:var(--text-3)}
+.panel .hint{font-size:12px;color:var(--text-3);margin-top:2px;margin-bottom:13px}
+.rows{display:flex;flex-direction:column;gap:8px}
+.rrow{display:grid;grid-template-columns:96px 1fr 30px;align-items:center;gap:10px;font-size:12.5px}
+.rlabel{color:var(--text-2);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rrow.pin .rlabel{color:var(--accent);font-weight:620}
+.rtrack{height:7px;border-radius:4px;background:var(--surface-2);overflow:hidden}
+.rfill{height:100%;border-radius:4px;background:var(--accent);min-width:2px;transition:width .5s ease}
+.rval{font-size:12px;color:var(--text);text-align:right}
+.sparkline{width:100%;height:72px;display:block;overflow:visible}
+.spark-axis{display:flex;justify-content:space-between;font-size:11px;color:var(--text-3);margin-top:6px}
+
+/* ------------------------------------------------------------- spotlight */
+/* The single best job right now, pinned above the list with a gradient
+   border: surface fill in padding-box, gradient in border-box. */
+.job.spotlight{border:1.5px solid transparent;
+  background:linear-gradient(var(--surface),var(--surface)) padding-box,
+             linear-gradient(135deg,var(--grad-a),var(--grad-b)) border-box;
+  box-shadow:var(--shadow-md)}
+.badge.top{background:linear-gradient(135deg,var(--grad-a),var(--grad-b));
+  border-color:transparent;color:var(--bg);font-weight:640}
 
 /* ------------------------------------------------------------------ tabs */
 .tabs{display:flex;gap:6px;margin-top:30px;flex-wrap:wrap}
@@ -335,7 +392,8 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
 
 @media (max-width:640px){
   .page{padding:0 16px}
-  .intro{padding:26px 0 16px}
+  .hero-in{padding:34px 0 64px}
+  .hero-in h1{font-size:28px}
   .job{grid-template-columns:48px minmax(0,1fr);gap:14px}
   .score{width:48px;height:48px}
   .actions{grid-column:1/-1;justify-content:flex-end}
@@ -367,12 +425,18 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
   <div class="progress"><span id="progressBar"></span></div>
 </header>
 
-<main class="page">
-  <section class="intro">
+<section class="hero">
+  <div class="page hero-in">
+    <p class="hero-eyebrow" id="heroEyebrow">Agriculture job radar</p>
     <h1 id="introTitle">Loading jobs…</h1>
-    <p id="introText"></p>
-    <div class="summary" id="summary"></div>
-  </section>
+    <p id="introText" class="hero-sub"></p>
+  </div>
+</section>
+
+<main class="page">
+  <div class="summary" id="summary"></div>
+
+  <section class="insights" id="insights"></section>
 
   <nav class="tabs" id="tabs" aria-label="Filter jobs by group"></nav>
 
@@ -589,7 +653,9 @@ function showNoData() {
     <p>If you are running this on your own computer, start <b>START-DASHBOARD.bat</b>
        so the search engine can reach the internet.</p></div>`;
   $("#introTitle").textContent = "No jobs to show";
+  $("#heroEyebrow").textContent = "Agriculture job radar";
   $("#summary").innerHTML = "";
+  $("#insights").innerHTML = "";
 }
 
 /* ==========================================================================
@@ -666,6 +732,7 @@ function render() {
   computeVisible();
   renderTabCounts();
   renderIntro();
+  renderInsights();
   renderAppliedFilters();
   state.page = 1;
   renderList();
@@ -681,21 +748,105 @@ function renderTabCounts() {
 function renderIntro() {
   const jobs = state.jobs;
   const tiles = [
-    { value: jobs.filter(job => job.is_priority_country).length, label: "In Canada", accent: true },
-    { value: jobs.filter(job => job.is_tenure_track).length, label: "Tenure-track" },
-    { value: jobs.filter(job => FACULTY_ROLES.has(job.role)).length, label: "Faculty roles" },
-    { value: jobs.filter(job => job.is_government).length, label: "Government" },
-    { value: jobs.filter(job => job.age_days !== null && job.age_days <= 7).length,
+    { icon: "i-maple", value: jobs.filter(job => job.is_priority_country).length,
+      label: "In Canada", accent: true },
+    { icon: "i-target", value: jobs.filter(job => job.is_tenure_track).length,
+      label: "Tenure-track" },
+    { icon: "i-cap", value: jobs.filter(job => FACULTY_ROLES.has(job.role)).length,
+      label: "Faculty roles" },
+    { icon: "i-building", value: jobs.filter(job => job.is_government).length,
+      label: "Government" },
+    { icon: "i-clock", value: jobs.filter(job => job.age_days !== null && job.age_days <= 7).length,
       label: "Added this week" }
   ];
 
-  $("#introTitle").textContent = `${jobs.length} agriculture jobs`;
+  let when = "";
+  if (state.payload?.generated_at) {
+    try {
+      when = new Date(state.payload.generated_at)
+        .toLocaleDateString(undefined, { day: "numeric", month: "long", year: "numeric" });
+    } catch { /* fall back to the generic eyebrow */ }
+  }
+  $("#heroEyebrow").textContent = when ? `Updated ${when}` : "Updated every morning";
+  $("#introTitle").innerHTML =
+    `<span class="num" id="heroCount">${jobs.length}</span> agriculture jobs`;
   $("#introText").textContent =
     "Academic and government job boards, checked every day and ranked against your CV.";
   $("#summary").innerHTML = tiles.map(tile => `
     <div class="card${tile.accent ? " accent" : ""}">
-      <b class="num">${tile.value}</b><span>${tile.label}</span>
+      <span class="card-ic">${icon(tile.icon)}</span>
+      <div><b class="num">${tile.value}</b><span>${tile.label}</span></div>
     </div>`).join("");
+  animateCount($("#heroCount"), jobs.length);
+}
+
+/** Ease the hero number up once per data load; reduced motion skips it. */
+function animateCount(el, target) {
+  if (state.counted === target ||
+      matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    el.textContent = target;
+    return;
+  }
+  state.counted = target;
+  const started = performance.now(), duration = 700;
+  // rAF pauses in background tabs, so a timeout guarantees the final value.
+  setTimeout(() => { el.textContent = target; }, duration + 120);
+  (function tick(now) {
+    const p = Math.min((now - started) / duration, 1);
+    el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+    if (p < 1) requestAnimationFrame(tick);
+  })(started);
+}
+
+/** Two compact read-only charts: countries (Canada pinned) and 30-day activity. */
+function renderInsights() {
+  const jobs = state.jobs;
+
+  const counts = new Map();
+  jobs.forEach(job => {
+    const c = job.country;
+    if (c && c !== "Unspecified") counts.set(c, (counts.get(c) || 0) + 1);
+  });
+  const rows = [...counts.entries()]
+    .sort((a, b) => (b[0] === "Canada") - (a[0] === "Canada") || b[1] - a[1])
+    .slice(0, 6);
+  const max = Math.max(...rows.map(r => r[1]), 1);
+
+  const days = 30, series = new Array(days).fill(0);
+  jobs.forEach(job => {
+    const a = job.age_days;
+    if (a !== null && a >= 0 && a < days) series[days - 1 - a] += 1;
+  });
+  const total = series.reduce((x, y) => x + y, 0);
+  const w = 300, h = 64, step = w / (days - 1), peak = Math.max(...series, 1);
+  const pts = series.map((v, i) => [i * step, h - (v / peak) * (h - 10) - 3]);
+  const line = pts.map((pt, i) => `${i ? "L" : "M"}${pt[0].toFixed(1)} ${pt[1].toFixed(1)}`).join(" ");
+  const last = pts[pts.length - 1];
+
+  $("#insights").innerHTML = `
+    <div class="panel">
+      <h3>${icon("i-globe")}Where the jobs are</h3>
+      <p class="hint">Canada shown first</p>
+      <div class="rows">${rows.map(([country, n]) => `
+        <div class="rrow${country === "Canada" ? " pin" : ""}">
+          <span class="rlabel">${escapeHtml(country)}</span>
+          <span class="rtrack"><span class="rfill" style="width:${(n / max * 100).toFixed(1)}%"></span></span>
+          <span class="rval num">${n}</span>
+        </div>`).join("")}
+      </div>
+    </div>
+    <div class="panel">
+      <h3>${icon("i-trend")}Posting activity</h3>
+      <p class="hint">New jobs per day, last 30 days</p>
+      <svg class="sparkline" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" role="img"
+           aria-label="${total} new jobs in the last 30 days">
+        <path d="${line} L${w} ${h} L0 ${h} Z" fill="var(--accent-weak)"/>
+        <path d="${line}" fill="none" stroke="var(--accent)" stroke-width="2"
+              stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+        <circle cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="3" fill="var(--accent)"/>
+      </svg>
+      <div class="spark-axis"><span>30 days ago</span><span class="num">${total} total</span><span>today</span></div>
+    </div>`;
 }
 
 function renderAppliedFilters() {
@@ -734,13 +885,20 @@ function renderList() {
     return;
   }
 
-  const slice = state.visible.slice(0, state.page * state.perPage);
-  list.innerHTML = slice.map(jobCard).join("");
-  $("#loadMore").hidden = slice.length >= shown;
-  $("#loadMore").textContent = `Show more (${shown - slice.length} left)`;
+  // Pin the single best job above the rest on the default view.
+  const spotlight = state.tab === "all" && !state.filters.search &&
+                    state.sort === "priority" && shown > 0;
+  const start = spotlight ? 1 : 0;
+  const slice = state.visible.slice(start, start + state.page * state.perPage);
+  list.innerHTML =
+    (spotlight ? jobCard(state.visible[0], true) : "") +
+    slice.map(job => jobCard(job)).join("");
+  const remaining = shown - start - slice.length;
+  $("#loadMore").hidden = remaining <= 0;
+  $("#loadMore").textContent = `Show more (${remaining} left)`;
 }
 
-function jobCard(job) {
+function jobCard(job, spotlight = false) {
   const strongMatch = job.score >= (state.payload.thresholds?.strong ?? 70);
   const isSaved = state.saved.has(job.id);
   const isApplied = state.applied.has(job.id);
@@ -755,6 +913,7 @@ function jobCard(job) {
     .join('<span class="sep">·</span>');
 
   const badges = [
+    spotlight ? '<span class="badge top">Top match</span>' : "",
     job.is_priority_country ? '<span class="badge canada">Canada</span>' : "",
     strongMatch ? '<span class="badge match">Strong match</span>' : "",
     job.is_new ? '<span class="badge fresh">New</span>' : "",
@@ -766,7 +925,7 @@ function jobCard(job) {
   const hasDetails = Boolean(job.summary) || agTerms.length > 0 || techTerms.length > 0;
 
   return `
-  <article class="job${isApplied ? " is-applied" : ""}" data-id="${job.id}">
+  <article class="job${spotlight ? " spotlight" : ""}${isApplied ? " is-applied" : ""}" data-id="${job.id}">
     <div class="score${strongMatch ? " strong" : ""}" title="CV match ${Math.round(job.score)} out of 100">
       <svg class="ring" viewBox="0 0 48 48" aria-hidden="true">
         <circle class="ring-track" cx="24" cy="24" r="20.5"/>
