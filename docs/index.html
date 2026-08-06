@@ -58,6 +58,9 @@
   --good:#126B33;
   --good-weak:#E9F5ED;
   --warn:#A15C07;
+  --tile-ca-bg:#FBEBEB;   --tile-ca-ink:#B3261E;
+  --tile-tt-bg:#EFEDFB;   --tile-tt-ink:#5B50C0;
+  --tile-gov-bg:#F9F0E0;  --tile-gov-ink:#8F5E12;
   --grad-a:#2A6496;          /* brand + primary action only */
   --grad-b:#0E7490;
   --glass:rgba(255,255,255,.85);
@@ -85,6 +88,9 @@
     --good:#4ADE80;
     --good-weak:#16241B;
     --warn:#E0A33E;
+    --tile-ca-bg:#2E1C1B;   --tile-ca-ink:#EF8A80;
+    --tile-tt-bg:#242041;   --tile-tt-ink:#ACA4F2;
+    --tile-gov-bg:#2C2415;  --tile-gov-ink:#E0A33E;
     --grad-a:#7FB3DC;
     --grad-b:#5BC0CE;
     --glass:rgba(25,29,26,.85);
@@ -109,6 +115,9 @@
   --good:#4ADE80;
   --good-weak:#16241B;
   --warn:#E0A33E;
+  --tile-ca-bg:#2E1C1B;   --tile-ca-ink:#EF8A80;
+  --tile-tt-bg:#242041;   --tile-tt-ink:#ACA4F2;
+  --tile-gov-bg:#2C2415;  --tile-gov-ink:#E0A33E;
   --grad-a:#7FB3DC;
   --grad-b:#5BC0CE;
   --glass:rgba(25,29,26,.85);
@@ -225,9 +234,20 @@ button{cursor:pointer;background:none;border:none}
 .card{background:var(--surface);border:1px solid var(--border);
   border-radius:var(--radius);padding:15px 16px;box-shadow:var(--shadow-md);
   display:flex;align-items:flex-start;gap:12px}
-.card-ic{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;
-  background:var(--accent-weak);color:var(--accent);flex-shrink:0;margin-top:2px}
-.card-ic .ic{width:17px;height:17px}
+/* Each tile owns a hue so the row reads at a glance. Every ink was checked
+   against its wash at >= 4.9:1 (needs 3:1 as a graphic). The Canada chip
+   layers the real flag over a maple icon; if the flag image cannot load,
+   its onerror removes it and the maple shows through. */
+.card-ic{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;
+  background:var(--accent-weak);color:var(--accent);flex-shrink:0;margin-top:2px;
+  position:relative;box-shadow:inset 0 0 0 1px rgba(20,22,20,.05)}
+.card-ic .ic{width:18px;height:18px;stroke-width:1.8}
+.card-ic.tic-ca{background:var(--tile-ca-bg);color:var(--tile-ca-ink)}
+.card-ic.tic-tt{background:var(--tile-tt-bg);color:var(--tile-tt-ink)}
+.card-ic.tic-gov{background:var(--tile-gov-bg);color:var(--tile-gov-ink)}
+.card-ic.tic-new{background:var(--good-weak);color:var(--good)}
+.card-ic .tile-flag{position:absolute;inset:0;margin:auto;width:24px;height:18px;
+  object-fit:cover;border-radius:3.5px;box-shadow:0 0 0 1px rgba(20,22,20,.14)}
 .card b{display:block;font-size:24px;font-weight:670;letter-spacing:-.03em;line-height:1.1}
 .card span{display:block;font-size:12.5px;color:var(--text-2);margin-top:3px}
 .card.accent b{color:var(--accent)}
@@ -335,6 +355,11 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
   font-size:14.5px;font-weight:660;letter-spacing:-.02em}
 .score.strong .ring-fill{stroke:var(--good)}
 .score.strong b{color:var(--good)}
+/* The country flag fills the space under the ring. Decorative — the country
+   is named in the card text — so it is aria-hidden with a title tooltip. */
+.score .flag{display:block;width:27px;height:20px;margin:9px auto 0;
+  object-fit:cover;border-radius:3.5px;
+  box-shadow:0 0 0 1px rgba(20,22,20,.16),0 1px 2px rgba(20,22,20,.12)}
 
 .job h2{font-size:16px;font-weight:620;letter-spacing:-.015em;line-height:1.35;display:inline}
 .job h2 a:hover{color:var(--accent)}
@@ -542,6 +567,43 @@ const state = {
   pollTimer: null,
   toastTimer: null
 };
+
+/** Country name -> ISO 3166-1 alpha-2, for the flag under each score ring. */
+const COUNTRY_FLAG = {
+  "United States": "us", "Canada": "ca", "United Kingdom": "gb", "Australia": "au",
+  "New Zealand": "nz", "Ireland": "ie", "Germany": "de", "France": "fr",
+  "Netherlands": "nl", "Belgium": "be", "Switzerland": "ch", "Austria": "at",
+  "Sweden": "se", "Norway": "no", "Denmark": "dk", "Finland": "fi", "Spain": "es",
+  "Italy": "it", "Portugal": "pt", "Poland": "pl", "Czechia": "cz", "Greece": "gr",
+  "Hungary": "hu", "Romania": "ro", "Slovakia": "sk", "Slovenia": "si",
+  "Croatia": "hr", "Estonia": "ee", "Latvia": "lv", "Lithuania": "lt",
+  "Iceland": "is", "Luxembourg": "lu", "Cyprus": "cy", "Malta": "mt",
+  "Bulgaria": "bg", "Serbia": "rs", "China": "cn", "Japan": "jp",
+  "South Korea": "kr", "Singapore": "sg", "Hong Kong": "hk", "India": "in",
+  "Malaysia": "my", "Thailand": "th", "Taiwan": "tw", "Vietnam": "vn",
+  "Indonesia": "id", "Philippines": "ph", "Pakistan": "pk", "Bangladesh": "bd",
+  "United Arab Emirates": "ae", "Saudi Arabia": "sa", "Qatar": "qa",
+  "Kuwait": "kw", "Oman": "om", "Bahrain": "bh", "Israel": "il", "Turkey": "tr",
+  "Jordan": "jo", "Lebanon": "lb", "Egypt": "eg", "Morocco": "ma",
+  "South Africa": "za", "Kenya": "ke", "Nigeria": "ng", "Ghana": "gh",
+  "Ethiopia": "et", "Tanzania": "tz", "Brazil": "br", "Mexico": "mx",
+  "Argentina": "ar", "Chile": "cl", "Colombia": "co", "Peru": "pe",
+  "Uruguay": "uy", "Costa Rica": "cr", "Jamaica": "jm"
+};
+
+/**
+ * A small flag image, or "" when the country is unknown. Decorative: the
+ * country is already named in the card text, so alt is empty and a failed
+ * load removes the element rather than leaving a broken-image box.
+ */
+function flagHtml(country, cls) {
+  const iso = COUNTRY_FLAG[country];
+  if (!iso) return "";
+  return `<img class="${cls}" src="https://flagcdn.com/w40/${iso}.png"
+    srcset="https://flagcdn.com/w80/${iso}.png 2x" width="27" height="20"
+    alt="" title="${escapeHtml(country)}" loading="lazy" aria-hidden="true"
+    onerror="this.remove()">`;
+}
 
 const $ = selector => document.querySelector(selector);
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g,
@@ -753,15 +815,20 @@ function renderTabCounts() {
 function renderIntro() {
   const jobs = state.jobs;
   const tiles = [
-    { icon: "i-maple", value: jobs.filter(job => job.is_priority_country).length,
+    { icon: "i-maple", chip: "tic-ca", flag: "ca",
+      value: jobs.filter(job => job.is_priority_country).length,
       label: "In Canada", accent: true },
-    { icon: "i-target", value: jobs.filter(job => job.is_tenure_track).length,
+    { icon: "i-target", chip: "tic-tt",
+      value: jobs.filter(job => job.is_tenure_track).length,
       label: "Tenure-track" },
-    { icon: "i-cap", value: jobs.filter(job => FACULTY_ROLES.has(job.role)).length,
+    { icon: "i-cap", chip: "",
+      value: jobs.filter(job => FACULTY_ROLES.has(job.role)).length,
       label: "Faculty roles" },
-    { icon: "i-building", value: jobs.filter(job => job.is_government).length,
+    { icon: "i-building", chip: "tic-gov",
+      value: jobs.filter(job => job.is_government).length,
       label: "Government" },
-    { icon: "i-clock", value: jobs.filter(job => job.age_days !== null && job.age_days <= 7).length,
+    { icon: "i-clock", chip: "tic-new",
+      value: jobs.filter(job => job.age_days !== null && job.age_days <= 7).length,
       label: "Added this week" }
   ];
 
@@ -779,7 +846,8 @@ function renderIntro() {
     "Academic and government job boards, checked every day and ranked against your CV.";
   $("#summary").innerHTML = tiles.map(tile => `
     <div class="card${tile.accent ? " accent" : ""}">
-      <span class="card-ic">${icon(tile.icon)}</span>
+      <span class="card-ic ${tile.chip}">${icon(tile.icon)}${
+        tile.flag ? flagHtml("Canada", "tile-flag") : ""}</span>
       <div><b class="num">${tile.value}</b><span>${tile.label}</span></div>
     </div>`).join("");
   animateCount($("#heroCount"), jobs.length);
@@ -931,6 +999,7 @@ function jobCard(job, spotlight = false) {
 
   return `
   <article class="job${spotlight ? " spotlight" : ""}${isApplied ? " is-applied" : ""}" data-id="${job.id}">
+    <div>
     <div class="score${strongMatch ? " strong" : ""}" title="CV match ${Math.round(job.score)} out of 100">
       <svg class="ring" viewBox="0 0 48 48" aria-hidden="true">
         <circle class="ring-track" cx="24" cy="24" r="20.5"/>
@@ -940,6 +1009,8 @@ function jobCard(job, spotlight = false) {
       </svg>
       <b class="num">${Math.round(job.score)}</b>
       <span class="sr">CV match ${Math.round(job.score)} out of 100</span>
+    </div>
+    ${flagHtml(job.country, "flag")}
     </div>
 
     <div>
