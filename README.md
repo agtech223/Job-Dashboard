@@ -1,8 +1,8 @@
-# Academic Job Radar
+# Agriculture Jobs
 
-An automated, internet-connected dashboard that searches academic job boards
-worldwide every day, keeps only **agriculture** positions, and ranks each one
-against a specific CV — with Canada and tenure-track faculty lines first.
+A dashboard that searches academic and government job boards worldwide every
+day, keeps only **agriculture** positions, and ranks each one against a
+specific CV — with Canada and tenure-track roles first.
 
 **Live site:** https://agtech223.github.io/Job-Dashboard/
 *(enable it once — see [Hosting](#hosting-free-on-github-pages) below)*
