@@ -21,10 +21,6 @@
   <g id="i-chevron"><path d="M6 9.5l6 6 6-6"/></g>
   <g id="i-x"><path d="M18 6L6 18M6 6l12 12"/></g>
   <g id="i-sliders"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h9M17 18h3"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="15" cy="18" r="2"/></g>
-  <g id="i-target"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.6"/><circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none"/></g>
-  <g id="i-cap"><path d="M12 4L2 9l10 5 10-5-10-5z"/><path d="M6 11.2V17c0 1.6 2.7 2.9 6 2.9s6-1.3 6-2.9v-5.8"/><path d="M22 9v5.4"/></g>
-  <g id="i-building"><path d="M3 21h18"/><path d="M5 21V5.5A1.5 1.5 0 016.5 4h7A1.5 1.5 0 0115 5.5V21"/><path d="M15 10h2.5A1.5 1.5 0 0119 11.5V21"/><path d="M8.5 8h3M8.5 12h3M8.5 16h3"/></g>
-  <g id="i-clock"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.2l3.2 2"/></g>
   <g id="i-trend"><path d="M3 17l5.5-5.5 3.5 3.5L21 6"/><path d="M15.5 6H21v5.5"/></g>
 </defs></svg>
 
@@ -57,9 +53,9 @@
   --good:#126B33;
   --good-weak:#E9F5ED;
   --warn:#A15C07;
-  --tile-ca-bg:#FBEBEB;   --tile-ca-ink:#B3261E;
-  --tile-tt-bg:#EFEDFB;   --tile-tt-ink:#5B50C0;
-  --tile-gov-bg:#F9F0E0;  --tile-gov-ink:#8F5E12;
+  --tile-ca-ink:#B3261E;
+  --tile-tt-ink:#5B50C0;
+  --tile-gov-ink:#8F5E12;
   --grad-a:#2A6496;          /* brand + primary action only */
   --grad-b:#0E7490;
   --glass:rgba(255,255,255,.85);
@@ -87,9 +83,9 @@
     --good:#4ADE80;
     --good-weak:#16241B;
     --warn:#E0A33E;
-    --tile-ca-bg:#2E1C1B;   --tile-ca-ink:#EF8A80;
-    --tile-tt-bg:#242041;   --tile-tt-ink:#ACA4F2;
-    --tile-gov-bg:#2C2415;  --tile-gov-ink:#E0A33E;
+    --tile-ca-ink:#EF8A80;
+    --tile-tt-ink:#ACA4F2;
+    --tile-gov-ink:#E0A33E;
     --grad-a:#7FB3DC;
     --grad-b:#5BC0CE;
     --glass:rgba(25,29,26,.85);
@@ -114,9 +110,9 @@
   --good:#4ADE80;
   --good-weak:#16241B;
   --warn:#E0A33E;
-  --tile-ca-bg:#2E1C1B;   --tile-ca-ink:#EF8A80;
-  --tile-tt-bg:#242041;   --tile-tt-ink:#ACA4F2;
-  --tile-gov-bg:#2C2415;  --tile-gov-ink:#E0A33E;
+  --tile-ca-ink:#EF8A80;
+  --tile-tt-ink:#ACA4F2;
+  --tile-gov-ink:#E0A33E;
   --grad-a:#7FB3DC;
   --grad-b:#5BC0CE;
   --glass:rgba(25,29,26,.85);
@@ -220,7 +216,9 @@ button{cursor:pointer;background:none;border:none}
 .hero::after{content:"";position:absolute;right:-10%;top:-60%;width:55%;height:200%;
   background:radial-gradient(closest-side,rgba(94,196,206,.18),transparent 70%);
   pointer-events:none}
-.hero-in{position:relative;z-index:1;padding:52px 0 78px}
+/* Longhand only: the shorthand was zeroing .page's horizontal padding,
+   pinning the hero text to the viewport edge. */
+.hero-in{position:relative;z-index:1;padding-top:52px;padding-bottom:78px}
 .hero-eyebrow{font-size:12.5px;font-weight:600;letter-spacing:.14em;
   text-transform:uppercase;color:#C6DEE2}
 .hero-in h1{margin-top:10px;font-size:clamp(32px,4.6vw,46px);font-weight:700;
@@ -230,26 +228,21 @@ button{cursor:pointer;background:none;border:none}
 /* Summary tiles — overlap the hero, an icon and a number each. */
 .summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(172px,1fr));
   gap:12px;margin-top:-46px;position:relative;z-index:2}
+/* No iconography here: each tile is a large number in its own hue over a
+   short colour rule. Number inks were checked on the surface in both themes
+   (5.56:1 at worst; 29px bold needs only 3:1). The rule is decorative. */
 .card{background:var(--surface);border:1px solid var(--border);
-  border-radius:var(--radius);padding:15px 16px;box-shadow:var(--shadow-md);
-  display:flex;align-items:flex-start;gap:12px}
-/* Each tile owns a hue so the row reads at a glance. Every ink was checked
-   against its wash at >= 4.9:1 (needs 3:1 as a graphic). The Canada chip
-   shows the real flag on its own; if the image cannot load its onerror
-   removes it, leaving the tinted chip. */
-.card-ic{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;
-  background:var(--accent-weak);color:var(--accent);flex-shrink:0;margin-top:2px;
-  position:relative;box-shadow:inset 0 0 0 1px rgba(20,22,20,.05)}
-.card-ic .ic{width:18px;height:18px;stroke-width:1.8}
-.card-ic.tic-ca{background:var(--tile-ca-bg);color:var(--tile-ca-ink)}
-.card-ic.tic-tt{background:var(--tile-tt-bg);color:var(--tile-tt-ink)}
-.card-ic.tic-gov{background:var(--tile-gov-bg);color:var(--tile-gov-ink)}
-.card-ic.tic-new{background:var(--good-weak);color:var(--good)}
-.card-ic .tile-flag{width:24px;height:18px;object-fit:cover;border-radius:3.5px;
-  box-shadow:0 0 0 1px rgba(20,22,20,.14)}
-.card b{display:block;font-size:24px;font-weight:670;letter-spacing:-.03em;line-height:1.1}
-.card span{display:block;font-size:12.5px;color:var(--text-2);margin-top:3px}
-.card.accent b{color:var(--accent)}
+  border-radius:var(--radius);padding:16px 17px 14px;box-shadow:var(--shadow-md)}
+.card b{display:block;font-size:29px;font-weight:680;letter-spacing:-.032em;
+  line-height:1.05;color:var(--tone,var(--text))}
+.card .rule{display:block;width:26px;height:3px;border-radius:2px;
+  background:var(--tone,var(--accent));margin:8px 0 9px}
+.card span{display:block;font-size:12.5px;color:var(--text-2)}
+.tone-ca{--tone:var(--tile-ca-ink)}
+.tone-tt{--tone:var(--tile-tt-ink)}
+.tone-fac{--tone:var(--accent)}
+.tone-gov{--tone:var(--tile-gov-ink)}
+.tone-new{--tone:var(--good)}
 
 /* -------------------------------------------------------------- insights */
 .insights{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
@@ -427,7 +420,7 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
 
 @media (max-width:640px){
   .page{padding:0 16px}
-  .hero-in{padding:34px 0 64px}
+  .hero-in{padding-top:34px;padding-bottom:64px}
   .hero-in h1{font-size:28px}
   .job{grid-template-columns:48px minmax(0,1fr);gap:14px}
   .score{width:48px;height:48px}
@@ -822,20 +815,15 @@ function renderTabCounts() {
 function renderIntro() {
   const jobs = state.jobs;
   const tiles = [
-    { icon: "", chip: "tic-ca", flag: true,
-      value: jobs.filter(job => job.is_priority_country).length,
-      label: "In Canada", accent: true },
-    { icon: "i-target", chip: "tic-tt",
-      value: jobs.filter(job => job.is_tenure_track).length,
+    { tone: "tone-ca", value: jobs.filter(job => job.is_priority_country).length,
+      label: "In Canada" },
+    { tone: "tone-tt", value: jobs.filter(job => job.is_tenure_track).length,
       label: "Tenure-track" },
-    { icon: "i-cap", chip: "",
-      value: jobs.filter(job => FACULTY_ROLES.has(job.role)).length,
+    { tone: "tone-fac", value: jobs.filter(job => FACULTY_ROLES.has(job.role)).length,
       label: "Faculty roles" },
-    { icon: "i-building", chip: "tic-gov",
-      value: jobs.filter(job => job.is_government).length,
+    { tone: "tone-gov", value: jobs.filter(job => job.is_government).length,
       label: "Government" },
-    { icon: "i-clock", chip: "tic-new",
-      value: jobs.filter(job => job.age_days !== null && job.age_days <= 7).length,
+    { tone: "tone-new", value: jobs.filter(job => job.age_days !== null && job.age_days <= 7).length,
       label: "Added this week" }
   ];
 
@@ -852,10 +840,10 @@ function renderIntro() {
   $("#introText").textContent =
     "Academic and government job boards, checked every day and ranked against your CV.";
   $("#summary").innerHTML = tiles.map(tile => `
-    <div class="card${tile.accent ? " accent" : ""}">
-      <span class="card-ic ${tile.chip}">${
-        tile.flag ? flagHtml("Canada", "tile-flag") : icon(tile.icon)}</span>
-      <div><b class="num">${tile.value}</b><span>${tile.label}</span></div>
+    <div class="card ${tile.tone}">
+      <b class="num">${tile.value}</b>
+      <i class="rule" aria-hidden="true"></i>
+      <span>${tile.label}</span>
     </div>`).join("");
   animateCount($("#heroCount"), jobs.length);
 }
