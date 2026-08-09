@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-08T10:59:24.063802+00:00",
+ "generated_at": "2026-08-09T11:01:41.690698+00:00",
  "candidate": {
   "name": "Hassan Afzaal, PhD",
   "headline": "Agricultural Engineer | AI, Computer Vision & Precision Agriculture",
@@ -23,33 +23,33 @@
   "floor": 22
  },
  "stats": {
-  "total": 389,
-  "new": 6,
-  "raw_fetched": 3645,
-  "rejected_non_ag": 2672,
+  "total": 387,
+  "new": 2,
+  "raw_fetched": 3599,
+  "rejected_non_ag": 2650,
   "queries_run": 330,
   "queries_failed": 0,
   "strong": 25,
   "good": 130,
   "countries": 16,
-  "carried_over": 100,
+  "carried_over": 97,
   "canada": 7,
   "canada_faculty": 3,
-  "tenure_track": 26,
-  "faculty": 74,
+  "tenure_track": 27,
+  "faculty": 75,
   "per_source": {
-   "Nature Careers": 330,
-   "Times Higher Education": 430,
-   "Chronicle of Higher Ed": 821,
-   "Inside Higher Ed": 936,
-   "HigherEdJobs": 152,
+   "Nature Careers": 327,
+   "Times Higher Education": 405,
+   "Chronicle of Higher Ed": 819,
+   "Inside Higher Ed": 938,
+   "HigherEdJobs": 148,
    "jobs.ac.uk": 305,
    "EURAXESS": 100,
-   "jobRxiv": 79,
-   "CAUT (Canada)": 107,
-   "University portal (Canada)": 319,
+   "jobRxiv": 73,
+   "CAUT (Canada)": 102,
+   "University portal (Canada)": 317,
    "NRC (federal)": 25,
-   "Nova Scotia (provincial)": 41
+   "Nova Scotia (provincial)": 40
   }
  },
  "jobs": [
@@ -98,11 +98,11 @@
    "is_government": false,
    "priority": 0,
    "id": "b51f516b89ec1088",
-   "age_days": 26,
+   "age_days": 27,
    "also_on": [],
    "first_seen": "2026-07-25T07:49:27.832300+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Professor (Teaching), Poultry",
@@ -142,11 +142,11 @@
    "is_government": false,
    "priority": 0,
    "id": "fee1b89b29260012",
-   "age_days": 10,
+   "age_days": 11,
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Endowed Chair (Assistant/Associate Professor) in Indigenous Forestry",
@@ -186,7 +186,7 @@
    "is_government": false,
    "priority": 0,
    "id": "7e8b3f12e6f568dd",
-   "age_days": 37,
+   "age_days": 38,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
@@ -244,11 +244,11 @@
    "is_government": true,
    "priority": 1,
    "id": "30b15e660e9615b4",
-   "age_days": 1,
+   "age_days": 2,
    "also_on": [],
    "first_seen": "2026-08-08T10:59:24.063802+00:00",
-   "is_new": true,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Computer Specialist - Biostatistics",
@@ -297,18 +297,18 @@
    "is_government": true,
    "priority": 1,
    "id": "c0a6e36143706ebb",
-   "age_days": 18,
+   "age_days": 19,
    "also_on": [],
    "first_seen": "2026-07-26T10:54:46.358187+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Farm Worker 1",
    "org": "University of British Columbia",
    "location": "UBC Alternate Site - Kent, BC, Canada",
    "url": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Alternate-Site---Kent-BC-Canada/Farm-Worker-1_JR25549",
-   "posted": "2026-08-06T10:59:12.389770+00:00",
+   "posted": "2026-08-08T11:01:33.061577+00:00",
    "summary": "University of British Columbia JR25549",
    "salary": "",
    "source": "University portal (Canada)",
@@ -341,11 +341,11 @@
    "is_government": false,
    "priority": 1,
    "id": "9dffe5598237120b",
-   "age_days": 2,
+   "age_days": 1,
    "also_on": [],
    "first_seen": "2026-08-07T11:15:52.439742+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Veterinary Pathologist (Veterinarian 1-2(A)-(B))",
@@ -387,11 +387,11 @@
    "is_government": true,
    "priority": 1,
    "id": "f0a000dab690da9f",
-   "age_days": 27,
+   "age_days": 28,
    "also_on": [],
    "first_seen": "2026-07-26T10:54:46.358187+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Professor in Artificial Intelligence for Agriculture",
@@ -444,13 +444,13 @@
    "is_government": false,
    "priority": 2,
    "id": "bcdf4d3ae01ae112",
-   "age_days": 24,
+   "age_days": 25,
    "also_on": [
     "Chronicle of Higher Ed"
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Professor: Digital Technology, Machine Learning and AI in Agriculture Communications ...",
@@ -499,11 +499,11 @@
    "is_government": false,
    "priority": 2,
    "id": "534e54734e934425",
-   "age_days": 66,
+   "age_days": 67,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Professor & Head & Endowed Chair - Agricultural and Biological Engineering",
@@ -551,11 +551,11 @@
    "is_government": false,
    "priority": 2,
    "id": "62b1e8814d6a9f8c",
-   "age_days": 72,
+   "age_days": 73,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Senior Lecturer/Associate Professor in Agricultural Technology",
@@ -601,11 +601,11 @@
    "is_government": false,
    "priority": 2,
    "id": "dcda41f5044f8542",
-   "age_days": 10,
+   "age_days": 11,
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Senior Lecturer or Associate Professor in Precision Agriculture",
@@ -651,11 +651,12 @@
    "is_government": false,
    "priority": 2,
    "id": "5dd5d2d49c4e91b1",
-   "age_days": 32,
-   "also_on": [],
-   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "age_days": 33,
+   "carried_over": true,
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "last_seen": "2026-08-08T10:59:24.063802+00:00",
+   "also_on": []
   },
   {
    "title": "Assistant Professor in Sustainable Agriculture and Food Systems",
@@ -705,14 +706,14 @@
    "is_government": false,
    "priority": 2,
    "id": "10eb95b32afa6d12",
-   "age_days": 17,
+   "age_days": 18,
    "also_on": [
     "Chronicle of Higher Ed",
     "HigherEdJobs"
    ],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant/Associate Professor of Practice - Extension Controlled Environment Agriculture Specialist",
@@ -758,11 +759,11 @@
    "is_government": false,
    "priority": 2,
    "id": "a0461b2d6b3262c8",
-   "age_days": 35,
+   "age_days": 36,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Lecturer in Agricultural Technology",
@@ -808,11 +809,11 @@
    "is_government": false,
    "priority": 2,
    "id": "5441fb64d041f5f8",
-   "age_days": 15,
+   "age_days": 16,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Full-Time Lecturer, BioResource and Agricultural Engineering",
@@ -858,7 +859,7 @@
    "is_government": false,
    "priority": 2,
    "id": "f5a065e5190f9c57",
-   "age_days": 34,
+   "age_days": 35,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -914,7 +915,7 @@
    "is_government": false,
    "priority": 2,
    "id": "c6fe8a291baa3569",
-   "age_days": 15,
+   "age_days": 16,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-26T10:59:30.867174+00:00",
@@ -967,11 +968,11 @@
    "is_government": false,
    "priority": 2,
    "id": "8f58567875ef529a",
-   "age_days": 52,
+   "age_days": 53,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Visiting Assistant Professor in Aquatic Ecology, Fisheries, and Aquaculture",
@@ -1017,7 +1018,7 @@
    "is_government": false,
    "priority": 2,
    "id": "4d63ddffff3aa765",
-   "age_days": 3,
+   "age_days": 4,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
@@ -1068,11 +1069,11 @@
    "is_government": false,
    "priority": 2,
    "id": "b97aa5b9d17f4cfa",
-   "age_days": 0,
+   "age_days": 1,
    "also_on": [],
    "first_seen": "2026-08-08T10:59:24.063802+00:00",
-   "is_new": true,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant/Associate Professor of Practice - Extension Forestry Specialist",
@@ -1118,11 +1119,59 @@
    "is_government": false,
    "priority": 2,
    "id": "c1021c8a51e8591e",
-   "age_days": 35,
+   "age_days": 36,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
+  },
+  {
+   "title": "Tenure Track Assistant Professor in agricultural soil mechanics",
+   "org": "Aarhus University",
+   "location": "Denmark",
+   "url": "https://jobrxiv.org/job/tenure-track-assistant-professor-in-agricultural-soil-mechanics/",
+   "posted": "2026-08-07T21:10:22+00:00",
+   "summary": "Tenure Track Assistant Professor in Agricultural Soil Mechanics The Department of Agroecology at Aarhus University, Denmark, offers an attractive career opportunity for skilled researchers. We invite applications for a position...",
+   "salary": "",
+   "source": "jobRxiv",
+   "score": 66.7,
+   "role": "Tenure-Track Faculty",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.765,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Agroecology",
+     "Soil"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Agroecology",
+    "Soil"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "Denmark",
+   "region": "Europe",
+   "is_faculty": true,
+   "is_tenure_track": true,
+   "is_priority_country": false,
+   "is_government": false,
+   "priority": 2,
+   "id": "15ffac4c179be5de",
+   "age_days": 1,
+   "also_on": [],
+   "first_seen": "2026-08-09T11:01:41.690698+00:00",
+   "is_new": true,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Tenure Track Assistant Professor in agricultural soil mechanics",
@@ -1166,11 +1215,11 @@
    "is_government": false,
    "priority": 2,
    "id": "353b919c10ce716c",
-   "age_days": 1,
+   "age_days": 2,
    "also_on": [],
    "first_seen": "2026-08-08T10:59:24.063802+00:00",
-   "is_new": true,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Agronomic Entomologist: Open-Rank Extension Professor of Entomology, Field Crops Pest...",
@@ -1214,11 +1263,11 @@
    "is_government": false,
    "priority": 2,
    "id": "3bc1471e607bc583",
-   "age_days": 114,
+   "age_days": 115,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Professor Open Rank - Small Grain Breeding",
@@ -1260,11 +1309,11 @@
    "is_government": false,
    "priority": 2,
    "id": "e600d3c0154b7029",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Lecturer/Teaching Assistant Professor - Plant Sciences",
@@ -1306,13 +1355,13 @@
    "is_government": false,
    "priority": 2,
    "id": "523345db6954344d",
-   "age_days": 9,
+   "age_days": 10,
    "also_on": [
     "Chronicle of Higher Ed"
    ],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Instructor or Open Rank Extension Educator - Water & Cropping Systems (Burt Co.)",
@@ -1354,11 +1403,11 @@
    "is_government": false,
    "priority": 2,
    "id": "fe84228458a43f0d",
-   "age_days": 25,
+   "age_days": 26,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Professor of Soil Science",
@@ -1400,13 +1449,11 @@
    "is_government": false,
    "priority": 2,
    "id": "2ab581cdbc09fc32",
-   "age_days": 30,
-   "also_on": [
-    "HigherEdJobs"
-   ],
+   "age_days": 31,
+   "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Instructor or Open Rank Extension Educator - Water & Cropping Systems (Platte Co.)",
@@ -1448,11 +1495,11 @@
    "is_government": false,
    "priority": 2,
    "id": "1de0b6b8393073c4",
-   "age_days": 30,
+   "age_days": 31,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Instructor or Open Rank Extension Educator - Water & Cropping Systems (Adams Co.)",
@@ -1494,11 +1541,11 @@
    "is_government": false,
    "priority": 2,
    "id": "04b363d4afa7040c",
-   "age_days": 70,
+   "age_days": 71,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Professor of Practice - Livestock Evaluation and Judging",
@@ -1540,7 +1587,7 @@
    "is_government": false,
    "priority": 2,
    "id": "633ab27edf6b8e35",
-   "age_days": 79,
+   "age_days": 80,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
@@ -1587,11 +1634,11 @@
    "is_government": false,
    "priority": 2,
    "id": "085416f700914b84",
-   "age_days": 108,
+   "age_days": 109,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Asst Professor - Agronomy or Horticulture, Plant Sciences",
@@ -1635,7 +1682,7 @@
    "is_government": false,
    "priority": 2,
    "id": "2161cf4b76fe71ee",
-   "age_days": 25,
+   "age_days": 26,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
@@ -1686,7 +1733,7 @@
    "is_government": false,
    "priority": 2,
    "id": "bd70e24ca2d00066",
-   "age_days": 65,
+   "age_days": 66,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -1731,11 +1778,11 @@
    "is_government": false,
    "priority": 2,
    "id": "0717c1d4c07869f4",
-   "age_days": 9,
+   "age_days": 10,
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Professor of Agricultural Science",
@@ -1775,11 +1822,11 @@
    "is_government": false,
    "priority": 2,
    "id": "3f9fe0fee8c4b200",
-   "age_days": 11,
+   "age_days": 12,
    "also_on": [],
    "first_seen": "2026-07-28T12:21:08.016000+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Professor, Agricultural Science",
@@ -1819,11 +1866,11 @@
    "is_government": false,
    "priority": 2,
    "id": "5b140e8467150365",
-   "age_days": 14,
+   "age_days": 15,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Professor of Agricultural Communication",
@@ -1863,11 +1910,11 @@
    "is_government": false,
    "priority": 2,
    "id": "3482564636486fed",
-   "age_days": 22,
+   "age_days": 23,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Faculty Position (Assistant Professor) in Dairy Production Medicine, Academic Clinician Track",
@@ -1907,11 +1954,11 @@
    "is_government": false,
    "priority": 2,
    "id": "21028291940960b9",
-   "age_days": 22,
+   "age_days": 23,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Assistant Professor of Agribusiness and Agricultural Economics",
@@ -1951,11 +1998,11 @@
    "is_government": false,
    "priority": 2,
    "id": "a892905314638e98",
-   "age_days": 25,
+   "age_days": 26,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agriculture Business Instructor, Full-time Tenure Track (BC)",
@@ -1995,7 +2042,7 @@
    "is_government": false,
    "priority": 2,
    "id": "95e9160e6e36e7e8",
-   "age_days": 52,
+   "age_days": 53,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -2042,11 +2089,11 @@
    "is_government": false,
    "priority": 2,
    "id": "531d75859b9ae066",
-   "age_days": 2,
+   "age_days": 3,
    "also_on": [],
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Associate/Full Professor and Extension Swine Specialist – Farm Credit Services of America Endowed Chair in Swine Production",
@@ -2088,11 +2135,11 @@
    "is_government": false,
    "priority": 2,
    "id": "49b2b64dcba09557",
-   "age_days": 18,
+   "age_days": 19,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant/Associate Professor of Practice - Extension Farm Succession Specialist",
@@ -2134,11 +2181,11 @@
    "is_government": false,
    "priority": 2,
    "id": "527b73cd81b9082a",
-   "age_days": 35,
+   "age_days": 36,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant/Associate Professor – Forage Agronomy",
@@ -2180,11 +2227,11 @@
    "is_government": false,
    "priority": 2,
    "id": "e54a687aededa3fe",
-   "age_days": 112,
+   "age_days": 113,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant/Associate/Full Professor - Crop Design",
@@ -2224,11 +2271,11 @@
    "is_government": false,
    "priority": 2,
    "id": "8d248ff34d21f0b4",
-   "age_days": 10,
+   "age_days": 11,
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant/Associate/Full Professor - Crop Design",
@@ -2268,11 +2315,11 @@
    "is_government": false,
    "priority": 2,
    "id": "d9b5ad84cfb169f8",
-   "age_days": 11,
+   "age_days": 12,
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Associate/Full Professor and Extension Swine Specialist – Farm Credit Services of America Endowed",
@@ -2312,11 +2359,11 @@
    "is_government": false,
    "priority": 2,
    "id": "fbe4ca79d8eeed05",
-   "age_days": 19,
+   "age_days": 20,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Full Professor of Crop Breeding and Genomics",
@@ -2356,11 +2403,11 @@
    "is_government": false,
    "priority": 2,
    "id": "ce27f727505eebe5",
-   "age_days": 59,
+   "age_days": 60,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant/Associate/Full-Professor - Animal Waste Management and Farm Animal Environmental Hous...",
@@ -2400,11 +2447,11 @@
    "is_government": false,
    "priority": 2,
    "id": "a820be688405d8bf",
-   "age_days": 62,
+   "age_days": 63,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Teaching Assistant/Associate Professor of Agricultural and Resource Economics, Spring 2026",
@@ -2444,11 +2491,11 @@
    "is_government": false,
    "priority": 2,
    "id": "208f7254d6159b09",
-   "age_days": 79,
+   "age_days": 80,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Teaching Assistant/Associate Professor of Agricultural and Resource Economics, Spring 2026",
@@ -2488,11 +2535,11 @@
    "is_government": false,
    "priority": 2,
    "id": "c0825959b2ac8066",
-   "age_days": 86,
+   "age_days": 87,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Asst/Assoc Professor - Agricultural Banking and Finance",
@@ -2532,11 +2579,11 @@
    "is_government": false,
    "priority": 2,
    "id": "6dda04cf9ffdcb34",
-   "age_days": 93,
+   "age_days": 94,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant/Associate/Full-Professor - Animal Waste Management and Farm Animal Environmental Housing",
@@ -2576,11 +2623,11 @@
    "is_government": false,
    "priority": 2,
    "id": "4702d69c97c8e6c3",
-   "age_days": 96,
+   "age_days": 97,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant/Associate Professor – Soil, Water, and Ecosystem Sciences; Nutrient Management Specialist",
@@ -2620,11 +2667,11 @@
    "is_government": false,
    "priority": 2,
    "id": "56a83dc5c6f15c27",
-   "age_days": 102,
+   "age_days": 103,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant or Associate Professor of Urban Landscape Entomology",
@@ -2664,11 +2711,11 @@
    "is_government": false,
    "priority": 2,
    "id": "4926c80bf3925233",
-   "age_days": 102,
+   "age_days": 103,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant/Associate Professor – Forage Breeding/Genetics",
@@ -2708,11 +2755,11 @@
    "is_government": false,
    "priority": 2,
    "id": "64c76fa9f8a5b845",
-   "age_days": 114,
+   "age_days": 115,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Open-Rank (Assistant/Associate/Full Professor)",
@@ -2760,11 +2807,11 @@
    "is_government": false,
    "priority": 2,
    "id": "3c6e62ba349b5ef0",
-   "age_days": 3,
+   "age_days": 4,
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Faculty Member in Agroecology",
@@ -2806,13 +2853,13 @@
    "is_government": false,
    "priority": 2,
    "id": "744e9838537ec136",
-   "age_days": 18,
+   "age_days": 19,
    "also_on": [
     "HigherEdJobs"
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Lecturer in Soil Science",
@@ -2852,13 +2899,13 @@
    "is_government": false,
    "priority": 2,
    "id": "92454cd87ebb61ce",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [
     "HigherEdJobs"
    ],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Instructor, Agricultural Sciences-Systems Management",
@@ -2898,11 +2945,11 @@
    "is_government": false,
    "priority": 2,
    "id": "fac23e9e8b5e3d3c",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "(Full-time) Agriculture Instructor (Temporary, One-Year)",
@@ -2942,7 +2989,7 @@
    "is_government": false,
    "priority": 2,
    "id": "dc9e196cdcf0fc55",
-   "age_days": 20,
+   "age_days": 21,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -2987,13 +3034,13 @@
    "is_government": false,
    "priority": 2,
    "id": "491140804607cd65",
-   "age_days": 21,
+   "age_days": 22,
    "also_on": [
     "HigherEdJobs"
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Instructor in Agricultural Production or Agriculture, Initial Focus: Vet Tech (Part-Time Pool)",
@@ -3033,13 +3080,13 @@
    "is_government": false,
    "priority": 2,
    "id": "d4cf1780bc2f8e7d",
-   "age_days": 28,
+   "age_days": 29,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Lecturer - Agricultural and Resource Economics - College of Natural Resources",
@@ -3079,11 +3126,11 @@
    "is_government": false,
    "priority": 2,
    "id": "7a3497e67bd098b0",
-   "age_days": 28,
+   "age_days": 29,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Part-Time Agriculture Instructor",
@@ -3123,11 +3170,11 @@
    "is_government": false,
    "priority": 2,
    "id": "e0d3c36e2e8d3f43",
-   "age_days": 35,
+   "age_days": 36,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Instructor of Agriculture",
@@ -3167,11 +3214,11 @@
    "is_government": false,
    "priority": 2,
    "id": "6d63a109cac393ea",
-   "age_days": 44,
+   "age_days": 45,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Instructor in Agricultural Production or Agriculture (Part-Time Pool)",
@@ -3211,11 +3258,11 @@
    "is_government": false,
    "priority": 2,
    "id": "a99acab69b98a190",
-   "age_days": 51,
+   "age_days": 52,
    "also_on": [],
    "first_seen": "2026-07-26T10:54:46.358187+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agriculture Business Instructor, Early College - One Year Full-Time Temp (2025-26)",
@@ -3255,7 +3302,7 @@
    "is_government": false,
    "priority": 2,
    "id": "52c61f545492b026",
-   "age_days": 51,
+   "age_days": 52,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
@@ -3300,13 +3347,13 @@
    "is_government": false,
    "priority": 2,
    "id": "7bfa8d0b220b3b7b",
-   "age_days": 52,
+   "age_days": 53,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Lecturer AY - Plant Sciences",
@@ -3346,7 +3393,7 @@
    "is_government": false,
    "priority": 2,
    "id": "d52ae797f9db66b5",
-   "age_days": 66,
+   "age_days": 67,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
@@ -3391,11 +3438,11 @@
    "is_government": false,
    "priority": 2,
    "id": "ac20589c48c7c952",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Professor/Associate Professor/Assistant Professor in Food Science",
@@ -3435,11 +3482,11 @@
    "is_government": false,
    "priority": 2,
    "id": "db6f5ab1dcc8e78c",
-   "age_days": 31,
+   "age_days": 32,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Klingbeil Endowed Department Head and Professor",
@@ -3485,11 +3532,11 @@
    "is_government": false,
    "priority": 2,
    "id": "11fc1288f1824398",
-   "age_days": 17,
+   "age_days": 18,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Dean of the College of Agriculture and Natural Resources",
@@ -3529,13 +3576,13 @@
    "is_government": false,
    "priority": 2,
    "id": "d5cc207a58185c28",
-   "age_days": 5,
+   "age_days": 6,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Dean, College of Agriculture",
@@ -3575,13 +3622,13 @@
    "is_government": false,
    "priority": 2,
    "id": "a89738f9a30001b3",
-   "age_days": 31,
+   "age_days": 32,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Professor of Agroforestry",
@@ -3623,7 +3670,7 @@
    "is_government": false,
    "priority": 2,
    "id": "23ed7bfd5cd4cf34",
-   "age_days": 7,
+   "age_days": 8,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
@@ -3668,7 +3715,7 @@
    "is_government": false,
    "priority": 2,
    "id": "2fe7a1f691a26895",
-   "age_days": 66,
+   "age_days": 67,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
@@ -3713,7 +3760,7 @@
    "is_government": false,
    "priority": 2,
    "id": "8ee90f4ee930f79e",
-   "age_days": 108,
+   "age_days": 109,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
@@ -3767,11 +3814,11 @@
    "is_government": false,
    "priority": 3,
    "id": "e723b73d8589aff1",
-   "age_days": 1,
+   "age_days": 2,
    "also_on": [],
    "first_seen": "2026-08-07T11:15:52.439742+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Fellow in Soil Imaging and Computed Tomography",
@@ -3818,13 +3865,13 @@
    "is_government": false,
    "priority": 3,
    "id": "62dccd0ba1df6e23",
-   "age_days": 15,
+   "age_days": 16,
    "also_on": [
     "jobs.ac.uk"
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoctoral Position in Plant Breeding and Artificial Intelligence",
@@ -3871,11 +3918,11 @@
    "is_government": false,
    "priority": 3,
    "id": "00015d63f3289644",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoctoral Research Associate â€“ Crop Systems Modeling And Data Analytics",
@@ -3924,7 +3971,7 @@
    "is_government": false,
    "priority": 3,
    "id": "4df0f73090f982f0",
-   "age_days": 21,
+   "age_days": 22,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -3982,13 +4029,13 @@
    "is_government": false,
    "priority": 3,
    "id": "097a1f83cf818737",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Researcher in Data Science and Digitalization in Smart Farming",
@@ -4043,7 +4090,7 @@
    "is_government": false,
    "priority": 3,
    "id": "8936042304d8a730",
-   "age_days": 37,
+   "age_days": 38,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -4101,7 +4148,7 @@
    "is_government": false,
    "priority": 3,
    "id": "ee668484152baf71",
-   "age_days": 36,
+   "age_days": 37,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -4158,7 +4205,7 @@
    "is_government": false,
    "priority": 3,
    "id": "4fac205fcda1e042",
-   "age_days": 13,
+   "age_days": 14,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-26T10:59:30.867174+00:00",
@@ -4210,11 +4257,12 @@
    "is_government": false,
    "priority": 3,
    "id": "d4e5c0a356269e15",
-   "age_days": 16,
-   "also_on": [],
-   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "age_days": 17,
+   "carried_over": true,
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "last_seen": "2026-08-08T10:59:24.063802+00:00",
+   "also_on": []
   },
   {
    "title": "AgBS - Postdoctoral Position in Agronomy (Fertilizer Forms and Greenhouse Gas Measurements)",
@@ -4267,13 +4315,13 @@
    "is_government": false,
    "priority": 3,
    "id": "0a90a28a1a3c0117",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "SusMaT-RC - Postdoc Position: Bio-based Materials for Sustainable Agriculture",
@@ -4319,11 +4367,12 @@
    "is_government": false,
    "priority": 3,
    "id": "754d0953856329a5",
-   "age_days": 30,
-   "also_on": [],
-   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "age_days": 31,
+   "carried_over": true,
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "last_seen": "2026-08-08T10:59:24.063802+00:00",
+   "also_on": []
   },
   {
    "title": "ASARI - Postdoctoral Researcher in Aquaculture Systems and Seaweed Monitoring",
@@ -4371,13 +4420,13 @@
    "is_government": false,
    "priority": 3,
    "id": "285578fff0bbe331",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "PDRA in Data Science for Soil-Biomass & Sustainable Land Use",
@@ -4426,11 +4475,11 @@
    "is_government": false,
    "priority": 3,
    "id": "458b4fdb81a9de96",
-   "age_days": 1,
+   "age_days": 2,
    "also_on": [],
    "first_seen": "2026-08-08T10:59:24.063802+00:00",
-   "is_new": true,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Student Research Assistant - Robotics Applications in Agriculture",
@@ -4477,11 +4526,11 @@
    "is_government": false,
    "priority": 3,
    "id": "a58fe3b8b5545d62",
-   "age_days": 6,
+   "age_days": 7,
    "also_on": [],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Fellow in Soil Biogeochemistry",
@@ -4526,13 +4575,13 @@
    "is_government": false,
    "priority": 3,
    "id": "e4a6db40ded91e2d",
-   "age_days": 15,
+   "age_days": 16,
    "also_on": [
     "jobs.ac.uk"
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Associate (Ecology/Biogeochemistry/Earth Science/Soil Science/Environmental Science/Hydrology/Computer Science)",
@@ -4577,7 +4626,7 @@
    "is_government": false,
    "priority": 3,
    "id": "269d864784460e0c",
-   "age_days": 32,
+   "age_days": 33,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-02T11:41:35.932593+00:00",
@@ -4627,11 +4676,11 @@
    "is_government": false,
    "priority": 3,
    "id": "2f9bac8bb1885e14",
-   "age_days": 100,
+   "age_days": 101,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Precision Livestock Extension Field Specialist I",
@@ -4681,13 +4730,13 @@
    "is_government": false,
    "priority": 3,
    "id": "341244c37016ced6",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [
     "Chronicle of Higher Ed"
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Fellow / Engineer (Food Engineering) - AZN5",
@@ -4727,11 +4776,11 @@
    "is_government": false,
    "priority": 3,
    "id": "9bde5cdb859edbc9",
-   "age_days": 23,
+   "age_days": 24,
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Technician (Agricultural Engineering)",
@@ -4777,11 +4826,11 @@
    "is_government": false,
    "priority": 3,
    "id": "8bb99319a7be2783",
-   "age_days": 73,
+   "age_days": 74,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Part-Time Agricultural Assistant I - Greenhouse & Plant Growth Chambers",
@@ -4831,7 +4880,7 @@
    "is_government": false,
    "priority": 3,
    "id": "ffd4a1ff042901f9",
-   "age_days": 25,
+   "age_days": 26,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -4882,11 +4931,11 @@
    "is_government": false,
    "priority": 3,
    "id": "45f15c89dc3e29dc",
-   "age_days": 5,
+   "age_days": 6,
    "also_on": [],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoctoral Research Associate on Genome Editing in Horticultural Crops",
@@ -4932,11 +4981,11 @@
    "is_government": false,
    "priority": 3,
    "id": "bab4a96bea101915",
-   "age_days": 29,
+   "age_days": 30,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Student Employee-School of Agricultural Sciences- Greenhouse & Garden Student Worker (Work Stud...",
@@ -4982,11 +5031,11 @@
    "is_government": false,
    "priority": 3,
    "id": "1e1dd02e9f50e354",
-   "age_days": 46,
+   "age_days": 47,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Project Scientist Series in Botany and Plant Sciences (Open Search)",
@@ -5028,11 +5077,11 @@
    "is_government": false,
    "priority": 3,
    "id": "c8def846fc6cb15d",
-   "age_days": 16,
+   "age_days": 17,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Project Scientist Series in Microbiology and Plant Pathology (Open Search)",
@@ -5074,7 +5123,7 @@
    "is_government": false,
    "priority": 3,
    "id": "081863101b92f011",
-   "age_days": 36,
+   "age_days": 37,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -5126,7 +5175,7 @@
    "is_government": false,
    "priority": 3,
    "id": "74791aecf9402405",
-   "age_days": 6,
+   "age_days": 7,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-02T11:41:35.932593+00:00",
@@ -5173,13 +5222,13 @@
    "is_government": false,
    "priority": 3,
    "id": "0df98e18e4a795a6",
-   "age_days": 5,
+   "age_days": 6,
    "also_on": [
     "jobs.ac.uk"
    ],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Fellow (Soil Science – Phosphorus Use Efficiency)",
@@ -5221,11 +5270,11 @@
    "is_government": false,
    "priority": 3,
    "id": "3e61452e7b509086",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Faculty Associate in the Sociology of Agriculture and Food Systems Part-Time",
@@ -5271,11 +5320,11 @@
    "is_government": false,
    "priority": 3,
    "id": "0414db8e704a979e",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "z-Part-Time Adjunct Faculty Pool- Agricultural Technology",
@@ -5321,11 +5370,11 @@
    "is_government": false,
    "priority": 3,
    "id": "2b2094737f5e4ae6",
-   "age_days": 31,
+   "age_days": 32,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Ag Tech/Mechanic",
@@ -5373,11 +5422,11 @@
    "is_government": false,
    "priority": 3,
    "id": "16732ab0f7a2b65a",
-   "age_days": 9,
+   "age_days": 10,
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoctoral Researcher (Sustainable Agricultural Systems & Wastewater Management)",
@@ -5419,11 +5468,11 @@
    "is_government": false,
    "priority": 3,
    "id": "80649a6932228533",
-   "age_days": 3,
+   "age_days": 4,
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "AgBS - Post-Doctoral in Modeling and Crop Yield Prediction in Africa",
@@ -5465,13 +5514,13 @@
    "is_government": false,
    "priority": 3,
    "id": "52a26873a4eeef73",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Genomic Breeding Post Doc - Potato Research - Shannon Lab (# 370007)",
@@ -5513,11 +5562,11 @@
    "is_government": false,
    "priority": 3,
    "id": "97b5c985312d82b7",
-   "age_days": 7,
+   "age_days": 8,
    "also_on": [],
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoc Researcher - Soil Science/Soil Health",
@@ -5559,7 +5608,7 @@
    "is_government": false,
    "priority": 3,
    "id": "bca6ecddcc2f6ce2",
-   "age_days": 7,
+   "age_days": 8,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
@@ -5606,13 +5655,13 @@
    "is_government": false,
    "priority": 3,
    "id": "888c9934d981f640",
-   "age_days": 9,
+   "age_days": 10,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoctoral Research Position In Agronomy, Soils, And Environment",
@@ -5654,7 +5703,7 @@
    "is_government": false,
    "priority": 3,
    "id": "bd9e1eb93e37dbab",
-   "age_days": 14,
+   "age_days": 15,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -5705,11 +5754,11 @@
    "is_government": false,
    "priority": 3,
    "id": "c1e9853adfb1dede",
-   "age_days": 16,
+   "age_days": 17,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoctoral Scholar Series in Botany and Plant Sciences (Open Search)",
@@ -5751,11 +5800,11 @@
    "is_government": false,
    "priority": 3,
    "id": "6b4f59a908752e9e",
-   "age_days": 16,
+   "age_days": 17,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "CBS - Postdoctoral Researcher in Fertilizer Formulation, Plant Nutrition and Agronomic Evaluation",
@@ -5797,13 +5846,13 @@
    "is_government": false,
    "priority": 3,
    "id": "07e42aae2131d683",
-   "age_days": 29,
+   "age_days": 30,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Two-year postdoc in soil microbial ecology",
@@ -5845,7 +5894,7 @@
    "is_government": false,
    "priority": 3,
    "id": "60aa4502f493556b",
-   "age_days": 30,
+   "age_days": 31,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -5892,7 +5941,7 @@
    "is_government": false,
    "priority": 3,
    "id": "d53eca9fff3e4b54",
-   "age_days": 36,
+   "age_days": 37,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -5939,7 +5988,7 @@
    "is_government": false,
    "priority": 3,
    "id": "ce50465a70b86133",
-   "age_days": 37,
+   "age_days": 38,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -5990,11 +6039,11 @@
    "is_government": false,
    "priority": 3,
    "id": "729e46a9a9aaf520",
-   "age_days": 54,
+   "age_days": 55,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Post-Doctoral Associate - Switchgrass and Turfgrass Disease Management",
@@ -6036,11 +6085,11 @@
    "is_government": false,
    "priority": 3,
    "id": "b2645b1672ecfddf",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Scientist Biological control based on microbiology",
@@ -6090,7 +6139,7 @@
    "is_government": false,
    "priority": 3,
    "id": "476333e3902513bd",
-   "age_days": 7,
+   "age_days": 8,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
@@ -6135,13 +6184,13 @@
    "is_government": false,
    "priority": 3,
    "id": "ed01b71e3be86948",
-   "age_days": 15,
+   "age_days": 16,
    "also_on": [
     "jobs.ac.uk"
    ],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Associate: Agrarian Change in the Himalayas",
@@ -6181,7 +6230,7 @@
    "is_government": false,
    "priority": 3,
    "id": "0ac96c2ece01cc65",
-   "age_days": 37,
+   "age_days": 38,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
@@ -6226,7 +6275,7 @@
    "is_government": false,
    "priority": 3,
    "id": "2b2dfa1674402f21",
-   "age_days": 39,
+   "age_days": 40,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
@@ -6271,11 +6320,11 @@
    "is_government": false,
    "priority": 3,
    "id": "78b2e3e241380acc",
-   "age_days": 51,
+   "age_days": 52,
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "ASARI - Postdoc in Soil Microbiology",
@@ -6315,13 +6364,13 @@
    "is_government": false,
    "priority": 3,
    "id": "9f86648a2c5b2a8f",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "ARC_AIR - Postdoctoral Research Position in Agricultural Emissions Monitoring",
@@ -6361,13 +6410,13 @@
    "is_government": false,
    "priority": 3,
    "id": "39ef0bcdced8e65e",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "COLCOM - Postdoctoral Fellow Position in Omics and Soil Microbiome Research",
@@ -6407,13 +6456,13 @@
    "is_government": false,
    "priority": 3,
    "id": "e9c81bdba6788e00",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "GSMI - Postdoctoral Researcher in Plant Ecology & Soil-Plant Interactions in Vegetated Photovoltaic",
@@ -6453,11 +6502,11 @@
    "is_government": false,
    "priority": 3,
    "id": "382863c52acb1c8d",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "GSMI - Postdoctoral Researcher in Plant Ecology & Soil-Plant Interactions in Vegetated Photovolt",
@@ -6497,11 +6546,11 @@
    "is_government": false,
    "priority": 3,
    "id": "284cbe4f66aecdad",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoctoral Research Associate, Atmospheric and Inter-farm Aerodynamics",
@@ -6541,11 +6590,11 @@
    "is_government": false,
    "priority": 3,
    "id": "29ddb53e9f09eae3",
-   "age_days": 5,
+   "age_days": 6,
    "also_on": [],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "SUSMAT - Post-Doc in Development of Multifunctional Hydrogels for Agricultural Applications",
@@ -6585,13 +6634,13 @@
    "is_government": false,
    "priority": 3,
    "id": "3baf6be398ef00c1",
-   "age_days": 15,
+   "age_days": 16,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-27T13:26:11.295540+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "AgBS - Postdoctoral Researcher in Advanced Fertilizers and Sustainable Nutrient Delivery Systems",
@@ -6631,13 +6680,13 @@
    "is_government": false,
    "priority": 3,
    "id": "d9ac20aadc3bb8d9",
-   "age_days": 23,
+   "age_days": 24,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Two-year postdoc in soil microbial ecology",
@@ -6677,11 +6726,11 @@
    "is_government": false,
    "priority": 3,
    "id": "ee752a8bec52d280",
-   "age_days": 28,
+   "age_days": 29,
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "AGBS - Postdoctoral Researcher in Agricultural Microbial Biotechnology",
@@ -6721,7 +6770,7 @@
    "is_government": false,
    "priority": 3,
    "id": "8865141db11f799c",
-   "age_days": 31,
+   "age_days": 32,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -6766,11 +6815,11 @@
    "is_government": false,
    "priority": 3,
    "id": "86ce7ebad275980c",
-   "age_days": 35,
+   "age_days": 36,
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "AGBS - Postdoc in Molecular Soil Biology and Ecology",
@@ -6810,7 +6859,7 @@
    "is_government": false,
    "priority": 3,
    "id": "8178aaeefce194e5",
-   "age_days": 37,
+   "age_days": 38,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
@@ -6855,7 +6904,7 @@
    "is_government": false,
    "priority": 3,
    "id": "e638bf95eecd5114",
-   "age_days": 38,
+   "age_days": 39,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
@@ -6900,11 +6949,11 @@
    "is_government": false,
    "priority": 3,
    "id": "3bc81dd028c1103f",
-   "age_days": 45,
+   "age_days": 46,
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Post Doctoral Research Associate- Soil and Water Conservation",
@@ -6944,11 +6993,11 @@
    "is_government": false,
    "priority": 3,
    "id": "23688e44dc510b34",
-   "age_days": 69,
+   "age_days": 70,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Assoc Urban Ag & Controlled Env Ag",
@@ -6994,64 +7043,11 @@
    "is_government": false,
    "priority": 3,
    "id": "0d7826b153a926a5",
-   "age_days": 31,
+   "age_days": 32,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
-  },
-  {
-   "title": "Part-Time Staff: Greenhouse Assistant",
-   "org": "Metropolitan Community College - Kansas City",
-   "location": "Maple Woods, MO",
-   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179496763",
-   "posted": "2026-07-12T15:35:18+00:00",
-   "summary": "Farming and Agriculture. Metropolitan Community College - Kansas City (Maple Woods, MO)",
-   "salary": "",
-   "source": "HigherEdJobs",
-   "score": 56.0,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.858,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science",
-    "Controlled Environment"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Agriculture",
-     "Farming"
-    ],
-    "Controlled Environment": [
-     "Greenhouse"
-    ]
-   },
-   "match_terms": [
-    "Agriculture",
-    "Farming",
-    "Greenhouse"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science",
-    "Controlled Environment"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "is_government": false,
-   "priority": 3,
-   "id": "492228d458ec7057",
-   "age_days": 26,
-   "carried_over": true,
-   "is_new": false,
-   "first_seen": "2026-07-25T06:55:35.345291+00:00",
-   "last_seen": "2026-07-28T12:21:08.016000+00:00",
-   "also_on": []
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "PhD fellowship in greenhouse gases, forest soils and biogeochemistry",
@@ -7102,11 +7098,11 @@
    "is_government": false,
    "priority": 3,
    "id": "aa599d81913bbdc6",
-   "age_days": 72,
+   "age_days": 73,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Limited Term Adjunct Lecturer, Biosystems Engineering",
@@ -7156,7 +7152,7 @@
    "is_government": false,
    "priority": 3,
    "id": "bc9d584dc980a3b7",
-   "age_days": 13,
+   "age_days": 14,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-26T10:54:46.358187+00:00",
@@ -7209,11 +7205,11 @@
    "is_government": false,
    "priority": 3,
    "id": "94064560b08b4a16",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Lab/Greenhouse Assistant - Raymer",
@@ -7261,11 +7257,11 @@
    "is_government": false,
    "priority": 3,
    "id": "c83fe108789cba04",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Risk Analyst for the Secure Food System Team (# 374831)",
@@ -7313,7 +7309,7 @@
    "is_government": false,
    "priority": 3,
    "id": "4f5b61bfdf2075b8",
-   "age_days": 21,
+   "age_days": 22,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -7364,13 +7360,13 @@
    "is_government": false,
    "priority": 3,
    "id": "5dc1540485760632",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "ASARI - Postdoctoral Researcher in Bioreactor Modelling and Simulation",
@@ -7416,13 +7412,13 @@
    "is_government": false,
    "priority": 3,
    "id": "c056fe70dc937ee5",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Federal Work Study - Soil & Water Lab",
@@ -7468,11 +7464,11 @@
    "is_government": false,
    "priority": 3,
    "id": "3b5c028261dc8d13",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoctoral Researcher (m/f/d) in the field of “Reactive Nitrogen, Food Security and Sustaina...",
@@ -7512,11 +7508,11 @@
    "is_government": false,
    "priority": 3,
    "id": "288d2af159e91c1d",
-   "age_days": 19,
+   "age_days": 20,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Integrated PhD fellowship in sustainable food systems",
@@ -7569,7 +7565,7 @@
    "is_government": false,
    "priority": 3,
    "id": "b398675c6f10ea6b",
-   "age_days": 17,
+   "age_days": 18,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -7627,11 +7623,11 @@
    "is_government": false,
    "priority": 3,
    "id": "6b38330ce2c14f43",
-   "age_days": 10,
+   "age_days": 11,
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Post Rock District Crop Production Extension Agent",
@@ -7677,11 +7673,59 @@
    "is_government": false,
    "priority": 3,
    "id": "2070f00c527d9c43",
-   "age_days": 2,
+   "age_days": 3,
    "also_on": [],
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
+  },
+  {
+   "title": "Dairy Plant Operator",
+   "org": "University of Wisconsin - Madison",
+   "location": "Madison, WI",
+   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179522777",
+   "posted": "2026-08-08T17:16:51+00:00",
+   "summary": "Farming and Agriculture. University of Wisconsin - Madison (Madison, WI)",
+   "salary": "",
+   "source": "HigherEdJobs",
+   "score": 49.0,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.782,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Dairy",
+     "Farming"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Dairy",
+    "Farming"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "is_government": false,
+   "priority": 3,
+   "id": "9167519fd28162b0",
+   "age_days": 0,
+   "also_on": [],
+   "first_seen": "2026-08-09T11:01:41.690698+00:00",
+   "is_new": true,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Field Specialist in Livestock (emphasis in Small Ruminant) - Bates County, MO",
@@ -7725,11 +7769,11 @@
    "is_government": false,
    "priority": 3,
    "id": "61eb2f8a15832606",
-   "age_days": 1,
+   "age_days": 2,
    "also_on": [],
    "first_seen": "2026-08-07T11:15:52.439742+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Horticulture Extension Agent",
@@ -7773,11 +7817,11 @@
    "is_government": false,
    "priority": 3,
    "id": "af4c3b1e79f9d1e3",
-   "age_days": 2,
+   "age_days": 3,
    "also_on": [],
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Agricultural Worker (Section of Plant Breeding and Genetics); Ithaca, New York",
@@ -7821,11 +7865,11 @@
    "is_government": false,
    "priority": 3,
    "id": "a95fbcb6546d6375",
-   "age_days": 2,
+   "age_days": 3,
    "also_on": [],
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Forages Field Technician",
@@ -7869,13 +7913,13 @@
    "is_government": false,
    "priority": 3,
    "id": "ff0c4d114305aaf6",
-   "age_days": 3,
+   "age_days": 4,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Florence Urban Horticulture Agent",
@@ -7919,11 +7963,11 @@
    "is_government": false,
    "priority": 3,
    "id": "2f98e3a35eb7abd5",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Grazing and Pasture Technical Assistance Provider",
@@ -7967,13 +8011,13 @@
    "is_government": false,
    "priority": 3,
    "id": "ecb2c267ec0f1c95",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Livestock Technician",
@@ -8017,11 +8061,11 @@
    "is_government": false,
    "priority": 3,
    "id": "221d03dcbf9c5764",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Manager – Davis Dairy Plant",
@@ -8065,7 +8109,7 @@
    "is_government": false,
    "priority": 3,
    "id": "ffc4d54064893539",
-   "age_days": 28,
+   "age_days": 29,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -8114,7 +8158,7 @@
    "is_government": false,
    "priority": 3,
    "id": "0108dff759d84bbe",
-   "age_days": 31,
+   "age_days": 32,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -8163,7 +8207,7 @@
    "is_government": false,
    "priority": 3,
    "id": "6077bcc8ae25bc40",
-   "age_days": 36,
+   "age_days": 37,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -8210,11 +8254,11 @@
    "is_government": false,
    "priority": 3,
    "id": "880a82e75c73e960",
-   "age_days": 2,
+   "age_days": 3,
    "also_on": [],
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Sunflower District Agriculture and Natural Resources Extension Agent",
@@ -8256,7 +8300,7 @@
    "is_government": false,
    "priority": 3,
    "id": "abefbe1457dfcefc",
-   "age_days": 2,
+   "age_days": 3,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
@@ -8303,11 +8347,11 @@
    "is_government": false,
    "priority": 3,
    "id": "137e53420ebd8f31",
-   "age_days": 3,
+   "age_days": 4,
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Farm Operations Coordinator (Part Time) (Multiple Positions)",
@@ -8349,11 +8393,11 @@
    "is_government": false,
    "priority": 3,
    "id": "5b525df803967647",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Technician, Farm - Part Time",
@@ -8395,11 +8439,11 @@
    "is_government": false,
    "priority": 3,
    "id": "89c9fbc8d8ad3b65",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agricultural Tech II Research",
@@ -8441,11 +8485,11 @@
    "is_government": false,
    "priority": 3,
    "id": "048bc858ef144d27",
-   "age_days": 7,
+   "age_days": 8,
    "also_on": [],
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Farm Manager - Busby Farm",
@@ -8487,11 +8531,11 @@
    "is_government": false,
    "priority": 3,
    "id": "f60e99f52f252f7c",
-   "age_days": 7,
+   "age_days": 8,
    "also_on": [],
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Part - Time Farm Worker III - Wurdack Extension and Education Center",
@@ -8533,11 +8577,11 @@
    "is_government": false,
    "priority": 3,
    "id": "23589e102ac6a605",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agri Farm Technician",
@@ -8579,7 +8623,7 @@
    "is_government": false,
    "priority": 3,
    "id": "f25494114a7edffb",
-   "age_days": 8,
+   "age_days": 9,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
@@ -8626,11 +8670,11 @@
    "is_government": false,
    "priority": 3,
    "id": "27466f6f43ef822f",
-   "age_days": 10,
+   "age_days": 11,
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Farm/Stable Worker",
@@ -8672,7 +8716,7 @@
    "is_government": false,
    "priority": 3,
    "id": "5dd00293697a255c",
-   "age_days": 11,
+   "age_days": 12,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
@@ -8719,7 +8763,7 @@
    "is_government": false,
    "priority": 3,
    "id": "94b284752ba6e0ab",
-   "age_days": 16,
+   "age_days": 17,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -8766,7 +8810,7 @@
    "is_government": false,
    "priority": 3,
    "id": "a962ad082d4a20e0",
-   "age_days": 20,
+   "age_days": 21,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -8813,7 +8857,7 @@
    "is_government": false,
    "priority": 3,
    "id": "ce53ecc7fd38f652",
-   "age_days": 21,
+   "age_days": 22,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -8860,7 +8904,7 @@
    "is_government": false,
    "priority": 3,
    "id": "2d01991ffddf5c78",
-   "age_days": 21,
+   "age_days": 22,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -8907,7 +8951,7 @@
    "is_government": false,
    "priority": 3,
    "id": "8680eece6d1dbc55",
-   "age_days": 23,
+   "age_days": 24,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -8954,58 +8998,11 @@
    "is_government": false,
    "priority": 3,
    "id": "0f6ba75d239ed1a0",
-   "age_days": 25,
+   "age_days": 26,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
-  },
-  {
-   "title": "Temporary Agricultural Worker (Cornell AES); Ithaca, New York",
-   "org": "Cornell University",
-   "location": "Ithaca, NY",
-   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179497538",
-   "posted": "2026-07-13T16:22:12+00:00",
-   "summary": "Farming and Agriculture. Cornell University (Ithaca, NY)",
-   "salary": "",
-   "source": "HigherEdJobs",
-   "score": 48.2,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.765,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Agriculture",
-     "Farming"
-    ]
-   },
-   "match_terms": [
-    "Agriculture",
-    "Farming"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "is_government": false,
-   "priority": 3,
-   "id": "054b1efbacf13337",
-   "age_days": 25,
-   "carried_over": true,
-   "is_new": false,
-   "first_seen": "2026-07-25T09:34:59.092830+00:00",
-   "last_seen": "2026-07-28T12:21:08.016000+00:00",
-   "also_on": []
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Farm Production Lead (Farmer 2)",
@@ -9047,7 +9044,7 @@
    "is_government": false,
    "priority": 3,
    "id": "662a4bdfce4abfca",
-   "age_days": 27,
+   "age_days": 28,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -9094,7 +9091,7 @@
    "is_government": false,
    "priority": 3,
    "id": "307ffc8210325383",
-   "age_days": 28,
+   "age_days": 29,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -9141,7 +9138,7 @@
    "is_government": false,
    "priority": 3,
    "id": "0a004f64bbdd5e43",
-   "age_days": 29,
+   "age_days": 30,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -9188,7 +9185,7 @@
    "is_government": false,
    "priority": 3,
    "id": "808961fbdf7411d1",
-   "age_days": 36,
+   "age_days": 37,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -9235,7 +9232,7 @@
    "is_government": false,
    "priority": 3,
    "id": "1b26a7c104347815",
-   "age_days": 36,
+   "age_days": 37,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -9284,11 +9281,11 @@
    "is_government": false,
    "priority": 3,
    "id": "c86cf2292fdf5b10",
-   "age_days": 46,
+   "age_days": 47,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Extension Agent - Farm & Consumer Food Safety",
@@ -9332,11 +9329,11 @@
    "is_government": false,
    "priority": 3,
    "id": "2cc146b23499db97",
-   "age_days": 56,
+   "age_days": 57,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Turfgrass Lab/Field Assistant, Griffin",
@@ -9380,11 +9377,11 @@
    "is_government": false,
    "priority": 3,
    "id": "2803c5f62909a8bb",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Turfgrass Lab/Field Assistant - Walt",
@@ -9428,11 +9425,11 @@
    "is_government": false,
    "priority": 3,
    "id": "13b3874f3d2cf687",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Turfgrass Field/Lab Assist - Waltz",
@@ -9476,11 +9473,11 @@
    "is_government": false,
    "priority": 3,
    "id": "5d4dfce83f063a82",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Bowen Farm Tobacco Research Student Assistant",
@@ -9524,11 +9521,11 @@
    "is_government": false,
    "priority": 3,
    "id": "7928ae0907845010",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Tobacco Extension Agronomist",
@@ -9570,11 +9567,11 @@
    "is_government": false,
    "priority": 3,
    "id": "b997e9be3c5e8b8f",
-   "age_days": 9,
+   "age_days": 10,
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Director of Jefferson Farm & Gardens Extension and Education Center and Field Specialist in",
@@ -9616,11 +9613,11 @@
    "is_government": false,
    "priority": 3,
    "id": "9789a71a95d78dcf",
-   "age_days": 15,
+   "age_days": 16,
    "also_on": [],
    "first_seen": "2026-07-28T12:21:08.016000+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agricultural Specialist- Poultry Research Complex",
@@ -9662,11 +9659,12 @@
    "is_government": false,
    "priority": 3,
    "id": "59cac56ae8c3a63a",
-   "age_days": 17,
-   "also_on": [],
-   "first_seen": "2026-07-29T12:29:21.373168+00:00",
+   "age_days": 18,
+   "carried_over": true,
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "first_seen": "2026-07-29T12:29:21.373168+00:00",
+   "last_seen": "2026-08-08T10:59:24.063802+00:00",
+   "also_on": []
   },
   {
    "title": "Extension Agent, Ag - Livestock and Forages (Assistant, Associate or Full Agent)",
@@ -9708,11 +9706,11 @@
    "is_government": false,
    "priority": 3,
    "id": "d8d2837aaf5f02c4",
-   "age_days": 21,
+   "age_days": 22,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Agent, Ag, Field Crops and Dairy (Assistant, Associate or Full Agent)",
@@ -9754,11 +9752,11 @@
    "is_government": false,
    "priority": 3,
    "id": "ca2f97fbe5f610f2",
-   "age_days": 21,
+   "age_days": 22,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Assistant, Department of Plant Sciences: UTIA",
@@ -9800,7 +9798,7 @@
    "is_government": false,
    "priority": 3,
    "id": "57c02b4ff51371c9",
-   "age_days": 32,
+   "age_days": 33,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -9847,11 +9845,11 @@
    "is_government": false,
    "priority": 3,
    "id": "83058e86bf352eed",
-   "age_days": 36,
+   "age_days": 37,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Specialist Series in Microbiology and Plant Pathology (Open Search)",
@@ -9893,7 +9891,7 @@
    "is_government": false,
    "priority": 3,
    "id": "24af63963aec8578",
-   "age_days": 36,
+   "age_days": 37,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -9940,7 +9938,7 @@
    "is_government": false,
    "priority": 3,
    "id": "4ad24393355b23e6",
-   "age_days": 36,
+   "age_days": 37,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -9987,11 +9985,11 @@
    "is_government": false,
    "priority": 3,
    "id": "42de86d9ffebeccb",
-   "age_days": 38,
+   "age_days": 39,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Talent Recruitment Announcement at the College of Plant Science & Technology",
@@ -10033,11 +10031,11 @@
    "is_government": false,
    "priority": 3,
    "id": "4f73263698562550",
-   "age_days": 39,
+   "age_days": 40,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Educator - Bear Lake County: Livestock, Agriculture and 4-H Youth Development",
@@ -10079,11 +10077,11 @@
    "is_government": false,
    "priority": 3,
    "id": "59a3d1faa85e2c81",
-   "age_days": 50,
+   "age_days": 51,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Assistant - Horticulture (CEFS)",
@@ -10125,11 +10123,11 @@
    "is_government": false,
    "priority": 3,
    "id": "5dd38903b4caad8a",
-   "age_days": 53,
+   "age_days": 54,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Crop & Soil Sciences- Student Assistant 2-Grey",
@@ -10171,11 +10169,11 @@
    "is_government": false,
    "priority": 3,
    "id": "14a8ee60f581de90",
-   "age_days": 72,
+   "age_days": 73,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Farm Operations Professional I - Chavez (1)",
@@ -10217,57 +10215,11 @@
    "is_government": false,
    "priority": 3,
    "id": "b55610373fc5caf5",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
-  },
-  {
-   "title": "Agricultural Specialist",
-   "org": "The University of Georgia",
-   "location": "",
-   "url": "https://careers.insidehighered.com/job/3493664/agricultural-specialist/",
-   "posted": "2026-04-22T09:00:00+00:00",
-   "summary": "The University of Georgia: Posting Number:S12856PWorking Title:Agricultural SpecialistDepartment:CAES-Animal & Dairy ScienceAbout the University of Georgia:Chartered by the stat Athens Area",
-   "salary": "",
-   "source": "Inside Higher Ed",
-   "score": 47.4,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.747,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Agriculture",
-     "Dairy"
-    ]
-   },
-   "match_terms": [
-    "Agriculture",
-    "Dairy"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "is_government": false,
-   "priority": 3,
-   "id": "97ee35fe789d1d21",
-   "age_days": 108,
-   "also_on": [],
-   "first_seen": "2026-07-25T08:29:56.276643+00:00",
-   "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Pesticide Safety Education Program (PSEP)",
@@ -10309,11 +10261,57 @@
    "is_government": false,
    "priority": 3,
    "id": "9948351258e24289",
-   "age_days": 108,
+   "age_days": 109,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
+  },
+  {
+   "title": "Agricultural Specialist",
+   "org": "The University of Georgia",
+   "location": "",
+   "url": "https://careers.insidehighered.com/job/3493664/agricultural-specialist/",
+   "posted": "2026-04-22T09:00:00+00:00",
+   "summary": "The University of Georgia: Posting Number:S12856PWorking Title:Agricultural SpecialistDepartment:CAES-Animal & Dairy ScienceAbout the University of Georgia:Chartered by the stat Athens Area",
+   "salary": "",
+   "source": "Inside Higher Ed",
+   "score": 47.4,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.747,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agriculture",
+     "Dairy"
+    ]
+   },
+   "match_terms": [
+    "Agriculture",
+    "Dairy"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "is_government": false,
+   "priority": 3,
+   "id": "97ee35fe789d1d21",
+   "age_days": 109,
+   "also_on": [],
+   "first_seen": "2026-07-25T08:29:56.276643+00:00",
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Teacher of Horticulture",
@@ -10353,11 +10351,11 @@
    "is_government": false,
    "priority": 3,
    "id": "595dfbf77c935216",
-   "age_days": 2,
+   "age_days": 3,
    "also_on": [],
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Soil Education and Engagement Officer",
@@ -10397,11 +10395,11 @@
    "is_government": false,
    "priority": 3,
    "id": "ecc2ef86cb0dc55d",
-   "age_days": 3,
+   "age_days": 4,
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Part-Time/Full-Time Horticulture Research OPS",
@@ -10441,11 +10439,11 @@
    "is_government": false,
    "priority": 3,
    "id": "c014b0247a81504a",
-   "age_days": 3,
+   "age_days": 4,
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business and Urban Agriculture – Jefferson County, MO",
@@ -10485,11 +10483,11 @@
    "is_government": false,
    "priority": 3,
    "id": "c2bddb0e016dd9f9",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business – Washington County, MO",
@@ -10529,11 +10527,11 @@
    "is_government": false,
    "priority": 3,
    "id": "f6f64fdd417ad2a0",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business – Osage County, MO",
@@ -10573,11 +10571,11 @@
    "is_government": false,
    "priority": 3,
    "id": "190cb1e69c43738c",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Assistant/Associate in Soil Modelling",
@@ -10617,11 +10615,11 @@
    "is_government": false,
    "priority": 3,
    "id": "e072424f30be541b",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Educator, Urban Agriculture & Natural Resources/Community Development - Cuyahoga County",
@@ -10661,11 +10659,11 @@
    "is_government": false,
    "priority": 3,
    "id": "093143ba96c14c5a",
-   "age_days": 9,
+   "age_days": 10,
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Tobacco Extension Agronomist",
@@ -10705,11 +10703,11 @@
    "is_government": false,
    "priority": 3,
    "id": "5ed1a44491390ce3",
-   "age_days": 10,
+   "age_days": 11,
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Farm Manager - UGA Grand Farm",
@@ -10749,11 +10747,11 @@
    "is_government": false,
    "priority": 3,
    "id": "2d5c78395c4f2cd2",
-   "age_days": 10,
+   "age_days": 11,
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Horticulturist",
@@ -10793,11 +10791,11 @@
    "is_government": false,
    "priority": 3,
    "id": "224a51ab56eb206d",
-   "age_days": 11,
+   "age_days": 12,
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Agent, Ag - Small Farms and Local Foods (Assistant, Associate or Full Agent)",
@@ -10837,11 +10835,11 @@
    "is_government": false,
    "priority": 3,
    "id": "37434fbfa7e774ca",
-   "age_days": 13,
+   "age_days": 14,
    "also_on": [],
    "first_seen": "2026-07-27T13:26:11.295540+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Educator, Agricultural Natural Resources - Greene County",
@@ -10881,11 +10879,12 @@
    "is_government": false,
    "priority": 3,
    "id": "8f53464daa8d0748",
-   "age_days": 14,
-   "also_on": [],
+   "age_days": 15,
+   "carried_over": true,
+   "is_new": false,
    "first_seen": "2026-08-08T10:59:24.063802+00:00",
-   "is_new": true,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-08T10:59:24.063802+00:00",
+   "also_on": []
   },
   {
    "title": "Agricultural Assistant II",
@@ -10925,11 +10924,11 @@
    "is_government": false,
    "priority": 3,
    "id": "61f83806c4707571",
-   "age_days": 15,
+   "age_days": 16,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "OPS - Agricultural Assistant",
@@ -10969,7 +10968,7 @@
    "is_government": false,
    "priority": 3,
    "id": "99dc118f8665217c",
-   "age_days": 15,
+   "age_days": 16,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -11014,11 +11013,11 @@
    "is_government": false,
    "priority": 3,
    "id": "b1ece9abb08e47b8",
-   "age_days": 16,
+   "age_days": 17,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Weekend Horticultural Assistant",
@@ -11058,7 +11057,7 @@
    "is_government": false,
    "priority": 3,
    "id": "f290eb60f8c03576",
-   "age_days": 16,
+   "age_days": 17,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:12:45.545332+00:00",
@@ -11103,11 +11102,11 @@
    "is_government": false,
    "priority": 3,
    "id": "204bc0aae57e8ffc",
-   "age_days": 17,
+   "age_days": 18,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Horticulturist (9723C), UC Botanical Garden #87447",
@@ -11147,7 +11146,7 @@
    "is_government": false,
    "priority": 3,
    "id": "9a4811be3ea87f70",
-   "age_days": 21,
+   "age_days": 22,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -11192,11 +11191,11 @@
    "is_government": false,
    "priority": 3,
    "id": "e6aa988a36cbdc54",
-   "age_days": 22,
+   "age_days": 23,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Agent I–II – Environmental Horticulture",
@@ -11236,11 +11235,11 @@
    "is_government": false,
    "priority": 3,
    "id": "ccf42a452235913a",
-   "age_days": 22,
+   "age_days": 23,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Area Agent - Field Crops (Assistant, Associate, or Full Agent)",
@@ -11280,11 +11279,11 @@
    "is_government": false,
    "priority": 3,
    "id": "7ce2f5a8c4937500",
-   "age_days": 22,
+   "age_days": 23,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Program Assistant/Associate-Agriculture",
@@ -11324,7 +11323,7 @@
    "is_government": false,
    "priority": 3,
    "id": "ac24da0363d7bd20",
-   "age_days": 22,
+   "age_days": 23,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -11369,7 +11368,7 @@
    "is_government": false,
    "priority": 3,
    "id": "d86ca0f0b005d17e",
-   "age_days": 22,
+   "age_days": 23,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-27T13:26:11.295540+00:00",
@@ -11414,11 +11413,11 @@
    "is_government": false,
    "priority": 3,
    "id": "dcb9e47fc0795021",
-   "age_days": 23,
+   "age_days": 24,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Student Employee- School of Agricultural Sciences- Student Workers",
@@ -11458,11 +11457,11 @@
    "is_government": false,
    "priority": 3,
    "id": "a94694c8a7d89bb0",
-   "age_days": 23,
+   "age_days": 24,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agricultural Assistant III",
@@ -11502,7 +11501,7 @@
    "is_government": false,
    "priority": 3,
    "id": "1ac91ff49805a9d1",
-   "age_days": 24,
+   "age_days": 25,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -11547,11 +11546,11 @@
    "is_government": false,
    "priority": 3,
    "id": "61723c751c2b4251",
-   "age_days": 25,
+   "age_days": 26,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Greenhouse Educational Assistant (PT)",
@@ -11591,11 +11590,11 @@
    "is_government": false,
    "priority": 3,
    "id": "6d4dc2c10c7b250a",
-   "age_days": 25,
+   "age_days": 26,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Crop Transformation Pipeline Manager - Plant Biology Institute",
@@ -11635,7 +11634,7 @@
    "is_government": false,
    "priority": 3,
    "id": "10219c28a02babc2",
-   "age_days": 28,
+   "age_days": 29,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -11680,11 +11679,11 @@
    "is_government": false,
    "priority": 3,
    "id": "af325043c2c02668",
-   "age_days": 29,
+   "age_days": 30,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Student Employee- School of Agricultural Sciences- Rodeo Office Student Worker (Work Study Elig...",
@@ -11724,11 +11723,11 @@
    "is_government": false,
    "priority": 3,
    "id": "08edab73389cf367",
-   "age_days": 29,
+   "age_days": 30,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Project Forward Classroom Assistant, Agriculture and Facilities",
@@ -11768,11 +11767,11 @@
    "is_government": false,
    "priority": 3,
    "id": "008e1e8d2ab19db9",
-   "age_days": 31,
+   "age_days": 32,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Conservation Cropping Outreach Specialist",
@@ -11812,7 +11811,7 @@
    "is_government": false,
    "priority": 3,
    "id": "e6682aff6e754fdc",
-   "age_days": 31,
+   "age_days": 32,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -11857,7 +11856,7 @@
    "is_government": false,
    "priority": 3,
    "id": "c9472853cea42d46",
-   "age_days": 31,
+   "age_days": 32,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -11902,11 +11901,11 @@
    "is_government": false,
    "priority": 3,
    "id": "0bad36d946f09abf",
-   "age_days": 32,
+   "age_days": 33,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Soil Fertility Outreach Specialist",
@@ -11946,7 +11945,7 @@
    "is_government": false,
    "priority": 3,
    "id": "5d76d0c5efce8096",
-   "age_days": 33,
+   "age_days": 34,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
@@ -11991,11 +11990,11 @@
    "is_government": false,
    "priority": 3,
    "id": "8bf793d8be923733",
-   "age_days": 35,
+   "age_days": 36,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "[POOL] PT Faculty, Agriculture",
@@ -12035,11 +12034,11 @@
    "is_government": false,
    "priority": 3,
    "id": "bc67530adcdbe71f",
-   "age_days": 38,
+   "age_days": 39,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Director of Information Technology, College of Agriculture and Life Sciences",
@@ -12079,7 +12078,7 @@
    "is_government": false,
    "priority": 3,
    "id": "9626f82b29657670",
-   "age_days": 38,
+   "age_days": 39,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -12124,11 +12123,11 @@
    "is_government": false,
    "priority": 3,
    "id": "f171867029ccab06",
-   "age_days": 39,
+   "age_days": 40,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agricultural Technician",
@@ -12168,11 +12167,11 @@
    "is_government": false,
    "priority": 3,
    "id": "94c1196528f029dc",
-   "age_days": 41,
+   "age_days": 42,
    "also_on": [],
    "first_seen": "2026-07-25T08:29:56.276643+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agriculture Technician",
@@ -12212,56 +12211,11 @@
    "is_government": false,
    "priority": 3,
    "id": "333bc7986b150416",
-   "age_days": 43,
+   "age_days": 44,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
-  },
-  {
-   "title": "Farm Safety and Health Outreach Specialist",
-   "org": "University of Wisconsin-Madison",
-   "location": "",
-   "url": "https://jobs.chronicle.com/job/38007250/farm-safety-and-health-outreach-specialist/",
-   "posted": "2026-06-26T05:00:00+00:00",
-   "summary": "Competitive Salary: University of Wisconsin-Madison: Salary: Current Employees: If you are currently employed at any of the Universities of Wisconsin, log in to Workday to apply through the internal... Madison, Wisconsin, United States",
-   "salary": "",
-   "source": "Chronicle of Higher Ed",
-   "score": 46.5,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.727,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Farming"
-    ]
-   },
-   "match_terms": [
-    "Farming"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "is_government": false,
-   "priority": 3,
-   "id": "2a0b8d622c505786",
-   "age_days": 43,
-   "carried_over": true,
-   "is_new": false,
-   "first_seen": "2026-07-25T07:04:30.728065+00:00",
-   "last_seen": "2026-07-28T12:21:08.016000+00:00",
-   "also_on": []
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "RESEARCH SPECIALIST II - Cornett Research Farm",
@@ -12301,7 +12255,7 @@
    "is_government": false,
    "priority": 3,
    "id": "51922b3a5970f4c2",
-   "age_days": 44,
+   "age_days": 45,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -12346,11 +12300,11 @@
    "is_government": false,
    "priority": 3,
    "id": "2f2061a912abbe3b",
-   "age_days": 45,
+   "age_days": 46,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Specialist I/Agent II, Agricultural Engineer",
@@ -12390,11 +12344,11 @@
    "is_government": false,
    "priority": 3,
    "id": "f549d676c810ce36",
-   "age_days": 46,
+   "age_days": 47,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "UTS - Temporary Horticulture Specialist at NC State",
@@ -12434,7 +12388,7 @@
    "is_government": false,
    "priority": 3,
    "id": "2fdb8867efb841ae",
-   "age_days": 51,
+   "age_days": 52,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -12479,11 +12433,11 @@
    "is_government": false,
    "priority": 3,
    "id": "7d9f184af1894f56",
-   "age_days": 53,
+   "age_days": 54,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business – Taney County, MO",
@@ -12523,11 +12477,11 @@
    "is_government": false,
    "priority": 3,
    "id": "d69bd8b8d5b913b5",
-   "age_days": 54,
+   "age_days": 55,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Director of Horticulture",
@@ -12567,11 +12521,11 @@
    "is_government": false,
    "priority": 3,
    "id": "0911914f18734721",
-   "age_days": 55,
+   "age_days": 56,
    "also_on": [],
    "first_seen": "2026-07-28T12:21:08.016000+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Senior Horticulturist/Horticulturist",
@@ -12611,13 +12565,13 @@
    "is_government": false,
    "priority": 3,
    "id": "11b0e27f9742ba6e",
-   "age_days": 57,
+   "age_days": 58,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Student Employee-School of Agricultural Sciences-Rodeo",
@@ -12657,11 +12611,11 @@
    "is_government": false,
    "priority": 3,
    "id": "c23b8e0ec0378eb0",
-   "age_days": 58,
+   "age_days": 59,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agriculture Student Worker - Federal Work Study",
@@ -12701,12 +12655,11 @@
    "is_government": false,
    "priority": 3,
    "id": "4078b412ae5d5f80",
-   "age_days": 65,
-   "carried_over": true,
-   "is_new": false,
+   "age_days": 66,
+   "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
-   "last_seen": "2026-08-07T11:15:52.439742+00:00",
-   "also_on": []
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Director of University Farm Operations",
@@ -12746,11 +12699,11 @@
    "is_government": false,
    "priority": 3,
    "id": "66c011f170ce39e7",
-   "age_days": 71,
+   "age_days": 72,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Assistant/Associate, Crop Experiments & Sensing",
@@ -12790,11 +12743,11 @@
    "is_government": false,
    "priority": 3,
    "id": "e6aca6c6303453e5",
-   "age_days": 71,
+   "age_days": 72,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Community Food & Agricultural Systems Coordinator",
@@ -12834,11 +12787,11 @@
    "is_government": false,
    "priority": 3,
    "id": "3fda8940fe1968eb",
-   "age_days": 73,
+   "age_days": 74,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Program Assistant, Agriculture & Natural Resources",
@@ -12878,11 +12831,11 @@
    "is_government": false,
    "priority": 3,
    "id": "d36ca52f89bbf01b",
-   "age_days": 73,
+   "age_days": 74,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Field Specialist in Agronomy – Vernon County, MO",
@@ -12922,11 +12875,11 @@
    "is_government": false,
    "priority": 3,
    "id": "468d523669a78d77",
-   "age_days": 74,
+   "age_days": 75,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business – Putnam County, MO",
@@ -12966,11 +12919,11 @@
    "is_government": false,
    "priority": 3,
    "id": "0032261c82676e08",
-   "age_days": 74,
+   "age_days": 75,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Troup County Extension Agriculture and Natural Resources (ANR) Agent",
@@ -13010,11 +12963,11 @@
    "is_government": false,
    "priority": 3,
    "id": "8f554a86c502745c",
-   "age_days": 74,
+   "age_days": 75,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Greene County Agriculture and Natural Resources Agent",
@@ -13054,56 +13007,11 @@
    "is_government": false,
    "priority": 3,
    "id": "642d9e242bac20bd",
-   "age_days": 77,
-   "carried_over": true,
-   "is_new": false,
-   "first_seen": "2026-07-25T07:04:30.728065+00:00",
-   "last_seen": "2026-08-07T11:15:52.439742+00:00",
-   "also_on": []
-  },
-  {
-   "title": "Temporary Fike Agronomy Field Lab Intern",
-   "org": "NC State University",
-   "location": "",
-   "url": "https://careers.insidehighered.com/job/3506165/temporary-fike-agronomy-field-lab-intern/",
-   "posted": "2026-05-20T09:00:00+00:00",
-   "summary": "NC State University: Posting Number:PG196000TMPosition Number:11ASO3707Position Type:TemporaryEssential Job Duties:The intern will work closely alongside the research tech Raleigh, NC",
-   "salary": "",
-   "source": "Inside Higher Ed",
-   "score": 46.5,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.727,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Agronomy"
-    ]
-   },
-   "match_terms": [
-    "Agronomy"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "is_government": false,
-   "priority": 3,
-   "id": "17705308c36570de",
-   "age_days": 80,
+   "age_days": 78,
    "also_on": [],
-   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Elbert County Agriculture and Natural Resources Agent",
@@ -13143,12 +13051,55 @@
    "is_government": false,
    "priority": 3,
    "id": "57bcb322e5a830f2",
-   "age_days": 80,
-   "carried_over": true,
-   "is_new": false,
+   "age_days": 81,
+   "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
-   "last_seen": "2026-08-07T11:15:52.439742+00:00",
-   "also_on": []
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
+  },
+  {
+   "title": "Temporary Fike Agronomy Field Lab Intern",
+   "org": "NC State University",
+   "location": "",
+   "url": "https://careers.insidehighered.com/job/3506165/temporary-fike-agronomy-field-lab-intern/",
+   "posted": "2026-05-20T09:00:00+00:00",
+   "summary": "NC State University: Posting Number:PG196000TMPosition Number:11ASO3707Position Type:TemporaryEssential Job Duties:The intern will work closely alongside the research tech Raleigh, NC",
+   "salary": "",
+   "source": "Inside Higher Ed",
+   "score": 46.5,
+   "role": "Other Academic",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.727,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Agronomy"
+    ]
+   },
+   "match_terms": [
+    "Agronomy"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "is_government": false,
+   "priority": 3,
+   "id": "17705308c36570de",
+   "age_days": 81,
+   "also_on": [],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Elbert County Agriculture and Natural Resources Agent",
@@ -13188,11 +13139,11 @@
    "is_government": false,
    "priority": 3,
    "id": "0d9760f30250fdcc",
-   "age_days": 81,
+   "age_days": 82,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Horticulture Student Assistant -4 Deltsidis",
@@ -13232,7 +13183,7 @@
    "is_government": false,
    "priority": 3,
    "id": "e7eed6b0c48fbccc",
-   "age_days": 86,
+   "age_days": 87,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -13277,11 +13228,11 @@
    "is_government": false,
    "priority": 3,
    "id": "5bec6e11a02a2b7c",
-   "age_days": 88,
+   "age_days": 89,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "SUAREC | Vice Chancellor for Research (Agriculture)",
@@ -13321,12 +13272,11 @@
    "is_government": false,
    "priority": 3,
    "id": "b14d433fa8ee8355",
-   "age_days": 98,
-   "carried_over": true,
-   "is_new": false,
+   "age_days": 99,
+   "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
-   "last_seen": "2026-08-07T11:15:52.439742+00:00",
-   "also_on": []
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Grand Farm Support Technician",
@@ -13366,11 +13316,11 @@
    "is_government": false,
    "priority": 3,
    "id": "f1b160f947174216",
-   "age_days": 105,
+   "age_days": 106,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Undergraduate Researcher in Soil Science",
@@ -13410,11 +13360,11 @@
    "is_government": false,
    "priority": 3,
    "id": "d06d595972fc80db",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Forest Soil Fieldwork Temporary Technician",
@@ -13454,11 +13404,11 @@
    "is_government": false,
    "priority": 3,
    "id": "067e1138d2a41a39",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Wayne County Agriculture & Natural Resources Agent",
@@ -13498,11 +13448,11 @@
    "is_government": false,
    "priority": 3,
    "id": "292a5c2fa023b98c",
-   "age_days": 108,
+   "age_days": 109,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Crop Science, Agriculture - Part-time Adjunct Pool",
@@ -13546,7 +13496,7 @@
    "is_government": false,
    "priority": 3,
    "id": "0dceea1ce37f9fed",
-   "age_days": 51,
+   "age_days": 52,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -13593,11 +13543,11 @@
    "is_government": false,
    "priority": 3,
    "id": "8fba340e7e0901b5",
-   "age_days": 21,
+   "age_days": 22,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Instructor of Horticulture and Entrepreneurial Agriculture - Adjunct Pool",
@@ -13639,11 +13589,11 @@
    "is_government": false,
    "priority": 3,
    "id": "da2994e9ff4c2bbf",
-   "age_days": 28,
+   "age_days": 29,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Adjunct Instructor – Agribusiness, Agronomy, Animal Science, and Farm Operations",
@@ -13685,11 +13635,11 @@
    "is_government": false,
    "priority": 3,
    "id": "a0e271f045364041",
-   "age_days": 30,
+   "age_days": 31,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Ornamental Horticulture Instructor, Early College (Agriculture) - Part-time Adjunct Pool",
@@ -13731,7 +13681,7 @@
    "is_government": false,
    "priority": 3,
    "id": "27631eeadc2eb71a",
-   "age_days": 65,
+   "age_days": 66,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -13776,11 +13726,11 @@
    "is_government": false,
    "priority": 3,
    "id": "08cc53abd6ef837c",
-   "age_days": 2,
+   "age_days": 3,
    "also_on": [],
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Irrigation Technician - 530117",
@@ -13820,11 +13770,11 @@
    "is_government": false,
    "priority": 3,
    "id": "20dec15f400224d5",
-   "age_days": 6,
+   "age_days": 7,
    "also_on": [],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Irrigation Technician",
@@ -13864,11 +13814,11 @@
    "is_government": false,
    "priority": 3,
    "id": "f365b3d03a7e21df",
-   "age_days": 11,
+   "age_days": 12,
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Coordinator, District Irrigation",
@@ -13908,11 +13858,11 @@
    "is_government": false,
    "priority": 3,
    "id": "b665b77789ecf241",
-   "age_days": 25,
+   "age_days": 26,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Irrigation Specialist",
@@ -13952,11 +13902,11 @@
    "is_government": false,
    "priority": 3,
    "id": "e5de29b97b07d282",
-   "age_days": 39,
+   "age_days": 40,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Irrigation Technicians",
@@ -13996,11 +13946,11 @@
    "is_government": false,
    "priority": 3,
    "id": "8b5cfcd2f12455fc",
-   "age_days": 40,
+   "age_days": 41,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Manager Irrigation Systems, Facilities and Campus Services",
@@ -14040,13 +13990,13 @@
    "is_government": false,
    "priority": 3,
    "id": "9735d9d9014e8b93",
-   "age_days": 51,
+   "age_days": 52,
    "also_on": [
     "Inside Higher Ed"
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Irrigation Technician",
@@ -14086,11 +14036,11 @@
    "is_government": false,
    "priority": 3,
    "id": "cb6c35069c23e117",
-   "age_days": 78,
+   "age_days": 79,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Part-Time Instructor of General Agriculture - School of Agriculture - Modesto Junior College 20...",
@@ -14130,11 +14080,11 @@
    "is_government": false,
    "priority": 3,
    "id": "1850e2c4fc7995cf",
-   "age_days": 1,
+   "age_days": 2,
    "also_on": [],
    "first_seen": "2026-08-08T10:59:24.063802+00:00",
-   "is_new": true,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agriculture - Prison Education - Part-Time (Adjunct) Faculty",
@@ -14174,11 +14124,11 @@
    "is_government": false,
    "priority": 3,
    "id": "db23ec13715243de",
-   "age_days": 2,
+   "age_days": 3,
    "also_on": [],
    "first_seen": "2026-08-07T11:15:52.439742+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Adjunct Faculty POOL- Enology & Viticulture (2026-2027) Academic Year)",
@@ -14218,7 +14168,7 @@
    "is_government": false,
    "priority": 3,
    "id": "e13bcd2c92398c27",
-   "age_days": 10,
+   "age_days": 11,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
@@ -14263,99 +14213,11 @@
    "is_government": false,
    "priority": 3,
    "id": "ca15073d0b4f4956",
-   "age_days": 15,
+   "age_days": 16,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
-  },
-  {
-   "title": "Part-Time Instructor Pool - Landscape Drafting, Environmental Horticulture",
-   "org": "Santa Barbara City College",
-   "location": "",
-   "url": "https://jobs.chronicle.com/job/38013574/part-time-instructor-pool-landscape-drafting-environmental-horticulture/",
-   "posted": "2026-07-11T09:00:00+00:00",
-   "summary": "Salary Not specified: Santa Barbara City College: Part-Time Instructor Pool - Landscape Drafting, Environmental Horticulture Salary: $82.33 - $115.20 Hourly Job Type: Job Number:... California, United States",
-   "salary": "",
-   "source": "Chronicle of Higher Ed",
-   "score": 44.2,
-   "role": "Adjunct / Faculty Pool",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.727,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Horticulture"
-    ]
-   },
-   "match_terms": [
-    "Horticulture"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "is_government": false,
-   "priority": 3,
-   "id": "f83b9c734aa254a0",
-   "age_days": 28,
-   "also_on": [],
-   "first_seen": "2026-07-25T06:55:35.345291+00:00",
-   "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
-  },
-  {
-   "title": "Part-Time Instructor Pool - Ecological Restoration, Environmental Horticulture",
-   "org": "Santa Barbara City College",
-   "location": "",
-   "url": "https://jobs.chronicle.com/job/38013577/part-time-instructor-pool-ecological-restoration-environmental-horticulture/",
-   "posted": "2026-07-11T09:00:00+00:00",
-   "summary": "Salary Not specified: Santa Barbara City College: Part-Time Instructor Pool - Ecological Restoration, Environmental Horticulture Salary: $82.33 - $115.20 Hourly Job Type: PT Credit Faculty Job... California, United States",
-   "salary": "",
-   "source": "Chronicle of Higher Ed",
-   "score": 44.2,
-   "role": "Adjunct / Faculty Pool",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.727,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Horticulture"
-    ]
-   },
-   "match_terms": [
-    "Horticulture"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "is_government": false,
-   "priority": 3,
-   "id": "3a7c83ef3c87fd15",
-   "age_days": 28,
-   "also_on": [],
-   "first_seen": "2026-07-25T06:55:35.345291+00:00",
-   "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Part-Time Instructor Pool - Environmental Horticulture",
@@ -14395,11 +14257,99 @@
    "is_government": false,
    "priority": 3,
    "id": "e3cb44b6bcac531d",
-   "age_days": 28,
+   "age_days": 29,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
+  },
+  {
+   "title": "Part-Time Instructor Pool - Landscape Drafting, Environmental Horticulture",
+   "org": "Santa Barbara City College",
+   "location": "",
+   "url": "https://jobs.chronicle.com/job/38013574/part-time-instructor-pool-landscape-drafting-environmental-horticulture/",
+   "posted": "2026-07-11T09:00:00+00:00",
+   "summary": "Salary Not specified: Santa Barbara City College: Part-Time Instructor Pool - Landscape Drafting, Environmental Horticulture Salary: $82.33 - $115.20 Hourly Job Type: Job Number:... California, United States",
+   "salary": "",
+   "source": "Chronicle of Higher Ed",
+   "score": 44.2,
+   "role": "Adjunct / Faculty Pool",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.727,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Horticulture"
+    ]
+   },
+   "match_terms": [
+    "Horticulture"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "is_government": false,
+   "priority": 3,
+   "id": "f83b9c734aa254a0",
+   "age_days": 29,
+   "also_on": [],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
+  },
+  {
+   "title": "Part-Time Instructor Pool - Ecological Restoration, Environmental Horticulture",
+   "org": "Santa Barbara City College",
+   "location": "",
+   "url": "https://jobs.chronicle.com/job/38013577/part-time-instructor-pool-ecological-restoration-environmental-horticulture/",
+   "posted": "2026-07-11T09:00:00+00:00",
+   "summary": "Salary Not specified: Santa Barbara City College: Part-Time Instructor Pool - Ecological Restoration, Environmental Horticulture Salary: $82.33 - $115.20 Hourly Job Type: PT Credit Faculty Job... California, United States",
+   "salary": "",
+   "source": "Chronicle of Higher Ed",
+   "score": 44.2,
+   "role": "Adjunct / Faculty Pool",
+   "synergy": false,
+   "is_agricultural": true,
+   "ag_strength": 0.727,
+   "tech_strength": 0.0,
+   "ag_areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "tech_areas": [],
+   "matched": {
+    "Agriculture, Crop & Soil Science": [
+     "Horticulture"
+    ]
+   },
+   "match_terms": [
+    "Horticulture"
+   ],
+   "areas": [
+    "Agriculture, Crop & Soil Science"
+   ],
+   "country": "United States",
+   "region": "North America",
+   "is_faculty": false,
+   "is_tenure_track": false,
+   "is_priority_country": false,
+   "is_government": false,
+   "priority": 3,
+   "id": "3a7c83ef3c87fd15",
+   "age_days": 29,
+   "also_on": [],
+   "first_seen": "2026-07-25T06:55:35.345291+00:00",
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Part-time Faculty Pool: Agriculture",
@@ -14439,13 +14389,13 @@
    "is_government": false,
    "priority": 3,
    "id": "f69e4f7171e528b1",
-   "age_days": 28,
+   "age_days": 29,
    "also_on": [
     "HigherEdJobs"
    ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Adjunct Instructor - Agriculture Equipment Technology",
@@ -14485,11 +14435,11 @@
    "is_government": false,
    "priority": 3,
    "id": "a1008918b22d3b1c",
-   "age_days": 31,
+   "age_days": 32,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "z-Part-Time Adjunct Faculty Pool- Agricultural Management",
@@ -14529,18 +14479,18 @@
    "is_government": false,
    "priority": 3,
    "id": "ff56d1edd9371bfc",
-   "age_days": 32,
+   "age_days": 33,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "z-Part-Time Faculty Pool - Agriculture",
    "org": "College of the Sequoias",
    "location": "",
    "url": "https://jobs.chronicle.com/job/38011228/z-part-time-faculty-pool-agriculture/",
-   "posted": "2026-07-07T05:00:00+00:00",
+   "posted": "2026-07-07T09:00:00+00:00",
    "summary": "Salary Not specified: College of the Sequoias: z-Part-Time Faculty Pool - Agriculture Salary: $60.60 - $72.51 Hourly Job Type: Part-time Faculty Job Number: 4320-af-AG Closing: Location:... California, United States",
    "salary": "",
    "source": "Chronicle of Higher Ed",
@@ -14573,12 +14523,11 @@
    "is_government": false,
    "priority": 3,
    "id": "1774a7041f6e0328",
-   "age_days": 32,
-   "carried_over": true,
-   "is_new": false,
+   "age_days": 33,
+   "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
-   "last_seen": "2026-07-29T12:29:21.373168+00:00",
-   "also_on": []
+   "is_new": false,
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Agricultural Production Associate (Part-time) Instructor Pool 2026 - 2027",
@@ -14618,7 +14567,7 @@
    "is_government": false,
    "priority": 3,
    "id": "95560c7bf3bee67b",
-   "age_days": 35,
+   "age_days": 36,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -14663,11 +14612,11 @@
    "is_government": false,
    "priority": 3,
    "id": "796d97aacea7b082",
-   "age_days": 44,
+   "age_days": 45,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Animal Science, Agriculture - Part-time Adjunct Pool",
@@ -14707,7 +14656,7 @@
    "is_government": false,
    "priority": 3,
    "id": "303619a607c1f0b1",
-   "age_days": 46,
+   "age_days": 47,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
@@ -14752,11 +14701,11 @@
    "is_government": false,
    "priority": 3,
    "id": "e1e676ed490b8ceb",
-   "age_days": 51,
+   "age_days": 52,
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Mechanized Agriculture Instructor- Part-time Adjunct Pool",
@@ -14796,7 +14745,7 @@
    "is_government": false,
    "priority": 3,
    "id": "5ad41333576d9a60",
-   "age_days": 51,
+   "age_days": 52,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -14841,7 +14790,7 @@
    "is_government": false,
    "priority": 3,
    "id": "210b5bb3aadbb6f7",
-   "age_days": 52,
+   "age_days": 53,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-28T12:21:08.016000+00:00",
@@ -14886,7 +14835,7 @@
    "is_government": false,
    "priority": 3,
    "id": "b3991ca843c3420a",
-   "age_days": 64,
+   "age_days": 65,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -14931,11 +14880,11 @@
    "is_government": false,
    "priority": 3,
    "id": "4649333612e88c81",
-   "age_days": 74,
+   "age_days": 75,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Adjunct Faculty - Agriculture",
@@ -14975,11 +14924,11 @@
    "is_government": false,
    "priority": 3,
    "id": "f10a930a7ae7a518",
-   "age_days": 88,
+   "age_days": 89,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "26-27 AY Temporary Faculty Pool (Lecturer) - Viticulture",
@@ -15019,11 +14968,11 @@
    "is_government": false,
    "priority": 3,
    "id": "979f45577ede48db",
-   "age_days": 115,
+   "age_days": 116,
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "26-27 AY Temporary Faculty Pool (Lecturer) - Agricultural Business",
@@ -15063,11 +15012,11 @@
    "is_government": false,
    "priority": 3,
    "id": "6309b6be66f09168",
-   "age_days": 117,
+   "age_days": 118,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "PhD Studentship: Controlling Greenhouse Gas Emissions by Targeting G-quadruplex DNA/RNA Structures in Plant-associated Bacteria",
@@ -15112,7 +15061,7 @@
    "is_government": false,
    "priority": 3,
    "id": "a5532552741b1fe2",
-   "age_days": 32,
+   "age_days": 33,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -15159,11 +15108,11 @@
    "is_government": false,
    "priority": 3,
    "id": "20decaa602b1830c",
-   "age_days": 1,
+   "age_days": 2,
    "also_on": [],
    "first_seen": "2026-08-07T11:15:52.439742+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoctoral Fellowship in Forest Breeding and Epigenomics",
@@ -15205,11 +15154,11 @@
    "is_government": false,
    "priority": 3,
    "id": "a386534a17b417ee",
-   "age_days": 2,
+   "age_days": 3,
    "also_on": [],
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Postdoc in Microbial ecology Aarhus University, Campus AU-Viborg",
@@ -15251,7 +15200,7 @@
    "is_government": false,
    "priority": 3,
    "id": "940a7106b6f44788",
-   "age_days": 35,
+   "age_days": 36,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-28T12:21:08.016000+00:00",
@@ -15298,11 +15247,11 @@
    "is_government": false,
    "priority": 3,
    "id": "663af9099171a889",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "PhD Studentship: Nutrient Dynamics in Cover Crops and Their Implications for Sugar Beet Nutrition, Soil Health, and Climate Resilience",
@@ -15348,11 +15297,11 @@
    "is_government": false,
    "priority": 3,
    "id": "947312a9d4c0d420",
-   "age_days": 17,
+   "age_days": 18,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "SD-26106-PHD POSITION ON ASSESSMENT AND MONITORING OF SOIL HEALTH AT CONTAMINATED SITES USING GEO...",
@@ -15394,11 +15343,11 @@
    "is_government": false,
    "priority": 3,
    "id": "e1695dbf177b2571",
-   "age_days": 52,
+   "age_days": 53,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "PhD Position (M/F) in Archaeometallurgy – IRAMAT-LAPA (CEA Saclay, France)",
@@ -15438,7 +15387,7 @@
    "is_government": false,
    "priority": 3,
    "id": "aae2952deebc5cb3",
-   "age_days": 6,
+   "age_days": 7,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-02T11:41:35.932593+00:00",
@@ -15483,11 +15432,11 @@
    "is_government": false,
    "priority": 3,
    "id": "09cd5e5a110ff015",
-   "age_days": 22,
+   "age_days": 23,
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Assistant",
@@ -15529,11 +15478,11 @@
    "is_government": false,
    "priority": 3,
    "id": "8180a469ff792065",
-   "age_days": 45,
+   "age_days": 46,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "NMDA Ag Specialist,Inter",
@@ -15575,11 +15524,11 @@
    "is_government": false,
    "priority": 3,
    "id": "e275fea39958c3f7",
-   "age_days": 1,
+   "age_days": 2,
    "also_on": [],
    "first_seen": "2026-08-07T11:15:52.439742+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Heavy Equipment Operator",
@@ -15621,11 +15570,11 @@
    "is_government": false,
    "priority": 3,
    "id": "b8c286db5f670d2e",
-   "age_days": 1,
+   "age_days": 2,
    "also_on": [],
    "first_seen": "2026-08-07T11:15:52.439742+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "(Remote) Temporary Avian Migration Technician - Wildlife and Fisheries Resources",
@@ -15667,11 +15616,11 @@
    "is_government": false,
    "priority": 3,
    "id": "5fd854b9d547f77f",
-   "age_days": 2,
+   "age_days": 3,
    "also_on": [],
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Sunflower District Family and Community Wellness Extension Agent",
@@ -15713,7 +15662,7 @@
    "is_government": false,
    "priority": 3,
    "id": "505a8c1093d4b1f8",
-   "age_days": 2,
+   "age_days": 3,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
@@ -15760,11 +15709,11 @@
    "is_government": false,
    "priority": 3,
    "id": "538b72713dab1ff0",
-   "age_days": 3,
+   "age_days": 4,
    "also_on": [],
    "first_seen": "2026-08-06T12:25:57.121054+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "4-H Associate Program Administrator - Perry County",
@@ -15806,11 +15755,11 @@
    "is_government": false,
    "priority": 3,
    "id": "115e8585dd2da206",
-   "age_days": 3,
+   "age_days": 4,
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Apiary Manager",
@@ -15852,11 +15801,11 @@
    "is_government": false,
    "priority": 3,
    "id": "d532b963ebb8c3dc",
-   "age_days": 3,
+   "age_days": 4,
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Agent, 4-H Youth & Development, Brooks County",
@@ -15898,11 +15847,11 @@
    "is_government": false,
    "priority": 3,
    "id": "8cbb87362e8b575d",
-   "age_days": 3,
+   "age_days": 4,
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Extension Agent, 4-H Youth & Development (Tarrant County)",
@@ -15944,11 +15893,11 @@
    "is_government": false,
    "priority": 3,
    "id": "757764e44db95a77",
-   "age_days": 4,
+   "age_days": 5,
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Summer Ag Worker",
@@ -15990,7 +15939,7 @@
    "is_government": false,
    "priority": 3,
    "id": "c216558c9ec13bed",
-   "age_days": 4,
+   "age_days": 5,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
@@ -16037,11 +15986,11 @@
    "is_government": false,
    "priority": 3,
    "id": "7361db4b2c96fddb",
-   "age_days": 8,
+   "age_days": 9,
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Stable Assistant Part-Time",
@@ -16083,11 +16032,11 @@
    "is_government": false,
    "priority": 3,
    "id": "03196449ca178434",
-   "age_days": 9,
+   "age_days": 10,
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Horse Groom",
@@ -16129,11 +16078,11 @@
    "is_government": false,
    "priority": 3,
    "id": "e54318756c2bcf5a",
-   "age_days": 9,
+   "age_days": 10,
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Stable Assistant Full-Time",
@@ -16175,11 +16124,11 @@
    "is_government": false,
    "priority": 3,
    "id": "07eec93003d2bba8",
-   "age_days": 9,
+   "age_days": 10,
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Program Associate",
@@ -16221,7 +16170,7 @@
    "is_government": false,
    "priority": 3,
    "id": "a3eecfb0e113f11f",
-   "age_days": 9,
+   "age_days": 10,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
@@ -16268,11 +16217,11 @@
    "is_government": false,
    "priority": 3,
    "id": "9352a36098851e60",
-   "age_days": 14,
+   "age_days": 15,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "ECRC Ranch Operations Technician",
@@ -16314,11 +16263,11 @@
    "is_government": false,
    "priority": 3,
    "id": "8821ed233a7b7737",
-   "age_days": 14,
+   "age_days": 15,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Director",
@@ -16360,11 +16309,11 @@
    "is_government": false,
    "priority": 3,
    "id": "bcd23b62942aa438",
-   "age_days": 14,
+   "age_days": 15,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Regional Educator - 4-H - Osgood, IN",
@@ -16406,11 +16355,11 @@
    "is_government": false,
    "priority": 3,
    "id": "5a534217009bdd1f",
-   "age_days": 15,
+   "age_days": 16,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Barn Assistant",
@@ -16452,7 +16401,7 @@
    "is_government": false,
    "priority": 3,
    "id": "e282eff7296a85b5",
-   "age_days": 16,
+   "age_days": 17,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -16499,11 +16448,11 @@
    "is_government": false,
    "priority": 3,
    "id": "c9c6d1b6d4b04e17",
-   "age_days": 18,
+   "age_days": 19,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Relief Milker - Animal Care Technician II",
@@ -16545,58 +16494,11 @@
    "is_government": false,
    "priority": 3,
    "id": "e596f5155d3a97fa",
-   "age_days": 22,
+   "age_days": 23,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
-  },
-  {
-   "title": "CREC Seedstocks Specialist for Plant Operations",
-   "org": "North Dakota State University",
-   "location": "Carrington, ND",
-   "url": "https://www.higheredjobs.com/details.cfm?JobCode=179498900",
-   "posted": "2026-07-14T14:02:09+00:00",
-   "summary": "Farming and Agriculture. North Dakota State University (Carrington, ND)",
-   "salary": "",
-   "source": "HigherEdJobs",
-   "score": 35.0,
-   "role": "Other Academic",
-   "synergy": false,
-   "is_agricultural": true,
-   "ag_strength": 0.478,
-   "tech_strength": 0.0,
-   "ag_areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "tech_areas": [],
-   "matched": {
-    "Agriculture, Crop & Soil Science": [
-     "Agriculture",
-     "Farming"
-    ]
-   },
-   "match_terms": [
-    "Agriculture",
-    "Farming"
-   ],
-   "areas": [
-    "Agriculture, Crop & Soil Science"
-   ],
-   "country": "United States",
-   "region": "North America",
-   "is_faculty": false,
-   "is_tenure_track": false,
-   "is_priority_country": false,
-   "is_government": false,
-   "priority": 3,
-   "id": "6ca2cd4616ed4dd5",
-   "age_days": 24,
-   "carried_over": true,
-   "is_new": false,
-   "first_seen": "2026-07-25T09:34:59.092830+00:00",
-   "last_seen": "2026-07-28T12:21:08.016000+00:00",
-   "also_on": []
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Assistant Beef Unit Manager",
@@ -16638,11 +16540,11 @@
    "is_government": false,
    "priority": 3,
    "id": "361ff5664676dbcd",
-   "age_days": 29,
+   "age_days": 30,
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Program Leader Ag and Natural Resources",
@@ -16684,11 +16586,12 @@
    "is_government": false,
    "priority": 3,
    "id": "7438ee815f9c61cb",
-   "age_days": 31,
-   "also_on": [],
-   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "age_days": 32,
+   "carried_over": true,
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "first_seen": "2026-07-25T09:34:59.092830+00:00",
+   "last_seen": "2026-08-08T10:59:24.063802+00:00",
+   "also_on": []
   },
   {
    "title": "Large Animal Barn Crew",
@@ -16730,7 +16633,7 @@
    "is_government": false,
    "priority": 3,
    "id": "269b58df709eb38e",
-   "age_days": 32,
+   "age_days": 33,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -16777,7 +16680,7 @@
    "is_government": false,
    "priority": 3,
    "id": "5c4b71121d19cbd3",
-   "age_days": 35,
+   "age_days": 36,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -16824,7 +16727,7 @@
    "is_government": false,
    "priority": 3,
    "id": "11f01a07a1a463f1",
-   "age_days": 35,
+   "age_days": 36,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -16871,7 +16774,7 @@
    "is_government": false,
    "priority": 3,
    "id": "f3f2022303ae5dee",
-   "age_days": 38,
+   "age_days": 39,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -16918,7 +16821,7 @@
    "is_government": false,
    "priority": 3,
    "id": "2f1def1662386040",
-   "age_days": 38,
+   "age_days": 39,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
@@ -16965,11 +16868,11 @@
    "is_government": false,
    "priority": 3,
    "id": "b4753b4c14ffee31",
-   "age_days": 24,
+   "age_days": 25,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Tutor/Senior Tutor - NWAFU - JEI",
@@ -17011,7 +16914,7 @@
    "is_government": false,
    "priority": 3,
    "id": "8786721de917b7ee",
-   "age_days": 39,
+   "age_days": 40,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
@@ -17058,11 +16961,11 @@
    "is_government": false,
    "priority": 3,
    "id": "7f3528438c4f2b1e",
-   "age_days": 41,
+   "age_days": 42,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Commodity Marketing Coordinator",
@@ -17104,11 +17007,11 @@
    "is_government": false,
    "priority": 3,
    "id": "f80d157fa2d54ec7",
-   "age_days": 54,
+   "age_days": 55,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Program Manager I, IAMP",
@@ -17150,7 +17053,7 @@
    "is_government": false,
    "priority": 3,
    "id": "089a16661f0f723a",
-   "age_days": 64,
+   "age_days": 65,
    "carried_over": true,
    "is_new": false,
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
@@ -17197,11 +17100,11 @@
    "is_government": false,
    "priority": 3,
    "id": "bc1f882a39096f6a",
-   "age_days": 72,
+   "age_days": 73,
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Laboratory Assistant - Habteselassie",
@@ -17243,11 +17146,11 @@
    "is_government": false,
    "priority": 3,
    "id": "2a37cab2cda74cb5",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Lab/Field Assistant",
@@ -17289,11 +17192,11 @@
    "is_government": false,
    "priority": 3,
    "id": "325ecd46830ac62e",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Laboratory Assistant - Huang",
@@ -17335,11 +17238,11 @@
    "is_government": false,
    "priority": 3,
    "id": "f664a7745220d8f1",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Field/Summer Assistant 7 - Basinger",
@@ -17381,11 +17284,11 @@
    "is_government": false,
    "priority": 3,
    "id": "1ee61391524eeba9",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Graduate Assistant - Jespersen",
@@ -17427,11 +17330,11 @@
    "is_government": false,
    "priority": 3,
    "id": "eccf93a1cafdb30a",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Lab/Summer Field Assistant",
@@ -17473,11 +17376,11 @@
    "is_government": false,
    "priority": 3,
    "id": "858c7c2463164b4a",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Student Assistant (1) - J. Thompson",
@@ -17519,11 +17422,11 @@
    "is_government": false,
    "priority": 3,
    "id": "4c7edd574bcad3c9",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Lab/Research Assistant (5) - Devos Lab",
@@ -17565,11 +17468,11 @@
    "is_government": false,
    "priority": 3,
    "id": "9619d7b3b3cc9a8f",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Research Assistant - Vines",
@@ -17611,11 +17514,11 @@
    "is_government": false,
    "priority": 3,
    "id": "917ff8824f88e9b2",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Field/Summer Assistant - Vines",
@@ -17657,11 +17560,11 @@
    "is_government": false,
    "priority": 3,
    "id": "decdda0a6e191cc7",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "C&SS Student Assistant Tubbs 1",
@@ -17703,11 +17606,11 @@
    "is_government": false,
    "priority": 3,
    "id": "47e009c2ed54bdb9",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Lab/Field Assistant (EARTH)",
@@ -17749,11 +17652,11 @@
    "is_government": false,
    "priority": 3,
    "id": "1a7698615cf35f44",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Ph.D. Graduate Research Assistant - Huang",
@@ -17795,11 +17698,11 @@
    "is_government": false,
    "priority": 3,
    "id": "caa093c105beb9ef",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Field Assistant - Pritchard",
@@ -17841,11 +17744,11 @@
    "is_government": false,
    "priority": 3,
    "id": "58f323acd23a2cab",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Field/Summer Assistant - Raymer",
@@ -17887,11 +17790,11 @@
    "is_government": false,
    "priority": 3,
    "id": "113f81ee236cb1ae",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Field/Lab Assistant - Mergoum",
@@ -17933,11 +17836,11 @@
    "is_government": false,
    "priority": 3,
    "id": "afdf585aca98020d",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Research Technician",
@@ -17979,11 +17882,11 @@
    "is_government": false,
    "priority": 3,
    "id": "62800cdce28376fd",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Student Assistant - Mailhot",
@@ -18025,11 +17928,11 @@
    "is_government": false,
    "priority": 3,
    "id": "3d79914523c8d281",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Variety Testing Assistant - Mailhot",
@@ -18071,11 +17974,11 @@
    "is_government": false,
    "priority": 3,
    "id": "cd11d5f1204df35c",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Temporary Lab/Research - Leclerc",
@@ -18117,11 +18020,11 @@
    "is_government": false,
    "priority": 3,
    "id": "fea3090a56c6ef23",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "GA Pnt Brdg Prgm Student 2 - Branch",
@@ -18163,11 +18066,11 @@
    "is_government": false,
    "priority": 3,
    "id": "57ccf67567cc007f",
-   "age_days": 107,
+   "age_days": 108,
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   },
   {
    "title": "Research Technician - Grass Genomes (Devos Lab)",
@@ -18209,11 +18112,11 @@
    "is_government": false,
    "priority": 3,
    "id": "722ebeb42ac5c850",
-   "age_days": 108,
+   "age_days": 109,
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-08T10:59:24.063802+00:00"
+   "last_seen": "2026-08-09T11:01:41.690698+00:00"
   }
  ]
 }
