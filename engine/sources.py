@@ -405,6 +405,7 @@ def caut(page: int):
 WORKDAY_SITES = [
     ("McGill University", "mcgill", "wd3", "McGill_Careers"),
     ("University of British Columbia", "ubc", "wd10", "ubcstaffjobs"),
+    ("University of Ottawa", "uottawa", "wd3", "uOttawa_External_Career_Site"),
 ]
 WORKDAY_MAX = 160          # postings per university per refresh
 WORKDAY_PAGE = 20
@@ -474,9 +475,25 @@ def workday(label: str, tenant: str, wd: str, site: str, offset: int):
 #    scraped dependably. Use its own Job Alert instead -- see the README
 #    section "Canadian government jobs".
 # --------------------------------------------------------------------------
+# (label, host, locale, use_search_evidence)
+#
+# use_search_evidence records WHICH of our query terms the employer's own
+# full-text search matched, and feeds that to the agriculture gate. It is on
+# only where the RSS summary is useless -- NRC and Nova Scotia ship
+# employment-equity boilerplate with no description at all. The universities
+# below return a real posting summary, which is stronger and more honest
+# evidence, so they judge on that instead. Injecting terms there would let a
+# posting that merely contains the word "soil" somewhere clear the gate.
 GOV_SF_SITES = [
-    ("NRC (federal)", "recruitment-recrutement.nrc-cnrc.gc.ca", "en_US"),
-    ("Nova Scotia (provincial)", "jobs.novascotia.ca", "en_US"),
+    ("NRC (federal)", "recruitment-recrutement.nrc-cnrc.gc.ca", "en_US", True),
+    ("Nova Scotia (provincial)", "jobs.novascotia.ca", "en_US", True),
+]
+
+# Canadian universities on SuccessFactors. Guelph is the priority: the Ontario
+# Agricultural College and the Ridgetown campus both post here.
+UNIVERSITY_SF_SITES = [
+    ("University of Guelph", "careers.uoguelph.ca", "en_US", False),
+    ("University of Toronto", "jobs.utoronto.ca", "en_US", False),
 ]
 
 # These feeds are bilingual -- every federal posting appears twice, once per
@@ -514,7 +531,8 @@ def _sf_location(title: str):
     return title[: m.start()].strip(), inner.strip()
 
 
-def successfactors_site(label: str, host: str, locale: str):
+def successfactors_site(label: str, host: str, locale: str,
+                        use_search_evidence: bool = True):
     """
     Pull one public-sector site across every GOV_QUERIES term and merge.
 
@@ -553,7 +571,7 @@ def successfactors_site(label: str, host: str, locale: str):
                     "location": location or "Canada",
                     "url": link,
                     "posted": _iso(e),
-                    "summary": _clean(e.get("summary", ""))[:400],
+                    "summary": _clean(e.get("summary", ""))[:900],
                     "salary": "",
                     "source": label,
                     "_terms": set(),
@@ -563,10 +581,51 @@ def successfactors_site(label: str, host: str, locale: str):
 
     for rec in merged.values():
         terms = sorted(rec.pop("_terms"))
-        if terms:
+        if terms and use_search_evidence:
             rec["summary"] = (f"Matched the {rec['source']} job search for: "
                               f"{', '.join(terms)}. " + rec["summary"])
         yield rec
+
+
+# --------------------------------------------------------------------------
+# 9. PEOPLEADMIN  --  Dalhousie University
+#
+#    PeopleAdmin exposes /postings/search.atom, which honours ?query= and
+#    carries a real posting summary. Dalhousie matters here because its
+#    Faculty of Agriculture sits on the Truro campus.
+# --------------------------------------------------------------------------
+PEOPLEADMIN_SITES = [
+    ("Dalhousie University", "dal.peopleadmin.ca"),
+]
+
+
+def peopleadmin_site(label: str, host: str):
+    merged: dict[str, dict] = {}
+
+    for keyword in [""] + list(GOV_QUERIES[1:]):
+        url = f"https://{host}/postings/search.atom"
+        if keyword:
+            url += f"?query={_quote(keyword)}"
+        body = _get(url)
+        if not body:
+            continue
+        for e in feedparser.parse(body).entries:
+            link = e.get("link", "")
+            title = _clean(e.get("title", ""))
+            if not link or not title or link in merged:
+                continue
+            merged[link] = {
+                "title": title,
+                "org": label,
+                "location": "Canada",
+                "url": link,
+                "posted": _iso(e),
+                "summary": _clean(e.get("summary", ""))[:900],
+                "salary": "",
+                "source": label,
+            }
+
+    yield from merged.values()
 
 
 # --------------------------------------------------------------------------
@@ -609,19 +668,26 @@ def build_tasks():
 
     # one task per site -- it walks every GOV_QUERIES term itself so the
     # matched terms can be merged onto a single record per posting
-    for label, host, locale in GOV_SF_SITES:
+    for label, host, locale, evidence in GOV_SF_SITES + UNIVERSITY_SF_SITES:
         tasks.append((f"{label}: all queries",
-                      lambda l=label, h=host, lo=locale:
-                      list(successfactors_site(l, h, lo))))
+                      lambda l=label, h=host, lo=locale, ev=evidence:
+                      list(successfactors_site(l, h, lo, ev))))
+
+    for label, host in PEOPLEADMIN_SITES:
+        tasks.append((f"{label}: all queries",
+                      lambda l=label, h=host: list(peopleadmin_site(l, h))))
 
     return tasks
 
 
-SOURCE_NAMES = ["CAUT (Canada)", "University portal (Canada)",
-                "NRC (federal)", "Nova Scotia (provincial)",
-                "Nature Careers", "Times Higher Education",
-                "Chronicle of Higher Ed", "Inside Higher Ed", "HigherEdJobs",
-                "jobs.ac.uk", "EURAXESS", "jobRxiv"]
+SOURCE_NAMES = (["CAUT (Canada)"]
+                + [label for label, _, _, _ in GOV_SF_SITES]
+                + [label for label, _, _, _ in UNIVERSITY_SF_SITES]
+                + [label for label, _, _, _ in WORKDAY_SITES]
+                + [label for label, _ in PEOPLEADMIN_SITES]
+                + ["Nature Careers", "Times Higher Education",
+                   "Chronicle of Higher Ed", "Inside Higher Ed", "HigherEdJobs",
+                   "jobs.ac.uk", "EURAXESS", "jobRxiv"])
 
 # Sources that are Canadian public-sector employers
-GOVERNMENT_SOURCES = {label for label, _, _ in GOV_SF_SITES}
+GOVERNMENT_SOURCES = {label for label, _, _, _ in GOV_SF_SITES}

@@ -21,7 +21,7 @@ import re
 from datetime import datetime, timezone
 
 from profile import (ACADEMIC_SIGNALS, AG_GROUPS, AG_MIN_BODY_TERMS,
-                     GOVERNMENT_SOURCES,
+                     CANADIAN_UNIVERSITY_SOURCES, GOVERNMENT_SOURCES,
                      AG_SATURATION, BREADTH_TARGET, FACULTY_ROLES,
                      KEYWORD_GROUPS, NEGATIVE_BODY, NEGATIVE_TITLE,
                      PRIORITY_COUNTRIES, REQUIRE_AGRICULTURE, ROLE_FIT,
@@ -385,6 +385,11 @@ def infer_country(location: str, org: str = "", source: str = "",
 
 SOURCE_HOME_COUNTRY = {
     "CAUT (Canada)": "Canada",
+    # Scraped straight off a Canadian university's own careers portal, so the
+    # country is certain even when the posting names no place.
+    **{name: "Canada" for name in CANADIAN_UNIVERSITY_SOURCES},
+    "NRC (federal)": "Canada",
+    "Nova Scotia (provincial)": "Canada",
     "jobs.ac.uk": "United Kingdom",
     "Chronicle of Higher Ed": "United States",
     "Inside Higher Ed": "United States",

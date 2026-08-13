@@ -129,6 +129,12 @@ KEYWORD_GROUPS = {
             "grain", "forage", "pasture", "rangeland", "orchard", "vineyard",
             "viticultur", "turfgrass", "tillage", "fertilizer", "fertiliser",
             "pesticide", "herbicide", "dairy", "poultry", "aquaculture",
+            # animal science is a core agriculture discipline -- every ag
+            # faculty has it. Bare "animal" is deliberately NOT here: it would
+            # pull in lab-animal and shelter roles that are not agricultural.
+            "animal science", "animal bioscience", "animal physiolog",
+            "animal nutrition", "animal breeding", "animal welfare",
+            "animal product",
             "post-harvest", "postharvest", "seed technolog", "seed produc",
         ],
     },
@@ -326,6 +332,17 @@ PRIORITY_TIERS = [
 # A posting triggers one email the first time it satisfies ALL of these.
 # Agriculture is implied -- non-agricultural postings never get this far.
 GOVERNMENT_SOURCES = ("NRC (federal)", "Nova Scotia (provincial)")
+
+# Canadian universities scraped directly from their own careers portal.
+# Everything posted here is by definition a Canadian position.
+CANADIAN_UNIVERSITY_SOURCES = (
+    "University of Guelph",
+    "University of Toronto",
+    "University of Ottawa",
+    "McGill University",
+    "University of British Columbia",
+    "Dalhousie University",
+)
 
 ALERT_COUNTRIES = ("Canada",)      # () for anywhere in the world
 ALERT_MIN_SCORE = 60               # match score out of 100

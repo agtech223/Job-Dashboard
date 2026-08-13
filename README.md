@@ -11,8 +11,8 @@ specific CV — with Canada and tenure-track roles first.
 
 ## What it does
 
-- Searches **10 job boards** — ~300 live queries, ~3,500 postings per run
-- **Discards anything non-agricultural** — roughly 2,600 postings per run
+- Searches **17 sources** — including six Canadian universities scraped direct
+- **Discards anything non-agricultural** — roughly 3,000 postings per run
 - Scores the rest 0–100 against the CV and de-duplicates across boards
 - Puts **Canada** and **faculty lines** first
 - **Emails you** when a new Canadian agriculture position scores 60+
@@ -52,7 +52,12 @@ instead of a refresh button.
 | Board | Coverage |
 |---|---|
 | **CAUT / AcademicWork.ca** | **Canada — the Canadian academic job board** |
-| **University portals (Workday)** | **Canada — McGill, UBC, direct from the employer** |
+| **University of Guelph** | **Canada — Ontario Agricultural College + Ridgetown** |
+| **University of Toronto** | **Canada — direct from the employer** |
+| **University of Ottawa** | **Canada — direct from the employer** |
+| **McGill University** | **Canada — Macdonald Campus** |
+| **University of British Columbia** | **Canada — Land & Food Systems** |
+| **Dalhousie University** | **Canada — Faculty of Agriculture, Truro** |
 | **NRC** | **Canada — National Research Council, federal** |
 | **Nova Scotia** | **Canada — provincial public service** |
 | jobs.ac.uk | UK + international |
@@ -70,9 +75,36 @@ domains, even `robots.txt`. CAUT covers the same market and is fully accessible.
 Worth checking University Affairs by hand occasionally; the boards do not overlap
 completely.
 
-To add another Canadian university, find its careers URL of the shape
-`https://<tenant>.<wdN>.myworkdayjobs.com/en-US/<site>` and add a line to
-`WORKDAY_SITES` in `engine/sources.py`.
+### Canadian university career portals
+
+The top 20 Canadian universities were surveyed one by one; **six publish a
+machine-readable feed** and are scraped directly from the employer:
+
+| University | Platform | Where it is configured |
+|---|---|---|
+| Guelph, Toronto | SuccessFactors RSS | `UNIVERSITY_SF_SITES` |
+| McGill, UBC, Ottawa | Workday JSON API | `WORKDAY_SITES` |
+| Dalhousie | PeopleAdmin Atom | `PEOPLEADMIN_SITES` |
+
+Guelph matters most — the Ontario Agricultural College and the Ridgetown
+campus both post there — with Dalhousie's Faculty of Agriculture in Truro next.
+
+**The other fourteen cannot be read.** Alberta, Saskatchewan, Manitoba,
+McMaster, Waterloo, Western, Concordia, Laval, Montréal, SFU and Victoria all
+render their listings in JavaScript with no feed behind them; Queen's (Njoyn)
+and Calgary sit behind bot protection; York runs Simplication with no feed.
+Each would need a headless browser per run, which is too slow and too brittle
+for a daily job.
+
+To add one that later becomes readable, put it in the matching list in
+`engine/sources.py` and add its name to `CANADIAN_UNIVERSITY_SOURCES` in
+`engine/profile.py` so the country is pinned. Quick tests:
+
+```
+https://<host>/services/rss/job/?locale=en_US          # SuccessFactors
+https://<host>/postings/search.atom                    # PeopleAdmin
+https://<tenant>.<wdN>.myworkdayjobs.com/en-US/<site>  # Workday
+```
 
 ---
 
