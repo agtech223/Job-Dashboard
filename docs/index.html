@@ -20,6 +20,8 @@
   <g id="i-globe"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a15 15 0 010 18 15 15 0 010-18z"/></g>
   <g id="i-chevron"><path d="M6 9.5l6 6 6-6"/></g>
   <g id="i-x"><path d="M18 6L6 18M6 6l12 12"/></g>
+  <g id="i-up"><path d="M7 21V10"/><path d="M11.4 3.3l-.9 4.2a1.5 1.5 0 001.5 1.8h5.6a2 2 0 011.95 2.45l-1.4 6A2 2 0 0116.2 19H7V10l2.6-6.1a1.6 1.6 0 011.8-.6z"/></g>
+  <g id="i-down"><path d="M7 3v11"/><path d="M11.4 20.7l-.9-4.2a1.5 1.5 0 011.5-1.8h5.6a2 2 0 001.95-2.45l-1.4-6A2 2 0 0016.2 5H7v9l2.6 6.1a1.6 1.6 0 001.8.6z"/></g>
   <g id="i-sliders"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h9M17 18h3"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="15" cy="18" r="2"/></g>
   <g id="i-trend"><path d="M3 17l5.5-5.5 3.5 3.5L21 6"/><path d="M15.5 6H21v5.5"/></g>
 </defs></svg>
@@ -373,6 +375,7 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
 .badge.match{background:var(--good-weak);border-color:var(--good);color:var(--good)}
 .badge.fresh{background:transparent;border-color:var(--good);color:var(--good)}
 .badge.gov{background:transparent;border-color:var(--warn);color:var(--warn)}
+.badge.disc{background:transparent;border-color:var(--tile-tt-ink);color:var(--tile-tt-ink)}
 
 .details-btn{font-size:13px;color:var(--text-2);margin-top:10px;
   display:inline-flex;align-items:center;gap:5px}
@@ -393,6 +396,16 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
 .icon-btn:hover{color:var(--text)}
 .icon-btn.on{color:var(--warn);border-color:var(--warn)}
 .icon-btn.done{color:var(--good);border-color:var(--good)}
+/* Fit / Not-a-fit. A "not a fit" verdict hides the posting and teaches the
+   ranker; both are reversible from the "Not a fit" tab. */
+.icon-btn.fit{color:var(--good);border-color:var(--good);background:var(--good-weak)}
+.icon-btn.unfit{color:var(--tile-ca-ink);border-color:var(--tile-ca-ink)}
+.job.rejected{opacity:.5}
+.learn-note{font-size:12.5px;color:var(--text-2);background:var(--surface);
+  border:1px solid var(--border);border-radius:var(--radius);
+  padding:11px 14px;margin-bottom:12px;line-height:1.6}
+.learn-note:empty{display:none}
+.learn-note b{color:var(--text);font-weight:620}
 
 .load-more{width:100%;padding:13px;margin-top:12px;border:1px solid var(--border);
   border-radius:var(--radius);background:var(--surface);font-size:13.5px;
@@ -500,6 +513,7 @@ input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;
     <div class="field"><label>&nbsp;</label><button class="btn" id="resetBtn">Clear all</button></div>
   </div>
 
+  <div class="learn-note" id="learnNote"></div>
   <div class="applied" id="appliedFilters"></div>
   <p class="count-line" id="countLine"></p>
   <div class="list" id="list"></div>
@@ -535,8 +549,11 @@ const TABS = [
   { id: "tech",    label: "Ag + tech",    match: job => job.synergy },
   { id: "gov",     label: "Government",   match: job => job.is_government },
   { id: "new",     label: "New",          match: job => job.is_new },
-  { id: "saved",   label: "Saved",        match: job => state.saved.has(job.id) }
+  { id: "saved",   label: "Saved",        match: job => state.saved.has(job.id) },
+  { id: "notfit",  label: "Not a fit",    match: job => verdictOf(job.id) === "not_fit" }
 ];
+
+const verdictOf = id => state.feedback[id]?.verdict || null;
 
 const SORTERS = {
   priority: (a, b) => (a.priority ?? 3) - (b.priority ?? 3) || b.score - a.score,
@@ -564,6 +581,7 @@ const state = {
   isLive: false,
   saved: new Set(),
   applied: new Set(),
+  feedback: {},          // id -> { verdict: "fit" | "not_fit", ...job features }
   filters: { ...DEFAULT_FILTERS },
   pollTimer: null,
   toastTimer: null
@@ -677,6 +695,7 @@ async function init() {
     const marks = await fetchMarks();
     state.saved = new Set(marks.starred || []);
     state.applied = new Set(marks.applied || []);
+    state.feedback = await loadFeedback();
     state.jobs = state.payload.jobs || [];
 
     if (!state.isLive) {
@@ -788,7 +807,11 @@ function matchesFilters(job) {
 
 function computeVisible() {
   const tab = TABS.find(item => item.id === state.tab) || TABS[0];
-  state.visible = state.jobs.filter(job => tab.match(job) && matchesFilters(job));
+  // A "not a fit" posting is gone from every view but the one that exists to
+  // undo it. The next refresh drops it from the data as well.
+  const keep = job => state.tab === "notfit" || verdictOf(job.id) !== "not_fit";
+  state.visible = state.jobs.filter(job =>
+    keep(job) && tab.match(job) && matchesFilters(job));
   state.visible.sort(SORTERS[state.sort]);
 }
 
@@ -801,6 +824,7 @@ function render() {
   renderTabCounts();
   renderIntro();
   renderInsights();
+  renderLearning();
   renderAppliedFilters();
   state.page = 1;
   renderList();
@@ -809,7 +833,11 @@ function render() {
 function renderTabCounts() {
   TABS.forEach(tab => {
     const el = $(`#count-${tab.id}`);
-    if (el) el.textContent = state.jobs.filter(tab.match).length;
+    if (!el) return;
+    const pool = tab.id === "notfit"
+      ? state.jobs
+      : state.jobs.filter(job => verdictOf(job.id) !== "not_fit");
+    el.textContent = pool.filter(tab.match).length;
   });
 }
 
@@ -918,6 +946,25 @@ function renderInsights() {
     </div>`;
 }
 
+/** A plain-language summary of what the ratings have taught the ranker. */
+function renderLearning() {
+  const note = $("#learnNote");
+  const rated = Object.keys(state.feedback).length;
+  const learning = state.payload?.stats?.learning;
+
+  if (!rated) { note.innerHTML = ""; return; }
+  if (!learning?.ready) {
+    note.innerHTML = `<b>${rated} rated.</b> Use the thumbs on each job.
+      Once there are a few of both kinds, the ranking starts adapting to them.`;
+    return;
+  }
+  const likes = (learning.likes || []).slice(0, 4).map(escapeHtml).join(", ");
+  const dislikes = (learning.dislikes || []).slice(0, 4).map(escapeHtml).join(", ");
+  note.innerHTML =
+    `<b>Learning from ${learning.ratings} ratings.</b> Scoring leans toward
+     ${likes || "-"} and away from ${dislikes || "-"}.`;
+}
+
 function renderAppliedFilters() {
   const filters = state.filters;
   const pills = [];
@@ -976,6 +1023,7 @@ function jobCard(job, spotlight = false) {
   const strongMatch = job.score >= (state.payload.thresholds?.strong ?? 70);
   const isSaved = state.saved.has(job.id);
   const isApplied = state.applied.has(job.id);
+  const verdict = verdictOf(job.id);
 
   const place = job.country && job.country !== "Unspecified"
     ? (job.location && job.location !== job.country ? job.location : job.country)
@@ -991,7 +1039,10 @@ function jobCard(job, spotlight = false) {
     job.is_priority_country ? '<span class="badge canada">Canada</span>' : "",
     strongMatch ? '<span class="badge match">Strong match</span>' : "",
     job.is_new ? '<span class="badge fresh">New</span>' : "",
-    job.is_government ? '<span class="badge gov">Government</span>' : ""
+    job.is_government ? '<span class="badge gov">Government</span>' : "",
+    // Admitted on the CV-discipline exception rather than on agriculture,
+    // so say so plainly rather than letting it look like an ag match.
+    job.via_discipline ? '<span class="badge disc">CV discipline</span>' : ""
   ].filter(Boolean).join("");
 
   const agTerms = termsFor(job, job.ag_areas);
@@ -999,7 +1050,8 @@ function jobCard(job, spotlight = false) {
   const hasDetails = Boolean(job.summary) || agTerms.length > 0 || techTerms.length > 0;
 
   return `
-  <article class="job${spotlight ? " spotlight" : ""}${isApplied ? " is-applied" : ""}" data-id="${job.id}">
+  <article class="job${spotlight ? " spotlight" : ""}${isApplied ? " is-applied" : ""}${
+      verdict === "not_fit" ? " rejected" : ""}" data-id="${job.id}">
     <div class="score${strongMatch ? " strong" : ""}" title="CV match ${Math.round(job.score)} out of 100">
       <svg class="ring" viewBox="0 0 48 48" aria-hidden="true">
         <circle class="ring-track" cx="24" cy="24" r="20.5"/>
@@ -1038,6 +1090,16 @@ function jobCard(job, spotlight = false) {
               title="${isApplied ? "Mark as not applied" : "Mark as applied"}"
               aria-pressed="${isApplied}">
         ${icon("i-check")}
+      </button>
+      <button class="icon-btn${verdict === "fit" ? " fit" : ""}" data-fit
+              title="Good fit - show me more like this"
+              aria-pressed="${verdict === "fit"}">
+        ${icon("i-up")}
+      </button>
+      <button class="icon-btn${verdict === "not_fit" ? " unfit" : ""}" data-unfit
+              title="${verdict === "not_fit" ? "Put this back" : "Not a fit - hide it and learn from it"}"
+              aria-pressed="${verdict === "not_fit"}">
+        ${icon("i-down")}
       </button>
       <a class="btn" href="${escapeHtml(job.url)}" target="_blank" rel="noopener">
         Apply ${icon("i-external")}</a>
@@ -1137,6 +1199,12 @@ $("#list").addEventListener("click", event => {
   } else if (event.target.closest("[data-applied]")) {
     toggleMark(state.applied, id);
     toast(state.applied.has(id) ? "Marked as applied" : "Unmarked");
+  } else if (event.target.closest("[data-fit]")) {
+    setVerdict(id, verdictOf(id) === "fit" ? null : "fit");
+  } else if (event.target.closest("[data-unfit]")) {
+    const undo = verdictOf(id) === "not_fit";
+    setVerdict(id, undo ? null : "not_fit");
+    toast(undo ? "Back on the dashboard" : "Hidden - the ranker will learn from this");
   } else if (event.target.closest("[data-details]")) {
     const isOpen = card.classList.toggle("open");
     card.querySelector("[data-details]").setAttribute("aria-expanded", String(isOpen));
@@ -1172,6 +1240,57 @@ document.addEventListener("keydown", event => {
     $("#search").focus();
   }
 });
+
+/**
+ * Record a verdict. The stored record keeps the job's own features, so the
+ * model can still train on it after the posting has expired off the boards.
+ */
+function setVerdict(id, verdict) {
+  const job = state.jobs.find(j => j.id === id);
+  if (!verdict) {
+    delete state.feedback[id];
+  } else if (job) {
+    state.feedback[id] = {
+      verdict,
+      at: new Date().toISOString(),
+      title: job.title, role: job.role, country: job.country, source: job.source,
+      ag_areas: job.ag_areas || [], tech_areas: job.tech_areas || [],
+      is_faculty: !!job.is_faculty, is_tenure_track: !!job.is_tenure_track,
+      is_government: !!job.is_government, via_discipline: !!job.via_discipline,
+      synergy: !!job.synergy
+    };
+  }
+  saveFeedback(id, state.feedback[id] || null);
+  render();
+}
+
+/**
+ * Persist one rating. Only the changed record goes to the server, which
+ * merges it -- sending the whole map would let a stale tab wipe ratings
+ * made anywhere else.
+ */
+function saveFeedback(id, record) {
+  localStorage.setItem("agjobs-feedback", JSON.stringify(state.feedback));
+  if (state.isLive) {
+    fetch("/api/feedback", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, record })
+    }).catch(() => { /* the browser copy is still saved */ });
+  }
+}
+
+async function loadFeedback() {
+  let local = {};
+  try { local = JSON.parse(localStorage.getItem("agjobs-feedback") || "{}"); } catch {}
+  if (state.isLive) {
+    try {
+      const response = await fetch("/api/feedback");
+      if (response.ok) return { ...local, ...(await response.json()) };
+    } catch { /* fall back to the browser copy */ }
+  }
+  return local;
+}
 
 function saveMarks() {
   const marks = { starred: [...state.saved], applied: [...state.applied], hidden: [] };

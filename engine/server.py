@@ -25,6 +25,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import learner                                    # noqa: E402
 import scraper                                    # noqa: E402
 from profile import CANDIDATE                     # noqa: E402
 
@@ -117,6 +118,10 @@ class Handler(BaseHTTPRequestHandler):
             self._json(_read(STAR_FILE, {"starred": [], "hidden": [], "applied": []}))
             return
 
+        if path == "/api/feedback":
+            self._json(learner.load_feedback())
+            return
+
         self._send(404, b'{"error":"not found"}')
 
     def do_POST(self):
@@ -133,6 +138,34 @@ class Handler(BaseHTTPRequestHandler):
             threading.Thread(target=scraper.refresh_safe, args=(PROGRESS,),
                              daemon=True).start()
             self._json({"ok": True})
+            return
+
+        if path == "/api/feedback":
+            # {"id": "<job id>", "record": {...} | null}
+            #
+            # One rating per request, merged into the stored map. The client
+            # used to PUT its whole map, which meant any stale tab silently
+            # clobbered every rating made elsewhere -- last write wins is the
+            # wrong contract for an append-mostly log.
+            try:
+                n = int(self.headers.get("Content-Length", 0))
+                payload = json.loads(self.rfile.read(n) or b"{}")
+                if not isinstance(payload, dict) or not payload.get("id"):
+                    raise ValueError("expected {id, record}")
+
+                feedback = learner.load_feedback()
+                record = payload.get("record")
+                if record is None:
+                    feedback.pop(payload["id"], None)
+                else:
+                    feedback[payload["id"]] = record
+                learner.save_feedback(feedback)
+
+                model = learner.train(feedback)
+                self._json({"ok": True, "count": len(feedback),
+                            "learning": learner.explain(model)})
+            except Exception as exc:
+                self._json({"ok": False, "error": str(exc)}, 400)
             return
 
         if path == "/api/starred":

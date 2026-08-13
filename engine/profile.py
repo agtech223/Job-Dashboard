@@ -416,6 +416,34 @@ TECH_SATURATION = 16.0
 REQUIRE_AGRICULTURE = True
 AG_MIN_BODY_TERMS = 2
 
+# ---------------------------------------------------------------------------
+# THE CV-DISCIPLINE PATHWAY  (the one documented exception to the gate)
+# ---------------------------------------------------------------------------
+# Agriculture stays the rule, but a handful of disciplines ARE the CV and are
+# inherently land, earth and environment facing -- close enough to agriculture
+# to be worth seeing even when the advert never says the word. "Assistant
+# Professor in GeoAI" or "...in Geomatics" is such a job. "Assistant Professor
+# in AI for Medical Imaging" is not, because medical imaging appears on neither
+# list, and that is exactly the separation this list has to hold.
+#
+# TITLE ONLY, deliberately. An incidental "remote sensing" buried in a long
+# advert is not evidence that the JOB is about remote sensing; naming it in the
+# title is. Keep this list short -- every entry widens the gate.
+CORE_DISCIPLINES = [
+    "geomatics", "geoai", "geo-ai", "geospatial", "geographic information",
+    "remote sensing", "earth observation", "photogrammetry", "lidar",
+    "spatial data science", "spatial analysis", "spatial statistics",
+    "land use", "land cover", "terrain analysis", "digital earth",
+    "phenotyping", "phenomics", "evapotranspiration", "hydrolog", "watershed",
+    "unmanned aerial", "uav", "agroclimat", "environmental sensing",
+]
+
+# A posting admitted this way has no agricultural evidence, so it cannot be
+# scored on one. It is credited half an agriculture score instead: enough to
+# rank alongside the Canadian faculty cluster, not enough to outrank a genuine
+# agricultural match of the same seniority.
+CORE_DISCIPLINE_AG_CREDIT = 0.50
+
 # THE SIGNATURE BONUS ---------------------------------------------------------
 # Hassan's niche is not "agriculture" and not "AI" -- it is the intersection.
 # A posting that lands in BOTH halves is the thing worth applying to, so it

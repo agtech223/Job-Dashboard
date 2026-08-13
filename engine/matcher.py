@@ -21,7 +21,8 @@ import re
 from datetime import datetime, timezone
 
 from profile import (ACADEMIC_SIGNALS, AG_GROUPS, AG_MIN_BODY_TERMS,
-                     CANADIAN_UNIVERSITY_SOURCES, GOVERNMENT_SOURCES,
+                     CANADIAN_UNIVERSITY_SOURCES, CORE_DISCIPLINES,
+                     CORE_DISCIPLINE_AG_CREDIT, GOVERNMENT_SOURCES,
                      AG_SATURATION, BREADTH_TARGET, FACULTY_ROLES,
                      KEYWORD_GROUPS, NEGATIVE_BODY, NEGATIVE_TITLE,
                      PRIORITY_COUNTRIES, REQUIRE_AGRICULTURE, ROLE_FIT,
@@ -528,6 +529,18 @@ _GROUPS = {
 }
 
 
+# Compiled once. Word-boundary anchored at the front so "hydrolog" catches
+# hydrology and hydrological, while "uav" cannot fire inside another word.
+_CORE_RE = [re.compile(r"\b" + re.escape(term) + (r"\b" if len(term) <= 4 else ""))
+            for term in CORE_DISCIPLINES]
+
+
+def core_discipline_in_title(title: str) -> bool:
+    """Does the title name one of the CV's own land/earth disciplines?"""
+    t = " " + re.sub(r"[^a-z0-9 ]+", " ", title.lower()) + " "
+    return any(rx.search(t) for rx in _CORE_RE)
+
+
 def score_domain(title: str, body: str):
     """
     -> (per-axis raw scores, {group: [matched terms]}, agriculture evidence)
@@ -570,16 +583,20 @@ def score_job(job: dict) -> dict:
 
     raw, matched, (ag_in_title, ag_body_terms) = score_domain(title, body)
 
-    # ---- the agriculture gate -------------------------------------------
+    # ---- the relevance gate ---------------------------------------------
     # Agriculture is the subject; AI/GIS/robotics are only the tools. A posting
-    # that is not about agriculture is dropped, not merely ranked low.
-    is_agricultural = ag_in_title or ag_body_terms >= AG_MIN_BODY_TERMS
+    # that is not about agriculture is dropped, not merely ranked low -- unless
+    # its title names one of the CV's own land/earth disciplines, which is the
+    # single documented exception (see CORE_DISCIPLINES).
+    has_agriculture = ag_in_title or ag_body_terms >= AG_MIN_BODY_TERMS
+    via_discipline = not has_agriculture and core_discipline_in_title(title)
+    is_agricultural = has_agriculture or via_discipline
     if REQUIRE_AGRICULTURE and not is_agricultural:
         job = dict(job)
         job.update({"score": 0.0, "rejected": "not agricultural",
                     "matched": matched, "match_terms": [], "areas": [],
                     "role": classify_role(title, body), "synergy": False,
-                    "is_agricultural": False,
+                    "is_agricultural": False, "via_discipline": False,
                     "age_days": age_days(job.get("posted", "")),
                     "country": "Unspecified", "region": "Other",
                     "priority": 3, "is_faculty": False, "is_tenure_track": False,
@@ -589,6 +606,9 @@ def score_job(job: dict) -> dict:
         return job
 
     ag = 1.0 - math.exp(-raw["ag"] / AG_SATURATION)
+    if via_discipline:
+        # No agricultural evidence to score, so credit the discipline instead.
+        ag = max(ag, CORE_DISCIPLINE_AG_CREDIT)
     tech = 1.0 - math.exp(-raw["tech"] / TECH_SATURATION)
 
     role = classify_role(title, body)
@@ -624,7 +644,10 @@ def score_job(job: dict) -> dict:
     job["score"] = round(min(score, 100.0), 1)
     job["role"] = role
     job["synergy"] = synergy
+    # "cleared the relevance gate" -- via agriculture, or via the discipline
+    # exception, which via_discipline distinguishes for the dashboard badge.
     job["is_agricultural"] = True
+    job["via_discipline"] = via_discipline
     job["ag_strength"] = round(ag, 3)
     job["tech_strength"] = round(tech, 3)
     job["ag_areas"] = [g for g in matched if g in AG_GROUPS]

@@ -19,6 +19,7 @@ from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import learner                                      # noqa: E402
 from matcher import deduplicate, score_job          # noqa: E402
 from profile import (CANDIDATE, GOOD_MATCH, MAX_AGE_DAYS, SCORE_FLOOR,       # noqa: E402
                      STRONG_MATCH)
@@ -185,6 +186,34 @@ def refresh(progress: dict | None = None) -> dict:
     # ---- de-duplicate ---------------------------------------------------
     p["stage"] = "Removing cross-board duplicates"
     jobs = deduplicate(scored)
+
+    # ---- your ratings ---------------------------------------------------
+    # "Not a fit" postings leave the dashboard; both verdicts train the model
+    # that nudges what is left. See engine/learner.py for why it is timid.
+    p["stage"] = "Applying what your ratings taught"
+    feedback = learner.load_feedback()
+    rejected = learner.rejected_ids(feedback)
+    if rejected:
+        before = len(jobs)
+        jobs = [j for j in jobs if j["id"] not in rejected]
+        log(f"Removed {before - len(jobs)} posting(s) you marked as not a fit")
+
+    model = learner.train(feedback)
+    insight = learner.explain(model)
+    if model:
+        for j in jobs:
+            delta = learner.adjustment(j, model)
+            j["learned"] = delta
+            j["score"] = round(max(0.0, min(100.0, j["score"] + delta)), 1)
+        moved = sum(1 for j in jobs if abs(j.get("learned", 0)) >= 1)
+        log(f"Learned from {insight['ratings']} ratings "
+            f"({insight['fit']} fit / {insight['not_fit']} not) -- "
+            f"adjusted {moved} posting(s)")
+        log(f"    leaning toward: {', '.join(insight['likes'][:4])}")
+        log(f"    leaning away  : {', '.join(insight['dislikes'][:4])}")
+    elif feedback:
+        log(f"{len(feedback)} rating(s) so far -- the model needs "
+            f"{learner.MIN_FEEDBACK} including both verdicts before it acts")
     jobs.sort(key=lambda x: (x.get("priority", 3), -x["score"],
                              x.get("age_days") if x.get("age_days") is not None else 999))
     log(f"{len(jobs)} unique postings after de-duplication")
@@ -224,6 +253,7 @@ def refresh(progress: dict | None = None) -> dict:
             "good": sum(1 for j in jobs if GOOD_MATCH <= j["score"] < STRONG_MATCH),
             "countries": len({j["country"] for j in jobs if j["country"] != "Unspecified"}),
             "carried_over": sum(1 for j in jobs if j.get("carried_over")),
+            "learning": insight,
             "canada": sum(1 for j in jobs if j.get("is_priority_country")),
             "canada_faculty": sum(1 for j in jobs if j.get("priority") == 0),
             "tenure_track": sum(1 for j in jobs if j.get("is_tenure_track")),

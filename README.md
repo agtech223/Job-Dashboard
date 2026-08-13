@@ -15,6 +15,7 @@ specific CV — with Canada and tenure-track roles first.
 - **Discards anything non-agricultural** — roughly 3,000 postings per run
 - Scores the rest 0–100 against the CV and de-duplicates across boards
 - Puts **Canada** and **faculty lines** first
+- **Learns from your Fit / Not-a-fit ratings** and re-ranks accordingly
 - **Emails you** when a new Canadian agriculture position scores 60+
 - Refreshes itself **every morning** via GitHub Actions — no server to run
 
@@ -216,6 +217,39 @@ Systems"* past 87.
 
 Each card lists the **Agriculture** terms and the **Tools** terms it matched on
 separate rows, so you can always see why it scored what it did.
+
+---
+
+## Teaching it what you like
+
+Every job carries **Fit** and **Not a fit** thumbs.
+
+- **Not a fit** hides the posting immediately and drops it from the data on
+  the next refresh. Nothing is lost: the **Not a fit** tab lists everything you
+  have rejected, and the same button puts one back.
+- **Both** verdicts train a small model that nudges future scores toward the
+  kind of job you keep and away from the kind you reject.
+
+The model (`engine/learner.py`) is Naive Bayes log-odds over coarse features:
+research area, position type, country, source, and notable title words. It is
+deliberately timid, because this feedback set will always be small:
+
+| Guard | Why |
+|---|---|
+| Silent until **8 ratings**, and **3 of each verdict** | Three rejections and one approval is noise, not a preference. Acting on it would teach the ranker to avoid whole research areas that merely happened to appear in the rejected jobs. |
+| Laplace smoothing | One rating cannot own a feature. |
+| `tanh`, clamped to **±8 points** | Learning re-orders near-ties. It can never overturn the agriculture gate or manufacture a strong match. |
+
+Each rating stores the job's own features, so training still works after the
+posting has expired off the boards. The dashboard prints what it has learned in
+plain language — *"leaning toward Canada, tenure-track; away from postdoctoral,
+United States"* — so it is never a black box.
+
+Ratings live in `docs/data/feedback.json`. Rate jobs **with the local dashboard
+running** (`START-DASHBOARD.bat`) and they are written there and picked up by
+the next refresh, local or on GitHub. Ratings made on the hosted site are held
+in that browser only — they hide jobs for you there, but cannot reach the
+learner, since a static page has nowhere to write.
 
 ---
 
