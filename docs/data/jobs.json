@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-13T10:12:31.927457+00:00",
+ "generated_at": "2026-08-13T11:17:04.809969+00:00",
  "candidate": {
   "name": "Hassan Afzaal, PhD",
   "headline": "Agricultural Engineer | AI, Computer Vision & Precision Agriculture",
@@ -24,9 +24,9 @@
  },
  "stats": {
   "total": 416,
-  "new": 2,
-  "raw_fetched": 4168,
-  "rejected_non_ag": 3082,
+  "new": 0,
+  "raw_fetched": 4068,
+  "rejected_non_ag": 2983,
   "queries_run": 341,
   "queries_failed": 0,
   "strong": 25,
@@ -50,7 +50,7 @@
    "Inside Higher Ed": 925,
    "HigherEdJobs": 245,
    "jobs.ac.uk": 288,
-   "EURAXESS": 200,
+   "EURAXESS": 100,
    "jobRxiv": 70,
    "CAUT (Canada)": 119,
    "University portal (Canada)": 478,
@@ -170,7 +170,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor in GeoAI",
@@ -223,7 +223,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor (Teaching), Poultry",
@@ -268,7 +268,7 @@
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant/Associate Professor and Canada Research Chair Tier 2 in Integrated Animal Physiology",
@@ -315,7 +315,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "College Professor - Dairy",
@@ -362,7 +362,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Associate or Full Professor with Tenure in Geomatics",
@@ -407,7 +407,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor in Equine Biosciences",
@@ -454,7 +454,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Limited Term Instructor - Veterinary Technology - Fall 2026",
@@ -503,7 +503,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Fellow, Capital Markets and Sustainable Food Systems",
@@ -559,7 +559,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Forest Photo Interpreter Technician (Forestry Technician 2(A)-(B)-3)",
@@ -617,7 +617,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Computer Specialist - Biostatistics",
@@ -671,7 +671,7 @@
    "also_on": [],
    "first_seen": "2026-07-26T10:54:46.358187+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Air Attack Officer (Forestry Technician 4)",
@@ -716,14 +716,14 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Farm Worker 1",
    "org": "University of British Columbia",
    "location": "UBC Alternate Site - Kent, BC, Canada",
    "url": "https://ubc.wd10.myworkdayjobs.com/en-US/ubcstaffjobs/job/UBC-Alternate-Site---Kent-BC-Canada/Farm-Worker-1_JR25549",
-   "posted": "2026-08-08T10:12:18.968551+00:00",
+   "posted": "2026-08-08T11:16:52.556365+00:00",
    "summary": "University of British Columbia JR25549",
    "salary": "",
    "source": "University portal (Canada)",
@@ -761,7 +761,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Veterinary Pathologist (Veterinarian 1-2(A)-(B))",
@@ -808,7 +808,7 @@
    "also_on": [],
    "first_seen": "2026-07-26T10:54:46.358187+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Assistant II - Population Medicine",
@@ -855,7 +855,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Tenure-Track/Tenured: Assistant or Associate Professor, AI for Autonomous Agricultural Systems-Robotics & Sensing",
@@ -919,7 +919,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor in Artificial Intelligence for Agriculture",
@@ -979,7 +979,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor: Digital Technology, Machine Learning and AI in Agriculture Communications ...",
@@ -1033,7 +1033,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Professor & Head & Endowed Chair - Agricultural and Biological Engineering",
@@ -1086,7 +1086,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Senior Lecturer/Associate Professor in Agricultural Technology",
@@ -1137,7 +1137,7 @@
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Senior Lecturer or Associate Professor in Precision Agriculture",
@@ -1247,7 +1247,7 @@
    ],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant/Associate Professor of Practice - Extension Controlled Environment Agriculture Specialist",
@@ -1298,7 +1298,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Lecturer in Agricultural Technology",
@@ -1349,7 +1349,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Full-Time Lecturer, BioResource and Agricultural Engineering",
@@ -1457,7 +1457,7 @@
    "also_on": [],
    "first_seen": "2026-07-26T10:59:30.867174+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor - Crop Physiology",
@@ -1510,7 +1510,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Visiting Assistant Professor in Aquatic Ecology, Fisheries, and Aquaculture",
@@ -1561,7 +1561,7 @@
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Mechanized Agriculture Instructor (Full-Time, Temporary)",
@@ -1612,7 +1612,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant/Associate Professor of Practice - Extension Forestry Specialist",
@@ -1663,7 +1663,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Tenure Track Assistant Professor in agricultural soil mechanics",
@@ -1712,7 +1712,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Tenure Track Assistant Professor in agricultural soil mechanics",
@@ -1761,7 +1761,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Agronomic Entomologist: Open-Rank Extension Professor of Entomology, Field Crops Pest...",
@@ -1810,7 +1810,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor of Plant Pathology/Row Crops and Pecans",
@@ -1857,7 +1857,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Professor Open Rank - Small Grain Breeding",
@@ -1904,7 +1904,7 @@
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Lecturer/Teaching Assistant Professor - Plant Sciences",
@@ -1953,7 +1953,7 @@
    ],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Instructor or Open Rank Extension Educator - Water & Cropping Systems (Burt Co.)",
@@ -2000,7 +2000,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor of Soil Science",
@@ -2047,7 +2047,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Instructor or Open Rank Extension Educator - Water & Cropping Systems (Platte Co.)",
@@ -2094,7 +2094,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Instructor or Open Rank Extension Educator - Water & Cropping Systems (Adams Co.)",
@@ -2141,7 +2141,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor of Practice - Livestock Evaluation and Judging",
@@ -2236,7 +2236,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Asst Professor - Agronomy or Horticulture, Plant Sciences",
@@ -2383,7 +2383,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Lecturer/Teaching Assistant Professor - Plant Sciences",
@@ -2428,7 +2428,7 @@
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor of Agricultural Science",
@@ -2473,7 +2473,7 @@
    "also_on": [],
    "first_seen": "2026-07-28T12:21:08.016000+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor, Agricultural Science",
@@ -2518,7 +2518,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor of Animal Science",
@@ -2563,7 +2563,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor of Agricultural Communication",
@@ -2608,7 +2608,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Faculty Position (Assistant Professor) in Dairy Production Medicine, Academic Clinician Track",
@@ -2653,7 +2653,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Assistant Professor of Agribusiness and Agricultural Economics",
@@ -2698,7 +2698,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Tenure Track Assistant Professor/Associate Professor in Animal Nutrition and Lactation Physiology",
@@ -2743,7 +2743,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture Business Instructor, Full-time Tenure Track (BC)",
@@ -2836,7 +2836,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Associate/Full Professor and Extension Swine Specialist – Farm Credit Services of America Endowed Chair in Swine Production",
@@ -2883,7 +2883,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant/Associate Professor of Practice - Extension Farm Succession Specialist",
@@ -2930,7 +2930,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant/Associate Professor – Forage Agronomy",
@@ -3025,7 +3025,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor in Coastal/Marine/Inland Water Remote Sensing and Geospatial Analysis",
@@ -3072,7 +3072,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Professor of Farm Animal Research and Practice",
@@ -3117,7 +3117,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant/Associate/Full Professor - Crop Design",
@@ -3162,7 +3162,7 @@
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant/Associate/Full Professor - Crop Design",
@@ -3207,7 +3207,7 @@
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Associate/Full Professor and Extension Swine Specialist – Farm Credit Services of America Endowed",
@@ -3252,7 +3252,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Full Professor of Crop Breeding and Genomics",
@@ -3343,7 +3343,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Teaching Assistant/Associate Professor of Agricultural and Resource Economics, Spring 2026",
@@ -3388,7 +3388,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Teaching Assistant/Associate Professor of Agricultural and Resource Economics, Spring 2026",
@@ -3433,7 +3433,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Asst/Assoc Professor - Agricultural Banking and Finance",
@@ -3478,7 +3478,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant/Associate/Full-Professor - Animal Waste Management and Farm Animal Environmental Housing",
@@ -3523,7 +3523,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant/Associate Professor – Soil, Water, and Ecosystem Sciences; Nutrient Management Specialist",
@@ -3568,7 +3568,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant or Associate Professor of Urban Landscape Entomology",
@@ -3613,7 +3613,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant/Associate Professor – Forage Breeding/Genetics",
@@ -3658,7 +3658,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Open-Rank (Assistant/Associate/Full Professor)",
@@ -3711,7 +3711,7 @@
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Lead researcher position: Live-cell imaging for high-dimensional phenotyping of cancer",
@@ -3758,7 +3758,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant or Associate Professor in Remote Sensing",
@@ -3803,7 +3803,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Faculty Member in Agroecology",
@@ -3852,7 +3852,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Tenured: Professor and Department Head of Soil and Crop Sciences",
@@ -3901,7 +3901,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Tenured: Professor and Department Head of Soil and Crop Sciences",
@@ -3950,7 +3950,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Lecturer in Soil Science",
@@ -3997,7 +3997,7 @@
    ],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Instructor, Agricultural Sciences-Systems Management",
@@ -4042,7 +4042,7 @@
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "(Full-time) Agriculture Instructor (Temporary, One-Year)",
@@ -4135,7 +4135,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Lecturer - Agricultural and Resource Economics - College of Natural Resources",
@@ -4180,7 +4180,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Part-Time Agriculture Instructor",
@@ -4225,7 +4225,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Instructor of Agriculture",
@@ -4270,7 +4270,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Instructor in Agricultural Production or Agriculture (Part-Time Pool)",
@@ -4315,7 +4315,7 @@
    "also_on": [],
    "first_seen": "2026-07-26T10:54:46.358187+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture or Agricultural Production, Initial Focus: Veterinary Technology Instructor",
@@ -4360,7 +4360,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Instructor in Agricultural Production or Agriculture, Initial Focus: Vet Tech (Part-Time Pool)",
@@ -4405,7 +4405,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture Business Instructor, Early College - One Year Full-Time Temp (2025-26)",
@@ -4496,7 +4496,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Professor/Associate Professor/Assistant Professor in Food Science",
@@ -4541,7 +4541,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Professor and Head, Department of Animal Science",
@@ -4588,7 +4588,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Professor and Head, Department of Animal Science",
@@ -4635,7 +4635,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Klingbeil Endowed Department Head and Professor",
@@ -4686,7 +4686,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Dean of the College of Agriculture and Natural Resources",
@@ -4733,7 +4733,7 @@
    ],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Professor and Head, Department of Animal Science",
@@ -4778,7 +4778,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Dean, College of Agriculture",
@@ -4825,7 +4825,7 @@
    ],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Professor of Agroforestry",
@@ -4872,7 +4872,7 @@
    "also_on": [],
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Head of Department of Land Surveying and Geospatial Science",
@@ -4919,7 +4919,7 @@
    ],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Department Head and Professor - Food Science & Technology",
@@ -5019,7 +5019,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Fellow in Soil Imaging and Computed Tomography",
@@ -5073,7 +5073,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Position in Plant Breeding and Artificial Intelligence",
@@ -5125,7 +5125,7 @@
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Research Associate â€“ Crop Systems Modeling And Data Analytics",
@@ -5240,7 +5240,7 @@
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Researcher in Data Science and Digitalization in Smart Farming",
@@ -5417,7 +5417,7 @@
    "also_on": [],
    "first_seen": "2026-07-26T10:59:30.867174+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Senior Research Technician (Agricultural Research)",
@@ -5530,7 +5530,7 @@
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "SusMaT-RC - Postdoc Position: Bio-based Materials for Sustainable Agriculture",
@@ -5583,7 +5583,7 @@
    ],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Associate or Research Scientist - Ag. Economics and Remote Sensing",
@@ -5635,7 +5635,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "ASARI - Postdoctoral Researcher in Aquaculture Systems and Seaweed Monitoring",
@@ -5690,7 +5690,7 @@
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "ARC_AIR - Postdoctoral Position in Earth Observation, AI, and Territorial Sustainability",
@@ -5748,7 +5748,7 @@
    ],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "PDRA in Data Science for Soil-Biomass & Sustainable Land Use",
@@ -5802,7 +5802,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Student Research Assistant - Robotics Applications in Agriculture",
@@ -5854,7 +5854,7 @@
    "also_on": [],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Associate – Small UAV Automation",
@@ -5905,7 +5905,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Fellow in Soil Biogeochemistry",
@@ -5957,7 +5957,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Associate (Ecology/Biogeochemistry/Earth Science/Soil Science/Environmental Science/Hydrology/Computer Science)",
@@ -6058,7 +6058,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Precision Livestock Extension Field Specialist I",
@@ -6115,7 +6115,7 @@
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Principal Ag. Technician (Agricultural Tchn Prn)",
@@ -6168,7 +6168,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Fellow / Engineer (Food Engineering) - AZN5",
@@ -6265,7 +6265,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Researcher in Agriculture",
@@ -6316,7 +6316,7 @@
    "also_on": [],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Research Associate on Genome Editing in Horticultural Crops",
@@ -6367,7 +6367,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Student Employee-School of Agricultural Sciences- Greenhouse & Garden Student Worker (Work Stud...",
@@ -6418,7 +6418,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Educator, Agriculture and Agribusiness (Local Food Systems and Small Farms)",
@@ -6471,7 +6471,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Project Scientist Series in Botany and Plant Sciences (Open Search)",
@@ -6518,7 +6518,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Project Scientist Series in Microbiology and Plant Pathology (Open Search)",
@@ -6668,7 +6668,7 @@
    ],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Fellow (Soil Science – Phosphorus Use Efficiency)",
@@ -6715,7 +6715,7 @@
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Faculty Associate in the Sociology of Agriculture and Food Systems Part-Time",
@@ -6766,7 +6766,7 @@
    "also_on": [],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "z-Part-Time Adjunct Faculty Pool- Agricultural Technology",
@@ -6817,7 +6817,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Ag Tech/Mechanic",
@@ -6918,7 +6918,7 @@
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "AgBS - Post-Doctoral in Modeling and Crop Yield Prediction in Africa",
@@ -6967,7 +6967,7 @@
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Genomic Breeding Post Doc - Potato Research - Shannon Lab (# 370007)",
@@ -7014,7 +7014,7 @@
    "also_on": [],
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoc Researcher - Soil Science/Soil Health",
@@ -7111,7 +7111,7 @@
    ],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Research Position In Agronomy, Soils, And Environment",
@@ -7210,7 +7210,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Scholar Series in Botany and Plant Sciences (Open Search)",
@@ -7257,7 +7257,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "CBS - Postdoctoral Researcher in Fertilizer Formulation, Plant Nutrition and Agronomic Evaluation",
@@ -7404,7 +7404,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Post-Doctoral Associate - Switchgrass and Turfgrass Disease Management",
@@ -7451,7 +7451,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Fellow in Soil Microbiology",
@@ -7498,7 +7498,7 @@
    ],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Associate: Agrarian Change in the Himalayas",
@@ -7589,7 +7589,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "ASARI - Postdoc in Soil Microbiology",
@@ -7636,7 +7636,7 @@
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "ASARI - Postdoc in Zootechny - Animal Nutrition and Pastoralism",
@@ -7681,7 +7681,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "ARC_AIR - Postdoctoral Research Position in Agricultural Emissions Monitoring",
@@ -7728,7 +7728,7 @@
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "COLCOM - Postdoctoral Fellow Position in Omics and Soil Microbiome Research",
@@ -7775,7 +7775,7 @@
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "GSMI - Postdoctoral Researcher in Plant Ecology & Soil-Plant Interactions in Vegetated Photovoltaic",
@@ -7820,7 +7820,7 @@
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "GSMI - Postdoctoral Researcher in Plant Ecology & Soil-Plant Interactions in Vegetated Photovolt",
@@ -7865,7 +7865,7 @@
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Research Associate, Atmospheric and Inter-farm Aerodynamics",
@@ -7910,7 +7910,7 @@
    "also_on": [],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "SUSMAT - Post-Doc in Development of Multifunctional Hydrogels for Agricultural Applications",
@@ -7957,7 +7957,7 @@
    ],
    "first_seen": "2026-07-27T13:26:11.295540+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "AgBS - Postdoctoral Researcher in Advanced Fertilizers and Sustainable Nutrient Delivery Systems",
@@ -8004,7 +8004,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Two-year postdoc in soil microbial ecology",
@@ -8049,7 +8049,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "AGBS - Postdoctoral Researcher in Agricultural Microbial Biotechnology",
@@ -8140,7 +8140,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoc in Soil Ecotoxicology – Fate and Effects of contaminants in Soil Ecosystems",
@@ -8185,7 +8185,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Post Doctoral Research Associate- Soil and Water Conservation",
@@ -8230,7 +8230,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Assoc Urban Ag & Controlled Env Ag",
@@ -8281,7 +8281,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Fellow in Geospatial Mapping and Analysis",
@@ -8328,7 +8328,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "PhD fellowship in greenhouse gases, forest soils and biogeochemistry",
@@ -8384,7 +8384,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Limited Term Adjunct Lecturer, Biosystems Engineering",
@@ -8493,7 +8493,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Lab/Greenhouse Assistant - Raymer",
@@ -8546,7 +8546,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "CIRES / Chu Research Group, Postdoctoral Associate in Atmosphere-Space Lidar and",
@@ -8591,7 +8591,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "CIRES / Chu Research Group, Postdoctoral Associate in Atmosphere-Space Lidar and",
@@ -8636,7 +8636,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "ASARI - Postdoctoral Researcher in Biodiesel Production from Biomass",
@@ -8689,7 +8689,7 @@
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "ASARI - Postdoctoral Researcher in Bioreactor Modelling and Simulation",
@@ -8742,7 +8742,7 @@
    ],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Federal Work Study - Soil & Water Lab",
@@ -8793,7 +8793,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Fellow, School of Biological Sciences and Institute for Global Food Security",
@@ -8838,7 +8838,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Researcher (m/f/d) in the field of “Reactive Nitrogen, Food Security and Sustaina...",
@@ -8883,7 +8883,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Integrated PhD fellowship in sustainable food systems",
@@ -9052,7 +9052,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Research Associate (Multiple Positions in Integrated Hydrologic-Hydraulic Modeling)",
@@ -9101,8 +9101,8 @@
    "age_days": 6,
    "also_on": [],
    "first_seen": "2026-08-13T10:12:31.927457+00:00",
-   "is_new": true,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "is_new": false,
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Researcher, Ecosystem Ecology and Watershed Modeling",
@@ -9151,8 +9151,8 @@
    "age_days": 22,
    "also_on": [],
    "first_seen": "2026-08-13T10:12:31.927457+00:00",
-   "is_new": true,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "is_new": false,
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Dairy Plant Operator",
@@ -9201,7 +9201,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Field Specialist in Livestock (emphasis in Small Ruminant) - Bates County, MO",
@@ -9250,7 +9250,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Horticulture Extension Agent",
@@ -9299,7 +9299,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Agricultural Worker (Section of Plant Breeding and Genetics); Ithaca, New York",
@@ -9348,7 +9348,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Forages Field Technician",
@@ -9399,7 +9399,7 @@
    ],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Florence Urban Horticulture Agent",
@@ -9448,7 +9448,7 @@
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Grazing and Pasture Technical Assistance Provider",
@@ -9499,7 +9499,7 @@
    ],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Livestock Technician",
@@ -9548,7 +9548,7 @@
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Manager – Davis Dairy Plant",
@@ -9695,7 +9695,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Agricultural Worker (Cornell AES); Ithaca, New York",
@@ -9742,7 +9742,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Farm Educator (Part Time)",
@@ -9789,7 +9789,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Wildcat Farm Manager",
@@ -9836,7 +9836,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture Research Specialist Sr",
@@ -9883,7 +9883,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Sunflower District Agriculture and Natural Resources Extension Agent",
@@ -9930,7 +9930,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "LFFI Agricultural Technician - Fresno, CA, Job ID 87592",
@@ -9977,7 +9977,7 @@
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Technician, Farm - Part Time",
@@ -10024,7 +10024,7 @@
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Farm Operations Coordinator (Part Time) (Multiple Positions)",
@@ -10119,7 +10119,7 @@
    "also_on": [],
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Farm Manager - Busby Farm",
@@ -10166,7 +10166,7 @@
    "also_on": [],
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Part - Time Farm Worker III - Wurdack Extension and Education Center",
@@ -10213,7 +10213,7 @@
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agri Farm Technician",
@@ -10308,7 +10308,7 @@
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Farm/Stable Worker",
@@ -10547,7 +10547,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Farm Production Lead (Farmer 2)",
@@ -10692,7 +10692,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Extension Agent - Farm & Consumer Food Safety",
@@ -10791,7 +10791,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Turfgrass Lab/Field Assistant - Walt",
@@ -10840,7 +10840,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Turfgrass Field/Lab Assist - Waltz",
@@ -10889,7 +10889,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Bowen Farm Tobacco Research Student Assistant",
@@ -10938,7 +10938,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Part-Time Teaching Assistant- Plant Science",
@@ -10985,7 +10985,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Tobacco Extension Agronomist",
@@ -11032,7 +11032,7 @@
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Director of Jefferson Farm & Gardens Extension and Education Center and Field Specialist in",
@@ -11079,7 +11079,7 @@
    "also_on": [],
    "first_seen": "2026-07-28T12:21:08.016000+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Agent, Ag - Livestock and Forages (Assistant, Associate or Full Agent)",
@@ -11126,7 +11126,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Agent, Ag, Field Crops and Dairy (Assistant, Associate or Full Agent)",
@@ -11173,7 +11173,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Assistant, Department of Plant Sciences: UTIA",
@@ -11268,7 +11268,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Specialist Series in Microbiology and Plant Pathology (Open Search)",
@@ -11411,7 +11411,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Talent Recruitment Announcement at the College of Plant Science & Technology",
@@ -11458,7 +11458,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Educator - Bear Lake County: Livestock, Agriculture and 4-H Youth Development",
@@ -11505,7 +11505,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Assistant - Horticulture (CEFS)",
@@ -11552,7 +11552,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Crop & Soil Sciences- Student Assistant 2-Grey",
@@ -11599,7 +11599,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Farm Operations Professional I - Chavez (1)",
@@ -11646,7 +11646,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Pesticide Safety Education Program (PSEP)",
@@ -11693,7 +11693,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agricultural Specialist",
@@ -11740,7 +11740,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:29:56.276643+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agricultural Assistant II",
@@ -11785,7 +11785,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Horticulture",
@@ -11830,7 +11830,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Teacher of Horticulture",
@@ -11875,7 +11875,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Soil Education and Engagement Officer",
@@ -11920,7 +11920,7 @@
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Part-Time/Full-Time Horticulture Research OPS",
@@ -11965,7 +11965,7 @@
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business and Urban Agriculture – Jefferson County, MO",
@@ -12010,7 +12010,7 @@
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business – Washington County, MO",
@@ -12055,7 +12055,7 @@
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business – Osage County, MO",
@@ -12100,7 +12100,7 @@
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Assistant/Associate in Soil Modelling",
@@ -12145,7 +12145,7 @@
    "also_on": [],
    "first_seen": "2026-08-01T11:41:05.920699+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Educator, Urban Agriculture & Natural Resources/Community Development - Cuyahoga County",
@@ -12190,7 +12190,7 @@
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Tobacco Extension Agronomist",
@@ -12235,7 +12235,7 @@
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Farm Manager - UGA Grand Farm",
@@ -12280,7 +12280,7 @@
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Horticulturist",
@@ -12325,7 +12325,7 @@
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Agent, Ag - Small Farms and Local Foods (Assistant, Associate or Full Agent)",
@@ -12370,7 +12370,7 @@
    "also_on": [],
    "first_seen": "2026-07-27T13:26:11.295540+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "OPS - Agricultural Assistant",
@@ -12599,7 +12599,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Area Agent - Field Crops (Assistant, Associate, or Full Agent)",
@@ -12644,7 +12644,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Engineering Technician (Battery Materials Processing and Controlled Environments) (105546-0726)",
@@ -12827,7 +12827,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Student Employee- School of Agricultural Sciences- Student Workers",
@@ -12872,7 +12872,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Hundley Whaley Director and Field Specialist in Agronomy",
@@ -12917,7 +12917,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Greenhouse Educational Assistant (PT)",
@@ -12962,7 +12962,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Student Employee- School of Agricultural Sciences- Rodeo Office Student Worker (Work Study Elig...",
@@ -13007,7 +13007,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Agent II, Agriculture",
@@ -13098,7 +13098,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Conservation Cropping Outreach Specialist - Northeast WI",
@@ -13373,7 +13373,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Recruitment Announcement for High-Level Talent at the Center for Agricultural Microbiology",
@@ -13418,7 +13418,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agricultural Technician",
@@ -13463,7 +13463,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:29:56.276643+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture Technician",
@@ -13508,7 +13508,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "RESEARCH SPECIALIST II - Cornett Research Farm",
@@ -13599,7 +13599,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Specialist I/Agent II, Agricultural Engineer",
@@ -13644,7 +13644,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture Technician I/II/III/IV",
@@ -13689,7 +13689,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business – Taney County, MO",
@@ -13734,7 +13734,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Director of Horticulture",
@@ -13827,7 +13827,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Student Employee-School of Agricultural Sciences-Rodeo",
@@ -13872,7 +13872,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture Student Worker - Federal Work Study",
@@ -13963,7 +13963,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Assistant/Associate, Crop Experiments & Sensing",
@@ -14008,7 +14008,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Community Food & Agricultural Systems Coordinator",
@@ -14053,7 +14053,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Program Assistant, Agriculture & Natural Resources",
@@ -14098,7 +14098,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Field Specialist in Agronomy – Vernon County, MO",
@@ -14143,7 +14143,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Field Specialist in Agricultural Business – Putnam County, MO",
@@ -14188,7 +14188,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Troup County Extension Agriculture and Natural Resources (ANR) Agent",
@@ -14233,7 +14233,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Greene County Agriculture and Natural Resources Agent",
@@ -14278,7 +14278,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Elbert County Agriculture and Natural Resources Agent",
@@ -14323,7 +14323,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Fike Agronomy Field Lab Intern",
@@ -14368,7 +14368,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Elbert County Agriculture and Natural Resources Agent",
@@ -14413,7 +14413,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Horticulture Student Assistant -4 Deltsidis",
@@ -14504,7 +14504,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "SUAREC | Vice Chancellor for Research (Agriculture)",
@@ -14549,7 +14549,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Grand Farm Support Technician",
@@ -14594,7 +14594,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Undergraduate Researcher in Soil Science",
@@ -14639,7 +14639,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Forest Soil Fieldwork Temporary Technician",
@@ -14684,7 +14684,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Wayne County Agriculture & Natural Resources Agent",
@@ -14729,7 +14729,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Adjunct Instructor – Agribusiness, Agronomy, Animal Science, and Farm Operations",
@@ -14778,7 +14778,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Crop Science, Agriculture - Part-time Adjunct Pool",
@@ -14877,7 +14877,7 @@
    ],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Doctoral Researcher, 3D Forest Modelling and Remote Sensing",
@@ -14924,7 +14924,7 @@
    ],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Manager D, Rodent Metabolic Phenotyping Core",
@@ -14969,7 +14969,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Professional Services Specialist 3, Geospatial Team Leader & Environmental Specialist (13M)",
@@ -15014,7 +15014,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Doctoral Researcher in Geospatial Economics and Information",
@@ -15059,7 +15059,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Geographic Information System (GIS) Specialist",
@@ -15104,7 +15104,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:55:29.115593+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Senior Group Leader, Plant Phenotyping - Plant Biology Institute",
@@ -15149,7 +15149,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Specialist A/B, Rodent Metabolic Phenotyping Core (RMPC)",
@@ -15194,7 +15194,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Animal Science, Agriculture - Part-time Adjunct Pool",
@@ -15243,7 +15243,7 @@
    ],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Adjunct/Per Course Faculty - Environmental Plant Science (Fall 2026)",
@@ -15290,7 +15290,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Instructor of Horticulture and Entrepreneurial Agriculture - Adjunct Pool",
@@ -15337,7 +15337,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Ornamental Horticulture Instructor, Early College (Agriculture) - Part-time Adjunct Pool",
@@ -15430,7 +15430,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Irrigation Specialist",
@@ -15475,7 +15475,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Irrigation Technician",
@@ -15520,7 +15520,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Irrigation Specialist",
@@ -15565,7 +15565,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Irrigation Technician - 530117",
@@ -15610,7 +15610,7 @@
    "also_on": [],
    "first_seen": "2026-08-03T13:24:51.856420+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Irrigation Technician",
@@ -15655,7 +15655,7 @@
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Coordinator, District Irrigation",
@@ -15700,7 +15700,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Irrigation Specialist",
@@ -15745,7 +15745,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Manager Irrigation Systems, Facilities and Campus Services",
@@ -15792,7 +15792,7 @@
    ],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Irrigation Technician",
@@ -15837,7 +15837,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture Production Instructor, Part-time Adjunct Pool",
@@ -15884,7 +15884,7 @@
    ],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Mechanized Agriculture Instructor- Part-time Adjunct Pool",
@@ -15931,7 +15931,7 @@
    ],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Part-Time Instructor of General Agriculture - School of Agriculture - Modesto Junior College 20...",
@@ -15976,7 +15976,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture - Prison Education - Part-Time (Adjunct) Faculty",
@@ -16021,7 +16021,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Part Time Instructor - Agricultural Sciences - Dual Credit Brenham ISD",
@@ -16066,7 +16066,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Part-Time Instructor Pool - Environmental Horticulture",
@@ -16111,7 +16111,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Part-Time Instructor Pool - Landscape Drafting, Environmental Horticulture",
@@ -16156,7 +16156,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Part-Time Instructor Pool - Ecological Restoration, Environmental Horticulture",
@@ -16201,7 +16201,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Part-time Faculty Pool: Agriculture",
@@ -16246,7 +16246,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "PhD Studentship: PhD Opportunity Title PhD Scholarship in Computer Science / Machine Learning with Earth Observation for forest related applications - PhD (Funded)",
@@ -16297,7 +16297,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:12:45.545332+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Adjunct Instructor - Agriculture Equipment Technology",
@@ -16342,7 +16342,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "z-Part-Time Adjunct Faculty Pool- Agricultural Management",
@@ -16387,7 +16387,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "z-Part-Time Faculty Pool - Agriculture",
@@ -16432,7 +16432,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agricultural Production Associate (Part-time) Instructor Pool 2026 - 2027",
@@ -16523,7 +16523,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture Adjunct Instructor \"Pool\"",
@@ -16568,7 +16568,7 @@
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agriculture Business Instructor, Early College - Part-time Adjunct Pool",
@@ -16659,7 +16659,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Adjunct Faculty - Agriculture",
@@ -16704,7 +16704,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "26-27 AY Temporary Faculty Pool (Lecturer) - Viticulture",
@@ -16749,7 +16749,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Research Scholar",
@@ -16796,7 +16796,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Postdoctoral Fellowship in Forest Breeding and Epigenomics",
@@ -16843,7 +16843,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Post-Doctoral Associate - Pickering Lab",
@@ -16890,7 +16890,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Unmanned Aerial Systems (UAS) - Workforce Development Instructor (Pooled Position)",
@@ -16935,7 +16935,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Adjunct Faculty - Geographic Information Systems (GIS)",
@@ -16980,7 +16980,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "PhD Studentship: Nutrient Dynamics in Cover Crops and Their Implications for Sugar Beet Nutrition, Soil Health, and Climate Resilience",
@@ -17031,7 +17031,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "SD-26106-PHD POSITION ON ASSESSMENT AND MONITORING OF SOIL HEALTH AT CONTAMINATED SITES USING GEO...",
@@ -17078,7 +17078,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "PhD Position (M/F) in Archaeometallurgy – IRAMAT-LAPA (CEA Saclay, France)",
@@ -17169,7 +17169,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T08:19:31.577755+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Assistant",
@@ -17216,7 +17216,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Seasonal Research Technician",
@@ -17263,7 +17263,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Animal Care Technician II - Milker",
@@ -17310,7 +17310,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Range Professional (Green Valley, AZ)",
@@ -17357,7 +17357,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Science Communicator",
@@ -17404,7 +17404,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "NMDA Ag Specialist,Inter",
@@ -17451,7 +17451,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Heavy Equipment Operator",
@@ -17498,7 +17498,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Sunflower District Family and Community Wellness Extension Agent",
@@ -17545,7 +17545,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Agricult/Animal Asst II",
@@ -17592,7 +17592,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "4-H Associate Program Administrator - Perry County",
@@ -17639,7 +17639,7 @@
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Apiary Manager",
@@ -17686,7 +17686,7 @@
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Agent, 4-H Youth & Development, Brooks County",
@@ -17733,7 +17733,7 @@
    "also_on": [],
    "first_seen": "2026-08-05T12:23:59.685999+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Extension Agent, 4-H Youth & Development (Tarrant County)",
@@ -17780,7 +17780,7 @@
    "also_on": [],
    "first_seen": "2026-08-04T12:25:46.623759+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Summer Ag Worker",
@@ -17875,7 +17875,7 @@
    "also_on": [],
    "first_seen": "2026-07-31T12:27:01.134768+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Stable Assistant Part-Time",
@@ -17922,7 +17922,7 @@
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Horse Groom",
@@ -17969,7 +17969,7 @@
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Stable Assistant Full-Time",
@@ -18016,7 +18016,7 @@
    "also_on": [],
    "first_seen": "2026-07-30T12:11:59.509812+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Program Associate",
@@ -18111,7 +18111,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "ECRC Ranch Operations Technician",
@@ -18158,7 +18158,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Director",
@@ -18205,7 +18205,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Regional Educator - 4-H - Osgood, IN",
@@ -18252,7 +18252,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Barn Assistant",
@@ -18347,7 +18347,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Relief Milker - Animal Care Technician II",
@@ -18394,7 +18394,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T09:34:59.092830+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Assistant Beef Unit Manager",
@@ -18633,7 +18633,7 @@
    "also_on": [],
    "first_seen": "2026-08-13T09:42:05.317074+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "CSS Temp Research ParaPro- Branch",
@@ -18680,7 +18680,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Professional-CSS (Brown), Tifton",
@@ -18727,7 +18727,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Commodity Marketing Coordinator",
@@ -18774,7 +18774,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Program Manager I, IAMP",
@@ -18869,7 +18869,7 @@
    "also_on": [],
    "first_seen": "2026-07-29T12:29:21.373168+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Laboratory Assistant - Habteselassie",
@@ -18916,7 +18916,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Lab/Field Assistant",
@@ -18963,7 +18963,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Laboratory Assistant - Huang",
@@ -19010,7 +19010,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Field/Summer Assistant 7 - Basinger",
@@ -19057,7 +19057,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Graduate Assistant - Jespersen",
@@ -19104,7 +19104,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Lab/Summer Field Assistant",
@@ -19151,7 +19151,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Student Assistant (1) - J. Thompson",
@@ -19198,7 +19198,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Lab/Research Assistant (5) - Devos Lab",
@@ -19245,7 +19245,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Research Assistant - Vines",
@@ -19292,7 +19292,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Field/Summer Assistant - Vines",
@@ -19339,7 +19339,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "C&SS Student Assistant Tubbs 1",
@@ -19386,7 +19386,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Lab/Field Assistant (EARTH)",
@@ -19433,7 +19433,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Ph.D. Graduate Research Assistant - Huang",
@@ -19480,7 +19480,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Field Assistant - Pritchard",
@@ -19527,7 +19527,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Field/Summer Assistant - Raymer",
@@ -19574,7 +19574,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Field/Lab Assistant - Mergoum",
@@ -19621,7 +19621,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Research Technician",
@@ -19668,7 +19668,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Student Assistant - Mailhot",
@@ -19715,7 +19715,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Variety Testing Assistant - Mailhot",
@@ -19762,7 +19762,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Temporary Lab/Research - Leclerc",
@@ -19809,7 +19809,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "GA Pnt Brdg Prgm Student 2 - Branch",
@@ -19856,7 +19856,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T07:04:30.728065+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   },
   {
    "title": "Research Technician - Grass Genomes (Devos Lab)",
@@ -19903,7 +19903,7 @@
    "also_on": [],
    "first_seen": "2026-07-25T06:55:35.345291+00:00",
    "is_new": false,
-   "last_seen": "2026-08-13T10:12:31.927457+00:00"
+   "last_seen": "2026-08-13T11:17:04.809969+00:00"
   }
  ]
 }
